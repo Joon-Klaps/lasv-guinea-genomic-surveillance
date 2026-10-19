@@ -46,4 +46,4 @@ The river layer in `analysis/tree-visualisation/Environmental_files/LASV_rivers`
 
 ## Citation
 
-Please cite the article above. A Zenodo archive of this repository, with its own DOI, will be added here.
+Camara J, Annibaldis G, Klaps J, Ifono K, Koundouno F, Sidibé Y, et al. Genomic Surveillance of Lassa Virus through In-Country Sequencing, Guinea. Emerg Infect Dis. 2026;32(5):819-824. https://doi.org/10.3201/eid3205.260386
