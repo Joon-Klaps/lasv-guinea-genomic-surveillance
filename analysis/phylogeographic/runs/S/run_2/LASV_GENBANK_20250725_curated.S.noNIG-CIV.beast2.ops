@@ -1,0 +1,127 @@
+
+Operator analysis
+Operator                                          Tuning   Count      Time     Time/Op  Pr(accept) Smoothed_Pr(accept)
+deltaExchange(CP1.gtr.rates)                      0.115   656475     938042   1.43     0.2343      0.27        
+deltaExchange(CP2.gtr.rates)                      0.307   656543     853791   1.3      0.2344      0.26        
+deltaExchange(CP3.gtr.rates)                      0.045   657498     1132513  1.72     0.2343      0.22        
+deltaExchange(CP1.frequencies)                    0.042   131496     207963   1.58     0.2337      0.2         
+deltaExchange(CP2.frequencies)                    0.048   130754     198596   1.52     0.2331      0.21        
+deltaExchange(CP3.frequencies)                    0.024   658092     1168280  1.78     0.2344      0.23        
+scale(CP1.alpha)                                  0.735   131713     206453   1.57     0.2346      0.23        
+scale(CP2.alpha)                                  0.759   131416     197551   1.5      0.2341      0.21        
+scale(CP3.alpha)                                  0.744   657118     1158695  1.76     0.234       0.21        
+scale(branchRates.rate)                           0.919   1971797    4651192  2.36     0.2341      0.2         
+VanillaHMC(branchRates.rates)                     0.0     656672     107785   0.16     0.7996      0.82        
+scale(branchRates.scale)                          0.187   1971545    4639534  2.35     0.2339      0.21        
+up:nodeHeights(treeModel) down:branchRates.rate   0.997   13147267   22222337 1.69     0.234       0.18        
+deltaExchange(allNus)                             0.029   1970625    3762027  1.91     0.2341      0.23        
+subtreeLeap(treeModel)                            6.462   314877584  151115634 0.48     0.234       0.29        
+subtreeJump(treeModel)                                    31555549   15336674 0.49     0.0022      0.0         
+VanillaHMC(skygrid.parameters)                    0.098   6572378    663741   0.1      0.8004      0.8         
+uniform(age(AF182269|las807868|Human|GIN|1996))           1308       628      0.48     0.987       1.0         
+uniform(age(KM821781|G676-SLE-2009|Homo_sapiens|SLE|2009))        1249       610      0.49     0.8359      0.87        
+uniform(age(KM821783|G692-SLE-2009|Homo_sapiens|SLE|2009))        1336       664      0.5      0.976       0.96        
+uniform(age(KM821785|G693-SLE-2009|Homo_sapiens|SLE|2009))        1323       630      0.48     0.6508      0.52        
+uniform(age(KM821789|G771-SLE-2010|Homo_sapiens|SLE|2010))        1287       603      0.47     0.7988      0.79        
+uniform(age(KM821794|G1180-SLE-2010|Homo_sapiens|SLE|2010))        1283       606      0.47     0.9376      0.93        
+uniform(age(KM821796|G1190-SLE-2010|Homo_sapiens|SLE|2010))        1269       647      0.51     0.911       0.95        
+uniform(age(KM821806|G1646-SLE-2011|Homo_sapiens|SLE|2011))        1319       672      0.51     0.9045      0.89        
+uniform(age(KM821810|G1727-SLE-2011|Homo_sapiens|SLE|2011))        1299       600      0.46     0.9538      0.98        
+uniform(age(KM821820|G1960-SLE-2011|Homo_sapiens|SLE|2011))        1315       656      0.5      0.5886      0.56        
+uniform(age(KM821822|G2141-SLE-2011|Homo_sapiens|SLE|2011))        1351       601      0.44     0.9933      1.0         
+uniform(age(KM821841|G2295-SLE-2012|Homo_sapiens|SLE|2012))        1267       593      0.47     0.779       0.86        
+uniform(age(KM821850|G2392-SLE-2012|Homo_sapiens|SLE|2012))        1333       654      0.49     0.8687      0.95        
+uniform(age(KM821863|G2565-SLE-2012|Homo_sapiens|SLE|2012))        1284       623      0.49     0.8551      0.82        
+uniform(age(KM821865|G2587-SLE-2012|Homo_sapiens|SLE|2012))        1279       615      0.48     0.7975      0.82        
+uniform(age(KM821880|G2944-SLE-2012|Homo_sapiens|SLE|2012))        1327       625      0.47     0.7641      0.76        
+uniform(age(KM821895|G3157-SLE-2013|Homo_sapiens|SLE|2013))        1272       651      0.51     0.8176      0.78        
+uniform(age(KM821900|G3222-SLE-2013|Homo_sapiens|SLE|2013))        1325       626      0.47     0.6408      0.67        
+uniform(age(MG812639|806827|Homo_sapiens|SLE|1977))        1278       622      0.49     0.9382      0.93        
+uniform(age(KM821833|G2230_SLE_2012|Human|SLE|2011-12-29))        1320       633      0.48     0.9136      0.94        
+uniform(age(KM821835|G2259_SLE_2012|Human|SLE|2012-01-16))        1273       590      0.46     0.8515      0.86        
+uniform(age(KM821871|G2723_SLE_2012|Human|SLE|2012-08-21))        1326       608      0.46     0.9653      0.93        
+uniform(age(KM821909|G3278_SLE_2013|Human|SLE|2013-08-02))        1335       672      0.5      0.961       0.99        
+uniform(age(KM821869|G2615_SLE_2012|Human|SLE|2012-07-24))        1307       611      0.47     0.9472      0.97        
+uniform(age(KM821861|G2557_SLE_2012|Human|SLE|2012-06-26))        1282       616      0.48     0.9321      0.94        
+uniform(age(KM821856|G2431_SLE_2012|Human|SLE|2012-04-02))        1349       652      0.48     0.9496      0.97        
+uniform(age(AF182235|las803205|Human|SLE|1976))           1259       582      0.46     0.9015      0.88        
+uniform(age(MG812647|las803209|Human|SLE|1975))           1325       659      0.5      0.9328      0.95        
+uniform(age(AF182237|las9607290|Human|SLE|1996))          1382       650      0.47     0.9696      0.98        
+uniform(age(AF182246|las807976|Human|SLE|1977))           1330       653      0.49     0.9579      0.94        
+uniform(age(AF182247|las803211|Human|SLE|1972))           1331       614      0.46     0.9639      0.95        
+uniform(age(AF182250|las803206|Human|SLE|1976))           1361       662      0.49     0.914       0.94        
+uniform(age(AF182252|las9607300|Human|SLE|1996))          1332       649      0.49     0.9737      0.97        
+uniform(age(AF182253|las801100|Mouse|SLE|1978))           1311       623      0.48     0.9405      0.96        
+uniform(age(AF182254|las806843|Human|SLE|1993))           1284       631      0.49     0.9533      0.98        
+uniform(age(AF182255|las9607302|Human|SLE|1996))          1313       606      0.46     0.9817      0.99        
+uniform(age(KM821859|G2554_SLE_2012|Human|SLE|2012-06-24))        1345       630      0.47     0.9584      0.93        
+uniform(age(KM821787|G733_SLE_2010|Human|SLE|2010-01-17))        1312       617      0.47     0.9688      0.96        
+uniform(age(KM821804|G1618_SLE_2011|Human|SLE|2011-03-26))        1348       619      0.46     0.9028      0.91        
+uniform(age(KM821773|G502_SLE_2009|Human|SLE|2009-04-29))        1320       622      0.47     0.95        0.94        
+uniform(age(KM821824|G2147_SLE_2011|Human|SLE|2011-11-16))        1308       626      0.48     0.9809      0.97        
+uniform(age(KM821790|G806_SLE_2010|Human|SLE|2010-02-26))        1332       673      0.51     0.8641      0.84        
+uniform(age(KM821812|G1774_SLE_2011|Human|SLE|2011-06-11))        1234       591      0.48     0.9522      0.95        
+uniform(age(KM821832|G2222_SLE_2011|Human|SLE|2011-12-19))        1316       655      0.5      0.8936      0.93        
+uniform(age(KM821808|G1647_SLE_2011|Human|SLE|2011-04-15))        1371       668      0.49     0.8111      0.83        
+uniform(age(KM821816|G1932_SLE_2011|Human|SLE|2011-08-24))        1265       630      0.5      0.7644      0.65        
+uniform(age(KM821857|G2511_SLE_2012|Human|SLE|2012-05-18))        1347       662      0.49     0.9443      0.96        
+uniform(age(KM821887|G3101_SLE_2013|Human|SLE|2013-05-11))        1300       644      0.5      0.89        0.84        
+uniform(age(KM821892|G3148_SLE_2013|Human|SLE|2013-06-01))        1349       649      0.48     0.8636      0.9         
+uniform(age(KM821910|G3283_SLE_2013|Human|SLE|2013-08-05))        1333       679      0.51     0.8455      0.83        
+uniform(age(KM821839|G2280_SLE_2012|Human|SLE|2012-01-23))        1349       641      0.48     0.9733      0.98        
+uniform(age(KM821867|G2612_SLE_2012|Human|SLE|2012-07-23))        1263       588      0.47     0.844       0.83        
+uniform(age(KM821884|G3016_SLE_2013|Human|SLE|2013-02-14))        1293       628      0.49     0.9319      0.93        
+uniform(age(KM821852|G2405_SLE_2012|Human|SLE|2012-03-27))        1360       651      0.48     0.8331      0.81        
+uniform(age(KM821886|G3076_SLE_2013|Human|SLE|2013-04-15))        1323       592      0.45     0.9206      0.93        
+uniform(age(KM821815|G1897_SLE_2011|Human|SLE|2011-07-27))        1381       655      0.47     0.9652      0.98        
+uniform(age(KM821779|G636_SLE_2009|Human|SLE|2009-10-09))        1292       619      0.48     0.8274      0.76        
+uniform(age(KM821843|G2315_SLE_2012|Human|SLE|2012-02-10))        1360       650      0.48     0.8463      0.89        
+uniform(age(KM821876|G2903_SLE_2012|Human|SLE|2012-10-30))        1331       620      0.47     0.9136      0.83        
+uniform(age(KM821899|G3206_SLE_2013|Human|SLE|2013-07-01))        1284       634      0.49     0.9579      0.94        
+uniform(age(KM821777|G610_SLE_2009|Human|SLE|2009-08-28))        1275       597      0.47     0.7914      0.79        
+uniform(age(KM821814|G1792_SLE_2011|Human|SLE|2011-06-17))        1313       626      0.48     0.8454      0.75        
+uniform(age(KM821878|G2934_SLE_2012|Human|SLE|2012-11-27))        1347       642      0.48     0.7595      0.6         
+uniform(age(KM821830|G2197_SLE_2011|Human|SLE|2011-12-04))        1300       636      0.49     0.9585      0.94        
+uniform(age(KM821826|G2165_SLE_2011|Human|SLE|2011-11-18))        1391       657      0.47     0.9231      0.91        
+uniform(age(KM821828|G2184_SLE_2011|Human|SLE|2011-11-26))        1276       632      0.5      0.9365      0.91        
+uniform(age(KM821848|G2384_SLE_2012|Human|SLE|2012-03-09))        1330       638      0.48     0.9023      0.89        
+uniform(age(KM821775|G503_SLE_2009|Human|SLE|2009-04-30))        1304       629      0.48     0.9624      0.99        
+uniform(age(KM821818|G1959_SLE_2011|Human|SLE|2011-09-09))        1363       655      0.48     0.8232      0.82        
+uniform(age(KM821877|G2906_SLE_2012|Human|SLE|2012-11-03))        1340       637      0.48     0.8388      0.8         
+uniform(age(KM821882|G3010_SLE_2013|Human|SLE|2013-02-05))        1354       627      0.46     0.9623      0.98        
+uniform(age(KM821792|G808_SLE_2010|Human|SLE|2010-02-27))        1281       634      0.49     0.9719      0.96        
+uniform(age(KM821874|G2868_SLE_2012|Human|SLE|2012-10-08))        1295       634      0.49     0.9552      0.92        
+uniform(age(KM821845|G2318_SLE_2012|Human|SLE|2012-02-12))        1356       690      0.51     0.9786      0.96        
+uniform(age(KM821854|G2427_SLE_2012|Human|SLE|2012-03-31))        1330       607      0.46     0.9421      0.95        
+uniform(age(KM821890|G3110_SLE_2013|Human|SLE|2013))        1295       612      0.47     0.8564      0.86        
+uniform(age(KM821902|G3229_SLE_2013|Human|SLE|2013-07-13))        1303       624      0.48     0.8573      0.88        
+uniform(age(KM821894|G3151_SLE_2013|Human|SLE|2013-06-05))        1335       610      0.46     0.7895      0.83        
+uniform(age(KM821802|G1529_SLE_2011|Human|SLE|2011-03-02))        1323       635      0.48     0.9615      0.97        
+uniform(age(KM821904|G3234_SLE_2013|Human|SLE|2013-07-15))        1262       634      0.5      0.9628      0.92        
+uniform(age(KM821847|G2363_SLE_2012|Human|SLE|2012-02-27))        1300       651      0.5      0.9762      0.98        
+uniform(age(KM821885|G3034_SLE_2013|Human|SLE|2013-02-27))        1317       651      0.49     0.9552      0.93        
+uniform(age(KM821800|G1442_SLE_2011|Human|SLE|2011-01-20))        1312       596      0.45     0.9405      0.94        
+uniform(age(AF182257|las807974|Human|SLE|1976))           1359       645      0.47     0.9904      0.98        
+uniform(age(DQ832692|DGD4|Mouse|GIN|2005))                1294       613      0.47     0.9335      0.95        
+uniform(age(DQ832694|DGD28|Mouse|GIN|2005))               1344       673      0.5      0.8609      0.94        
+uniform(age(AF182265|las807998|Human|GIN|1997))           1325       646      0.49     0.9011      0.87        
+uniform(age(MH732623|GUIN-1739-Mn-2018|Mastomys_natalensis|GIN|2018))        1308       594      0.45     0.9771      0.97        
+uniform(age(AF182267|las807992|Human|GIN|1997))           1382       652      0.47     0.9761      0.98        
+uniform(age(DQ832669|BA263|Mouse|GIN|2003))               1299       682      0.53     0.8576      0.79        
+uniform(age(DQ832672|BA350|Mouse|GIN|2003))               1318       630      0.48     0.8741      0.88        
+uniform(age(DQ832674|BA356|Mouse|GIN|2003))               1336       622      0.47     0.8653      0.9         
+uniform(age(DQ832678|BA378|Mouse|GIN|2003))               1308       601      0.46     0.8609      0.86        
+uniform(age(DQ832682|TA416|Mouse|GIN|2003))               1273       616      0.48     0.8468      0.9         
+uniform(age(DQ832683|TA341|Mouse|GIN|2003))               1347       620      0.46     0.8805      0.95        
+uniform(age(DQ832686|TA464|Mouse|GIN|2003))               1299       613      0.47     0.9161      0.93        
+uniform(age(DQ832690|TA820|Mouse|GIN|2004))               1331       662      0.5      0.8655      0.87        
+uniform(age(AF182270|las808255|Mouse|GIN|1996))           1307       619      0.47     0.9839      1.0         
+uniform(age(DQ832667|GB129|Mouse|GIN|2003))               1354       646      0.48     0.853       0.86        
+uniform(age(DQ832668|GB132|Mouse|GIN|2003))               1430       689      0.48     0.9259      0.91        
+uniform(age(DQ832684|TA444|Mouse|GIN|2003))               1302       615      0.47     0.8902      0.91        
+uniform(age(DQ832689|TA817|Mouse|GIN|2004))               1335       659      0.49     0.9318      0.91        
+uniform(age(DQ832671|BA302|Mouse|GIN|2003))               1318       636      0.48     0.8748      0.84        
+uniform(age(DQ832676|BA375|Mouse|GIN|2003))               1350       612      0.45     0.8422      0.85        
+scale(location.diffusion.rates)                   0.127   19720440   4604610  0.23     0.234       0.25        
+precisionGibbsOperator                                    98607977   22700207 0.23     1.0         1.0         
+

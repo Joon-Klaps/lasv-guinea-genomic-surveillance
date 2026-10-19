@@ -1,0 +1,37 @@
+
+Citations for this analysis: 
+
+FRAMEWORK
+BEAST primary citation:
+	Suchard MA, Lemey P, Baele G, Ayres DL, Drummond AJ, Rambaut A (2018) Bayesian phylogenetic and phylodynamic data integration using BEAST 1.10. Virus Evolution. vey016. DOI:10.1093/ve/vey016
+Using linear-time branch-specific parameter differential calculations:
+	Ji X, Zhang Z, Holbrook A, Nishimura A, Beale G, Rambaut A, Lemey P, Suchard MA (2020) Gradients do grow on trees: a linear-time O(N)-dimensional gradient for statistical phylogenetics. Molecular Biology and Evolution. 37, 3047-3060
+
+HIGH-PERFORMANCE COMPUTING
+BEAGLE citation:
+	Ayres DL, Cummings MP, Baele G, Darling AE, Lewis PO, Swofford DL, Huelsenbeck JP, Lemey P, Rambaut A, Suchard MA (2019) BEAGLE 3: Improved performance, scaling and usability for a high-performance computing library for statistical phylogenetics. Systematic Biology. 68, 1052-1061
+
+TREE DENSITY MODELS
+Sampling tip dates model:
+	Shapiro B, Ho SYW, Drummond AJ, Suchard MA, Pybus OG, Rambaut A (2010) A Bayesian phylogenetic method to estimate unknown sequence ages. Mol Biol Evol. 28, 879-887. DOI:10.1093/molbev/msq262
+	Drummond AJ (2002) PhD Thesis. University of Auckland. 
+Skyride coalescent:
+	Gill MS, Lemey P, Faria NR, Rambaut A, Shapiro B, Suchard MA (2013) Improving Bayesian population dynamics inference: a coalescent-based model for multiple loci. Mol Biol Evol. 30, 713-724
+	Minin VN, Bloomquist EW, Suchard MA (2008) Smooth skyride through a rough skyline: Bayesian coalescent-based inference of population dynamics. Mol Biol Evol. 25, 1459-1471. DOI:10.1093/molbev/msn090
+
+SUBSTITUTION MODELS
+GTR nucleotide substitution model:
+	Tavaré S (1985) Some probabilistic and statistical problems in the analysis of DNA sequences. In: Miura R. M., editor. Lectures on Mathematics in the Life Sciences. 17, 57-86
+Discrete gamma-distributed rate heterogeneity model:
+	Yang Z (1994) Maximum likelihood phylogenetic estimation from DNA sequences with variable rates over sites: approximate methods. J. Mol. Evol.. 39, 306-314
+
+TRAIT MODELS
+Multivariate Diffusion model (first citation) with efficiently integrated internal traits (second citation):
+	Lemey P, Rambaut A, Welch JJ, Suchard MA (2010) Phylogeography takes a relaxed random walk in continous space and time. Molecular Biology and Evolution. 27, 1877-1885
+	Pybus OG, Suchard MA, Lemey P, Bernadin F, Rambaut A, Crawford FW, Gray RR, Arinaminpathy N, Stramer S, Busch MP, Delwart E (2012) Unifying the spatial epidemiology and evolution of emerging epidemics. Proceedings of the National Academy of Sciences. 109, 15066-15071
+
+PRIOR MODELS
+CTMC Scale Reference Prior model:
+	Ferreira MAR, Suchard MA (2008) Bayesian analysis of elapsed times in continuous-time Markov chains. Canadian Journal of Statistics. 36, 355-368
+
+

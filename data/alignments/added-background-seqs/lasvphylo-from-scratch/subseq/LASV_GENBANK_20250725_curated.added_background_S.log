@@ -1,0 +1,11 @@
+2025-08-07 18:27:34 - INFO - Starting subsequence processing
+2025-08-07 18:27:34 - INFO - Logging to file: LASV_GENBANK_20250725_curated.added_background_S.log
+2025-08-07 18:27:34 - INFO - Loading configuration for gene: gpc
+2025-08-07 18:27:34 - INFO - Loading filter list from: LASV_GENBANK_20250725_curated.added_background_S.patterns.txt
+2025-08-07 18:27:34 - INFO - Processing sequences from: LASV_GENBANK_20250725_curated.added_background_S.gpc.fas
+2025-08-07 18:27:34 - INFO - Processed 1081 sequences total
+2025-08-07 18:27:34 - INFO - Filtered out 19 sequences
+2025-08-07 18:27:34 - INFO - Kept 1062 sequences for output
+2025-08-07 18:27:34 - INFO - Writing output to: LASV_GENBANK_20250725_curated.added_background_S_subseq.gpc.fa
+2025-08-07 18:27:34 - INFO - Successfully wrote 1062 sequences to output file
+2025-08-07 18:27:34 - INFO - Subsequence processing completed successfully

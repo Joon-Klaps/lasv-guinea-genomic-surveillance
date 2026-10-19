@@ -1,0 +1,299 @@
+IQ-TREE multicore version 2.3.6 for Linux x86 64-bit built Aug  4 2024
+Developed by Bui Quang Minh, Nguyen Lam Tung, Olga Chernomor, Heiko Schmidt,
+Dominik Schrempf, Michael Woodhams, Ly Trong Nhan, Thomas Wong
+
+Host:    r33c30n2 (AVX512, FMA3, 251 GB RAM)
+Command: /usr/local/bin/iqtree -B 1000 -m GTR+G4 -T AUTO -s /lustre1/project/stg_00132/jklaps/LASV-guinea-2020-2024/data/alignments/matchingL-S/LASV_GENBANK_20250725_curated.added_background.renamed.L.msa -pre ../../data/trees/matchingL-S/LASV_GENBANK_20250725_curated.added_background.renamed.L
+Seed:    784776 (Using SPRNG - Scalable Parallel Random Number Generator)
+Time:    Mon Feb  9 15:54:50 2026
+Kernel:  AVX+FMA - auto-detect threads (36 CPU cores detected)
+
+Reading alignment file /lustre1/project/stg_00132/jklaps/LASV-guinea-2020-2024/data/alignments/matchingL-S/LASV_GENBANK_20250725_curated.added_background.renamed.L.msa ... Fasta format detected
+Reading fasta file: done in 0.0125504 secs using 66.67% CPU
+Alignment most likely contains DNA/RNA sequences
+WARNING: 48 sites contain only gaps or ambiguous characters.
+Alignment has 153 sequences with 7017 columns, 4630 distinct patterns
+3455 parsimony-informative, 351 singleton sites, 3211 constant sites
+                                         Gap/Ambiguity  Composition  p-value
+Analyzing sequences: done in 9.90704e-05 secs using 486.5% CPU
+   1  803209                                     0.81%    passed     94.72%
+   2  806827                                     0.77%    passed     97.66%
+   3  bad-27                                    43.17%    passed     15.06%
+   4  dal-11                                     5.17%    passed     13.60%
+   5  dam-05                                     5.04%    passed     54.74%
+   6  dam-15                                    35.27%    passed     10.42%
+   7  dam-49                                     5.17%    passed     14.08%
+   8  den-43                                    33.52%    passed     98.52%
+   9  fal-26                                    16.97%    passed     41.58%
+  10  fal-31                                     6.40%    passed     70.70%
+  11  g-27653-1                                  5.43%    passed     21.51%
+  12  g-27671-1                                 11.00%    passed     47.59%
+  13  g-27952-1                                  0.77%    passed     72.20%
+  14  g-7601-4                                   2.68%    passed     54.08%
+  15  g-7661-1                                   3.68%    passed     82.40%
+  16  g-7821-5                                   0.77%    passed     99.95%
+  17  g-7823-2                                   5.13%    passed     49.74%
+  18  g-7843-2                                   0.88%    passed     48.25%
+  19  g-8410-1                                   1.33%    passed     80.94%
+  20  g-8439-1                                   7.84%    passed     31.32%
+  21  g0274                                     15.36%    passed     56.90%
+  22  g0405                                      0.95%    passed     14.41%
+  23  g0671                                     28.43%    passed     32.79%
+  24  g0683                                     37.24%    passed     12.39%
+  25  g0780                                     57.77%    passed     25.38%
+  26  g0795                                      4.09%    passed     85.03%
+  27  g0796                                      0.86%    passed     82.22%
+  28  g0797                                      0.90%    passed     80.64%
+  29  g0870                                     30.83%    passed     11.73%
+  30  g0900                                      0.98%    passed     78.70%
+  31  g0917                                      1.07%    passed     94.73%
+  32  g0920                                     35.71%    passed     45.65%
+  33  g0934                                     56.22%    passed     17.96%
+  34  g0953                                      0.97%    passed     72.32%
+  35  g0959                                      4.79%    passed     87.86%
+  36  g0960                                      5.83%    passed     85.79%
+  37  g0984                                      1.00%    passed     60.32%
+  38  g1013                                      1.27%    passed     88.44%
+  39  g1021                                      0.94%    passed     86.65%
+  40  g1029                                      1.11%    passed     25.31%
+  41  g1180-sle-2010                             1.34%    passed     79.57%
+  42  g1190-sle-2010                             0.77%    passed     89.00%
+  43  g1442-sle-2011                             0.86%    passed     94.41%
+  44  g1529-sle-2011                             0.86%    passed     94.88%
+  45  g1618-sle-2011                             3.05%    passed     94.37%
+  46  g1646-sle-2011                             0.77%    passed     92.32%
+  47  g1647-sle-2011                             1.18%    passed     83.66%
+  48  g1727-sle-2011                             0.77%    passed     95.37%
+  49  g1774-sle-2011                             0.77%    passed     95.35%
+  50  g1792-sle-2011                             0.77%    passed     99.34%
+  51  g1959-sle-2011                             0.77%    passed     83.26%
+  52  g1960-sle-2011                             0.77%    passed     99.67%
+  53  g2141-sle-2011                             0.86%    passed     48.89%
+  54  g2147-sle-2011                             0.77%    passed     81.87%
+  55  g2165-sle-2011                             0.81%    passed     92.55%
+  56  g2184-sle-2011                             0.77%    passed     96.91%
+  57  g2197-sle-2011                             0.77%    passed     91.67%
+  58  g2222-sle-2011                             0.77%    passed     96.78%
+  59  g2259-sle-2012                             0.86%    passed     73.09%
+  60  g2280-sle-2012                             0.77%    passed     86.90%
+  61  g2295-sle-2012                             0.77%    passed     75.76%
+  62  g2315-sle-2012                             1.00%    passed     86.86%
+  63  g2318-sle-2012                             1.78%    passed     98.91%
+  64  g2363-sle-2012                             0.86%    passed     98.00%
+  65  g2392-sle-2012                             0.77%    passed     56.05%
+  66  g2405-sle-2012                             0.77%    passed     61.17%
+  67  g2427-sle-2012                             0.77%    passed     97.75%
+  68  g2431-sle-2012                             0.86%    passed     90.35%
+  69  g2554-sle-2012                             0.77%    passed     97.40%
+  70  g2557-sle-2012                             0.86%    passed     66.07%
+  71  g2565-sle-2012                             0.77%    passed     98.42%
+  72  g2587-sle-2012                             0.77%    passed     75.86%
+  73  g2612-sle-2012                             0.77%    passed     83.48%
+  74  g2615-sle-2012                             3.51%    passed     60.50%
+  75  g2723-sle-2012                             0.86%    passed     57.42%
+  76  g2868-sle-2012                             0.77%    passed     77.54%
+  77  g2903-sle-2012                             1.18%    passed     98.94%
+  78  g2944-sle-2012                             0.77%    passed     91.91%
+  79  g3010-sle-2013                             0.77%    passed     92.17%
+  80  g3016-sle-2013                             0.77%    passed     92.71%
+  81  g3148-sle-2013                             0.77%    passed     97.97%
+  82  g3151-sle-2013                             0.77%    passed     68.60%
+  83  g3206-sle-2013                             0.77%    passed     85.99%
+  84  g3229-sle-2013                             0.77%    passed     73.02%
+  85  g3234-sle-2013                             0.86%    passed     98.45%
+  86  g3278-sle-2013                             0.86%    passed     47.54%
+  87  g502-sle-2009                              0.77%    passed     84.37%
+  88  g503-sle-2009                              0.77%    passed     92.86%
+  89  g610-sle-2009                              0.77%    passed     97.76%
+  90  g636-sle-2009                              0.77%    passed     83.47%
+  91  g676-sle-2009                              0.77%    passed     69.93%
+  92  g692-sle-2009                              0.77%    passed     77.54%
+  93  g693-sle-2009                              0.77%    passed     97.30%
+  94  g733-sle-2010                              0.77%    passed     86.01%
+  95  g771-sle-2010                              0.77%    passed     98.01%
+  96  g808-sle-2010                              0.77%    passed     90.46%
+  97  kho-29                                     5.17%    passed     23.43%
+  98  l.sikapusi-wt/sle/2019/barlie-00019        0.86%    passed     62.16%
+  99  l.sikapusi-wt/sle/2019/barlie-00241        0.86%    passed     99.00%
+ 100  lasv/gui/kis-2019                          3.33%    passed     78.48%
+ 101  lf11003                                    7.04%    passed     71.22%
+ 102  lf11011                                   11.37%    passed     63.06%
+ 103  lf13006                                   24.51%    passed     60.68%
+ 104  lf13007                                    3.43%    passed     77.64%
+ 105  lf16004                                    0.81%    passed     51.30%
+ 106  lf16016                                    0.81%    passed     73.53%
+ 107  lf17001                                    0.81%    passed     26.80%
+ 108  lf17007                                    0.81%    passed     65.68%
+ 109  lf17013                                    0.81%    passed     63.03%
+ 110  lf17019                                    0.81%    passed     93.70%
+ 111  lf17020                                    6.00%    passed     42.87%
+ 112  lf18001                                    0.81%    passed     48.91%
+ 113  lf18002                                    0.81%    passed     48.41%
+ 114  lf18037                                    0.81%    passed     66.27%
+ 115  lf18041                                    0.81%    passed     51.82%
+ 116  lf18042                                    0.81%    passed     61.62%
+ 117  m.erythroleucus/sle/2019/kamasseh-08476    0.86%    passed     77.15%
+ 118  m.natalensis-wt/sle/2019/bafodia-00106     0.86%    passed     99.32%
+ 119  m.natalensis-wt/sle/2019/bafodia-00188     2.08%    passed     94.60%
+ 120  m.natalensis-wt/sle/2019/bafodia-00204     0.86%    passed     99.16%
+ 121  m.natalensis-wt/sle/2019/bafodia-00303     0.86%    passed     97.70%
+ 122  m.natalensis-wt/sle/2019/kapethe-00214     0.86%    passed     96.90%
+ 123  m.natalensis-wt/sle/2019/kapethe-00217     0.86%    passed     95.10%
+ 124  m.natalensis-wt/sle/2019/largo-00291       0.77%    passed     89.03%
+ 125  m.natalensis-wt/sle/2019/largo-00292       0.77%    passed     93.68%
+ 126  m.natalensis-wt/sle/2019/makump-00052      0.86%    passed     61.58%
+ 127  m.natalensis/sle/2019/kamasseh-08477       1.03%    passed     99.95%
+ 128  m.natalensis/sle/2019/kapethe-08499        0.86%    passed     92.17%
+ 129  m.natalensis/sle/2019/kapethe-08503        0.86%    passed     96.81%
+ 130  m.natalensis/sle/2020/barlie-00512         0.86%    passed     54.81%
+ 131  m.natalensis/sle/2020/largo-00521          0.77%    passed     92.67%
+ 132  m00008                                    37.20%    passed     10.82%
+ 133  m00009                                     1.07%    passed     99.03%
+ 134  m00362                                     1.05%    passed     87.01%
+ 135  m00363                                     0.94%    passed     67.36%
+ 136  m00364                                     0.84%    passed     78.43%
+ 137  m00539                                     0.95%    failed      2.84%
+ 138  m00541                                     9.76%    passed     30.40%
+ 139  m00542                                    35.40%    passed     32.72%
+ 140  mad39                                      0.88%    passed     59.35%
+ 141  mad41                                      0.87%    passed     49.14%
+ 142  mad62                                      0.90%    passed     58.13%
+ 143  mad63                                      0.86%    passed     52.17%
+ 144  mad69                                      0.87%    passed     66.88%
+ 145  mad83                                      0.87%    passed     51.13%
+ 146  mak-67                                    10.05%    passed     38.96%
+ 147  saf-01                                     5.17%    passed     13.68%
+ 148  sil-03                                     9.13%    passed     31.89%
+ 149  yak-02                                    43.59%    passed     68.83%
+ 150  yak-08                                    26.02%    passed     19.21%
+ 151  yak-20                                     8.78%    passed     67.39%
+ 152  yar-24                                     5.04%    passed     24.42%
+ 153  yar-46                                     5.17%    passed     19.10%
+WARNING: 2 sequences contain more than 50% gaps/ambiguity
+****  TOTAL                                      5.36%  1 sequences failed composition chi2 test (p-value<5%; df=3)
+Creating fast initial parsimony tree by random order stepwise addition...
+0.410 seconds, parsimony score: 35554 (based on 3806 sites)
+Generating 1000 samples for ultrafast bootstrap (seed: 784776)...
+
+NOTE: 109 MB RAM (0 GB) is required!
+Measuring multi-threading efficiency up to 36 CPU cores
+Increase to 10 rounds for branch lengths
+34 trees examined
+Threads: 1 / Time: 36.623 sec / Speedup: 1.000 / Efficiency: 100% / LogL: -359200
+Threads: 2 / Time: 20.491 sec / Speedup: 1.787 / Efficiency: 89% / LogL: -359200
+Threads: 3 / Time: 16.799 sec / Speedup: 2.180 / Efficiency: 73% / LogL: -359200
+Threads: 4 / Time: 11.743 sec / Speedup: 3.119 / Efficiency: 78% / LogL: -359200
+Threads: 5 / Time: 11.433 sec / Speedup: 3.203 / Efficiency: 64% / LogL: -359200
+Threads: 6 / Time: 8.348 sec / Speedup: 4.387 / Efficiency: 73% / LogL: -359200
+Threads: 7 / Time: 7.545 sec / Speedup: 4.854 / Efficiency: 69% / LogL: -359200
+Threads: 8 / Time: 6.909 sec / Speedup: 5.300 / Efficiency: 66% / LogL: -359200
+Threads: 9 / Time: 6.468 sec / Speedup: 5.662 / Efficiency: 63% / LogL: -359200
+Threads: 10 / Time: 6.078 sec / Speedup: 6.026 / Efficiency: 60% / LogL: -359200
+Threads: 11 / Time: 5.890 sec / Speedup: 6.218 / Efficiency: 57% / LogL: -359200
+Threads: 12 / Time: 5.707 sec / Speedup: 6.417 / Efficiency: 53% / LogL: -359200
+Threads: 13 / Time: 5.510 sec / Speedup: 6.647 / Efficiency: 51% / LogL: -359200
+Threads: 14 / Time: 6.469 sec / Speedup: 5.661 / Efficiency: 40% / LogL: -359200
+BEST NUMBER OF THREADS: 12
+
+Estimate model parameters (epsilon = 0.100)
+1. Initial log-likelihood: -190333.008
+2. Current log-likelihood: -158542.986
+3. Current log-likelihood: -158032.734
+4. Current log-likelihood: -157992.332
+5. Current log-likelihood: -157984.217
+6. Current log-likelihood: -157982.437
+7. Current log-likelihood: -157982.077
+Optimal log-likelihood: -157981.980
+Rate parameters:  A-C: 2.06689  A-G: 46.53396  A-T: 3.31162  C-G: 1.43714  C-T: 60.40883  G-T: 1.00000
+Base frequencies:  A: 0.310  C: 0.176  G: 0.228  T: 0.286
+Gamma shape alpha: 0.281
+Parameters optimization took 7 rounds (0.998 sec)
+Wrote distance file to... 
+Computing ML distances based on estimated model parameters...
+Calculating distance matrix: done in 0.0157987 secs using 1212% CPU
+Computing ML distances took 0.016425 sec (of wall-clock time) 0.193640 sec (of CPU time)
+Setting up auxiliary I and S matrices: done in 0.000764815 secs using 930.9% CPU
+Computing RapidNJ tree took 0.137895 sec (of wall-clock time) 0.719233 sec (of CPU time)
+Log-likelihood of RapidNJ tree: -158154.163
+--------------------------------------------------------------------
+|             INITIALIZING CANDIDATE TREE SET                      |
+--------------------------------------------------------------------
+Generating 98 parsimony trees... 0.752 second
+Computing log-likelihood of 98 initial trees ... 2.414 seconds
+Current best score: -157889.841
+
+Do NNI search on 20 best initial trees
+Estimate model parameters (epsilon = 0.100)
+BETTER TREE FOUND at iteration 1: -157751.972
+Estimate model parameters (epsilon = 0.100)
+BETTER TREE FOUND at iteration 2: -157744.599
+Estimate model parameters (epsilon = 0.100)
+BETTER TREE FOUND at iteration 5: -157737.475
+Estimate model parameters (epsilon = 0.100)
+BETTER TREE FOUND at iteration 6: -157735.293
+Iteration 10 / LogL: -157738.942 / Time: 0h:2m:44s
+Estimate model parameters (epsilon = 0.100)
+BETTER TREE FOUND at iteration 12: -157735.189
+Iteration 20 / LogL: -157735.210 / Time: 0h:2m:48s
+Finish initializing candidate tree set (15)
+Current best tree score: -157735.189 / CPU time: 10.324
+Number of iterations: 20
+--------------------------------------------------------------------
+|               OPTIMIZING CANDIDATE TREE SET                      |
+--------------------------------------------------------------------
+Iteration 30 / LogL: -157735.213 / Time: 0h:2m:52s (0h:8m:7s left)
+UPDATE BEST LOG-LIKELIHOOD: -157735.189
+Iteration 40 / LogL: -157735.189 / Time: 0h:2m:57s (0h:5m:27s left)
+Iteration 50 / LogL: -157739.868 / Time: 0h:3m:2s (0h:3m:50s left)
+Log-likelihood cutoff on original alignment: -157785.933
+Iteration 60 / LogL: -157735.857 / Time: 0h:3m:7s (0h:2m:44s left)
+Iteration 70 / LogL: -157735.248 / Time: 0h:3m:11s (0h:1m:56s left)
+Iteration 80 / LogL: -157735.596 / Time: 0h:3m:16s (0h:1m:19s left)
+Iteration 90 / LogL: -157735.208 / Time: 0h:3m:20s (0h:0m:49s left)
+UPDATE BEST LOG-LIKELIHOOD: -157735.188
+Iteration 100 / LogL: -157735.318 / Time: 0h:3m:25s (0h:0m:24s left)
+Log-likelihood cutoff on original alignment: -157785.933
+NOTE: Bootstrap correlation coefficient of split occurrence frequencies: 0.999
+Iteration 110 / LogL: -157737.621 / Time: 0h:3m:30s (0h:2m:53s left)
+TREE SEARCH COMPLETED AFTER 113 ITERATIONS / Time: 0h:3m:31s
+
+--------------------------------------------------------------------
+|                    FINALIZING TREE SEARCH                        |
+--------------------------------------------------------------------
+Performs final model parameters optimization
+Estimate model parameters (epsilon = 0.010)
+1. Initial log-likelihood: -157735.188
+Optimal log-likelihood: -157735.186
+Rate parameters:  A-C: 2.04119  A-G: 46.63105  A-T: 3.30045  C-G: 1.42760  C-T: 60.27858  G-T: 1.00000
+Base frequencies:  A: 0.310  C: 0.176  G: 0.228  T: 0.286
+Gamma shape alpha: 0.280
+Parameters optimization took 1 rounds (0.061 sec)
+BEST SCORE FOUND : -157735.186
+Creating bootstrap support values...
+Split supports printed to NEXUS file ../../data/trees/matchingL-S/LASV_GENBANK_20250725_curated.added_background.renamed.L.splits.nex
+Total tree length: 5.117
+
+Total number of iterations: 113
+CPU time used for tree search: 629.602 sec (0h:10m:29s)
+Wall-clock time used for tree search: 53.554 sec (0h:0m:53s)
+Total CPU time used: 1461.886 sec (0h:24m:21s)
+Total wall-clock time used: 211.765 sec (0h:3m:31s)
+
+Computing bootstrap consensus tree...
+Reading input file ../../data/trees/matchingL-S/LASV_GENBANK_20250725_curated.added_background.renamed.L.splits.nex...
+153 taxa and 448 splits.
+Consensus tree written to ../../data/trees/matchingL-S/LASV_GENBANK_20250725_curated.added_background.renamed.L.contree
+Reading input trees file ../../data/trees/matchingL-S/LASV_GENBANK_20250725_curated.added_background.renamed.L.contree
+Log-likelihood of consensus tree: -157735.211
+
+Analysis results written to: 
+  IQ-TREE report:                ../../data/trees/matchingL-S/LASV_GENBANK_20250725_curated.added_background.renamed.L.iqtree
+  Maximum-likelihood tree:       ../../data/trees/matchingL-S/LASV_GENBANK_20250725_curated.added_background.renamed.L.treefile
+  Likelihood distances:          ../../data/trees/matchingL-S/LASV_GENBANK_20250725_curated.added_background.renamed.L.mldist
+
+Ultrafast bootstrap approximation results written to:
+  Split support values:          ../../data/trees/matchingL-S/LASV_GENBANK_20250725_curated.added_background.renamed.L.splits.nex
+  Consensus tree:                ../../data/trees/matchingL-S/LASV_GENBANK_20250725_curated.added_background.renamed.L.contree
+  Screen log file:               ../../data/trees/matchingL-S/LASV_GENBANK_20250725_curated.added_background.renamed.L.log
+
+Date and Time: Mon Feb  9 15:58:22 2026

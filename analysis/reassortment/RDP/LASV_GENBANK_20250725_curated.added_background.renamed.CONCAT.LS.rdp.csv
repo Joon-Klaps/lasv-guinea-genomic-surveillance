@@ -1,0 +1,186 @@
+,,,Breakpoint Positions
+,,In Alignment, ,In Recombinant Sequence, ,Relative to g1190-sle-2010 KM821795|G1190-SLE-2010|Homo_sapien,, , , , , , Detection Methods
+Recombination Event Number, Number In .RDP File, Begin, End,Begin, End,Begin, End, Recombinant Sequence(s), Minor Parental Sequence(s), Major Parental Sequence(s), RDP, GENECONV, Bootscan, Maxchi, Chimaera, SiSscan,PhylPro, LARD, 3Seq
+ 1 ,1, 6537, 6722, 6446, 6631, 6489, 6674,^lasv/gui/kis-2019 MT861993|KIS-2019|Human|GIN|2019,Unknown (g0405 |G0405-L||GIN|2021-06-15||G0405-S||GIN|2021-),g1013 |G1013-L||GIN|2024-01-31||G1013-S||GIN|2024-, 3.29550445969573E-66, 1.26424642948404E-50, 1.32955615049197E-57, 4.2884653996938E-17, 1.98305566592646E-14, 5.71508496218957E-09,NS,NS, 2.2563284574062E-10,
+ 1,,,,,,,,,Unknown(m00541 |M00541-L||GIN|2021-06-29||M00541-S||GIN|20),
+ 1,,,,,,,,,Unknown(m.natalensis-wt/sle/2019/bafodia-00106 OM735987|M.),
+ 1,,,,,,,,,Unknown(m.natalensis-wt/sle/2019/bafodia-00188 OM735983|M.),
+ 1,,,,,,,,,Unknown(m00539 |M00539-L||GIN|2021-07-14||M00539-S||GIN|20),
+ 1,,,,,,,,,Unknown(m.natalensis-wt/sle/2019/bafodia-00303 OM735969|M.),
+ 1,,,,,,,,,Unknown(m.natalensis-wt/sle/2019/bafodia-00204 OM735981|M.),
+
+ 2 ,2, 5*, 6666, 5*, 6618, 5*, 6618,g0796 PV847664|G0796||GIN|2022-08-10|PV847663|G079,sil-03 OR490744|Sil-03|Mastomys_natalensis|GIN|201,g0953 |G0953-L||GIN|2023-05-09||G0953-S||GIN|2023-,NS,NS, 1.64500840172971E-03, 4.70233014801405E-12, 3.3258220129501E-07, 4.41736322563969E-50,NS,NS, 2.8272862207627E-19,
+ 2,,,,,,,,g0797 PV847666|G0797||GIN|2022-08-11|PV847665|G079,yar-46 OR490747|Yar-46|Mastomys_natalensis|GIN|201,g0960 |G0960-L||GIN|2023-08-04||G0960-S||GIN|2023-
+ 2,,,,,,,,g0795 PV847662|G0795||GIN|2022-08-10|PV847661|G079,saf-01 OR490743|Saf-01|Mastomys_natalensis|GIN|201,g1021 |G1021-L||GIN|2024-06-11||G1021-S||GIN|2024-
+ 2,,,,,,,,,kho-29 OR490742|Kho-29|Mastomys_natalensis|GIN|201,g0900 |G0900-L||GIN|2022-12-07||G0900-S||GIN|2022-
+ 2,,,,,,,,,m00362 |M00362-L||GIN|2021-09-18||M00362-S||GIN|20,
+
+ 3 ,3, 7049, 10203*, 6989, 10143*, 6995, 10149*,^g2363-sle-2012 KM821846|G2363_SLE_2012|Human|SLE|2,g1529-sle-2011 KM821801|G1529_SLE_2011|Human|SLE|2,Unknown (g2259-sle-2012 KM821834|G2259_SLE_2012|Human|SLE|2), 5.03548916491195E-16,NS, 2.63510928320456E-15, 5.61505097524495E-03, 1.70512840772355E-05, 2.09563449480413E-24,NS,NS, 6.15075604293103E-03,
+ 3,,,,,,,,,g3234-sle-2013 KM821903|G3234_SLE_2013|Human|SLE|2,Unknown(g2615-sle-2012 KM821868|G2615_SLE_2012|Human|SLE|2)
+ 3,,,,,,,,,,Unknown(g2723-sle-2012 KM821870|G2723_SLE_2012|Human|SLE|2)
+ 3,,,,,,,,,,Unknown(g3278-sle-2013 KM821908|G3278_SLE_2013|Human|SLE|2)
+ 3,,,,,,,,,,Unknown(g2557-sle-2012 KM821860|G2557_SLE_2012|Human|SLE|2)
+
+ 4 ,4~, 8939, 10059*, 8307, 8366*, 8885, 10005*,dam-49 OR490740|Dam-49|Mastomys_natalensis|GIN|201,Unknown (yak-08 OR490753|Yak-08|Mastomys_natalensis|SLE|201),kho-29 OR490742|Kho-29|Mastomys_natalensis|GIN|201, 1.42311401749835E-07, 9.74292785595332E-11, 1.02708965402153E-05,NS,NS,NS,NS,NS, 2.96255487619579E-06,
+ 4,,,,,,,,,Unknown(g1190-sle-2010 KM821795|G1190-SLE-2010|Homo_sapien),sil-03 OR490744|Sil-03|Mastomys_natalensis|GIN|201
+ 4,,,,,,,,,Unknown(g3151-sle-2013 KM821893|G3151_SLE_2013|Human|SLE|2),yar-46 OR490747|Yar-46|Mastomys_natalensis|GIN|201
+ 4,,,,,,,,,Unknown(g2141-sle-2011 KM821821|G2141-SLE-2011|Homo_sapien),saf-01 OR490743|Saf-01|Mastomys_natalensis|GIN|201
+ 4,,,,,,,,,Unknown(m.natalensis-wt/sle/2019/largo-00292 OM735971|M.na),m00362 |M00362-L||GIN|2021-09-18||M00362-S||GIN|20
+ 4,,,,,,,,,Unknown(den-43 OR490741|Den-43|Mastomys_natalensis|GIN|200),
+ 4,,,,,,,,,Unknown(g3148-sle-2013 KM821891|G3148_SLE_2013|Human|SLE|2),
+ 4,,,,,,,,,Unknown(g0984 |G0984-L||GIN|2023-09-26||G0984-S||GIN|2023-),
+ 4,,,,,,,,,Unknown(g2392-sle-2012 KM821849|G2392-SLE-2012|Homo_sapien),
+ 4,,,,,,,,,Unknown(l.sikapusi-wt/sle/2019/barlie-00241 OM735975|L.sik),
+ 4,,,,,,,,,Unknown(mad83 KT992431|Mad83|Mouse|GIN|2014-05-10|KT992421),
+ 4,,,,,,,,,Unknown(g2280-sle-2012 KM821838|G2280_SLE_2012|Human|SLE|2),
+ 4,,,,,,,,,Unknown(g-8410-1 OQ919504|G-8410-1-1||SLE|2019-12-26|OQ919),
+ 4,,,,,,,,,Unknown(g2222-sle-2011 KM821831|G2222_SLE_2011|Human|SLE|2),
+ 4,,,,,,,,,Unknown(lf18041 MH215286|LF18041|Homo_sapiens|LBR|2018-03-),
+ 4,,,,,,,,,Unknown(g-27653-1 OQ919506|G-27653-1-1||SLE|2022-05-28|OQ9),
+ 4,,,,,,,,,Unknown(lf17013 MG812676|LF17013|Human|LBR|Bong|2017-02-13),
+ 4,,,,,,,,,Unknown(g3234-sle-2013 KM821903|G3234_SLE_2013|Human|SLE|2),
+ 4,,,,,,,,,Unknown(g2295-sle-2012 KM821840|G2295_SLE_2012|Human|SLE|2),
+ 4,,,,,,,,,Unknown(g-7823-2 OQ919503|G-7823-2-1||SLE|2018-01-30|OQ919),
+ 4,,,,,,,,,Unknown(g1529-sle-2011 KM821801|G1529_SLE_2011|Human|SLE|2),
+ 4,,,,,,,,,Unknown(g771-sle-2010 KM821788|G771_SLE_2010|Human|SLE|201),
+ 4,,,,,,,,,Unknown(m.natalensis-wt/sle/2019/largo-00291 OM735973|M.na),
+ 4,,,,,,,,,Unknown(g-7843-2 OQ919498|G-7843-2-1||SLE|2018-02-20|OR113),
+ 4,,,,,,,,,Unknown(g610-sle-2009 KM821776|G610_SLE_2009|Human|SLE|200),
+ 4,,,,,,,,,Unknown(g-7821-5 OQ919507|G-7821-5-1||SLE|2018-01-28|OQ919),
+ 4,,,,,,,,,Unknown(g2197-sle-2011 KM821829|G2197_SLE_2011|Human|SLE|2),
+ 4,,,,,,,,,Unknown(g2147-sle-2011 KM821823|G2147_SLE_2011|Human|SLE|2),
+ 4,,,,,,,,,Unknown(lf18001 MH215278|LF18001|Homo_sapiens|LBR|2018-01-),
+ 4,,,,,,,,,Unknown(g636-sle-2009 KM821778|G636_SLE_2009|Human|SLE|200),
+ 4,,,,,,,,,Unknown(g2587-sle-2012 KM821864|G2587-SLE-2012|Homo_sapien),
+ 4,,,,,,,,,Unknown(g-7661-1 OQ919505|G-7661-1-1||SLE|2017-08-03|OQ919),
+ 4,,,,,,,,,Unknown(g2315-sle-2012 KM821842|G2315_SLE_2012|Human|SLE|2),
+ 4,,,,,,,,,Unknown(g3206-sle-2013 KM821898|G3206_SLE_2013|Human|SLE|2),
+ 4,,,,,,,,,Unknown(g502-sle-2009 KM821772|G502_SLE_2009|Human|SLE|200),
+ 4,,,,,,,,,Unknown(m.natalensis-wt/sle/2019/bafodia-00188 OM735983|M.),
+ 4,,,,,,,,,Unknown(g3010-sle-2013 KM821881|G3010_SLE_2013|Human|SLE|2),
+ 4,,,,,,,,,Unknown(g-7601-4 OQ919500|G-7601-4-1||SLE|2017-04-09|OQ919),
+ 4,,,,,,,,,Unknown(mad39 KT992426|Mad39|Mouse|GIN|2014-05-08|KT992416),
+ 4,,,,,,,,,Unknown(mad41 KT992427|Mad41|Mouse|GIN|2014-05-08|KT992417),
+ 4,,,,,,,,,Unknown(g-27952-1 OR113008|G-27952-1-1|Homo_sapiens|SLE|20),
+ 4,,,,,,,,,Unknown(g1647-sle-2011 KM821807|G1647_SLE_2011|Human|SLE|2),
+ 4,,,,,,,,,Unknown(g733-sle-2010 KM821786|G733_SLE_2010|Human|SLE|201),
+ 4,,,,,,,,,Unknown(g1442-sle-2011 KM821799|G1442_SLE_2011|Human|SLE|2),
+ 4,,,,,,,,,Unknown(g2612-sle-2012 KM821866|G2612_SLE_2012|Human|SLE|2),
+ 4,,,,,,,,,Unknown(lf16004 MG812662|LF16004|Human|LBR|Bong|2016-02-26),
+ 4,,,,,,,,,Unknown(g1029 |G1029-L||GIN|2024-09-19||G1029-S||GIN|2024-),
+ 4,,,,,,,,,Unknown(g693-sle-2009 KM821784|G693_SLE_2009|Human|SLE|201),
+ 4,,,,,,,,,Unknown(g2615-sle-2012 KM821868|G2615_SLE_2012|Human|SLE|2),
+ 4,,,,,,,,,Unknown(yak-20 OR490754|Yak-20|Mastomys_natalensis|SLE|201),
+ 4,,,,,,,,,Unknown(g2165-sle-2011 KM821825|G2165_SLE_2011|Human|SLE|2),
+ 4,,,,,,,,,Unknown(g2431-sle-2012 KM821855|G2431_SLE_2012|Human|SLE|2),
+ 4,,,,,,,,,Unknown(g2565-sle-2012 KM821862|G2565-SLE-2012|Homo_sapien),
+ 4,,,,,,,,,Unknown(g676-sle-2009 KM821780|G676_SLE_2009|Human|SLE|200),
+ 4,,,,,,,,,Unknown(l.sikapusi-wt/sle/2019/barlie-00019 OM735991|L.sik),
+ 4,,,,,,,,,Unknown(m00009 |M00009-L||GIN|2020-07-10||M00009-S||GIN|20),
+ 4,,,,,,,,,Unknown(g808-sle-2010 KM821791|G808_SLE_2010|Human|SLE|201),
+ 4,,,,,,,,,Unknown(g2903-sle-2012 KM821875|G2903_SLE_2012|Human|SLE|2),
+ 4,,,,,,,,,Unknown(g2405-sle-2012 KM821851|G2405_SLE_2012|Human|SLE|2),
+ 4,,,,,,,,,Unknown(m.natalensis/sle/2020/largo-00521 OM791221|M.natal),
+ 4,,,,,,,,,Unknown(g2184-sle-2011 KM821827|G2184_SLE_2011|Human|SLE|2),
+ 4,,,,,,,,,Unknown(m.erythroleucus/sle/2019/kamasseh-08476 OM791225|M),
+ 4,,,,,,,,,Unknown(g2944-sle-2012 KM821879|G2944-SLE-2012|Homo_sapien),
+ 4,,,,,,,,,Unknown(m.natalensis-wt/sle/2019/bafodia-00303 OM735969|M.),
+ 4,,,,,,,,,Unknown(m.natalensis-wt/sle/2019/bafodia-00204 OM735981|M.),
+ 4,,,,,,,,,Unknown(g1792-sle-2011 KM821813|G1792_SLE_2011|Human|SLE|2),
+ 4,,,,,,,,,Unknown(lf11011 MG812654|LF11011|Human|LBR|Bong|2011-04-14),
+ 4,,,,,,,,,Unknown(g0959 |G0959-L||GIN|2023-07-31||G0959-S||GIN|2023-),
+ 4,,,,,,,,,Unknown(yak-02 OR490752|Yak-02|Mastomys_natalensis|SLE|201),
+ 4,,,,,,,,,Unknown(g1727-sle-2011 KM821809|G1727-SLE-2011|Homo_sapien),
+ 4,,,,,,,,,Unknown(m.natalensis/sle/2020/barlie-00512 OM791219|M.nata),
+ 4,,,,,,,,,Unknown(g1960-sle-2011 KM821819|G1960-SLE-2011|Homo_sapien),
+ 4,,,,,,,,,Unknown(mak-67 OR490751|Mak-67|Mastomys_natalensis|SLE|201),
+ 4,,,,,,,,,Unknown(g503-sle-2009 KM821774|G503_SLE_2009|Human|SLE|200),
+ 4,,,,,,,,,Unknown(g1959-sle-2011 KM821817|G1959_SLE_2011|Human|SLE|2),
+ 4,,,,,,,,,Unknown(g1618-sle-2011 KM821803|G1618_SLE_2011|Human|SLE|2),
+ 4,,,,,,,,,Unknown(mad62 KT992428|Mad62|Mouse|GIN|2014-05-09|KT992418),
+ 4,,,,,,,,,Unknown(g2557-sle-2012 KM821860|G2557_SLE_2012|Human|SLE|2),
+ 4,,,,,,,,,Unknown(g-8439-1 OQ919499|G-8439-1-1||SLE|2020-01-14|OQ919),
+ 4,,,,,,,,,Unknown(g2318-sle-2012 KM821844|G2318_SLE_2012|Human|SLE|2),
+ 4,,,,,,,,,Unknown(806827 MG812638|806827|Homo_sapiens|SLE|1977|MG812),
+
+ 5 ,6~, 3632, 3854*, 3584, 3806*, 3590, 3812*,dam-15 OR490739|Dam-15|Mastomys_natalensis|GIN|201,Unknown (g636-sle-2009 KM821778|G636_SLE_2009|Human|SLE|200),dam-49 OR490740|Dam-49|Mastomys_natalensis|GIN|201, 4.91952817555015E-07,NS,NS, 1.86876767615009E-03,NS,NS,NS,NS, 9.91483726945352E-04,
+ 5,,,,,,,,,Unknown(g1190-sle-2010 KM821795|G1190-SLE-2010|Homo_sapien),
+ 5,,,,,,,,,Unknown(803209 MG812646|las803209|Human|SLE|1975|MG812647|),
+ 5,,,,,,,,,Unknown(g3151-sle-2013 KM821893|G3151_SLE_2013|Human|SLE|2),
+ 5,,,,,,,,,Unknown(m.natalensis-wt/sle/2019/largo-00292 OM735971|M.na),
+ 5,,,,,,,,,Unknown(g3148-sle-2013 KM821891|G3148_SLE_2013|Human|SLE|2),
+ 5,,,,,,,,,Unknown(g2392-sle-2012 KM821849|G2392-SLE-2012|Homo_sapien),
+ 5,,,,,,,,,Unknown(g-8410-1 OQ919504|G-8410-1-1||SLE|2019-12-26|OQ919),
+ 5,,,,,,,,,Unknown(g-27653-1 OQ919506|G-27653-1-1||SLE|2022-05-28|OQ9),
+ 5,,,,,,,,,Unknown(g-7823-2 OQ919503|G-7823-2-1||SLE|2018-01-30|OQ919),
+ 5,,,,,,,,,Unknown(g692-sle-2009 KM821782|G692-SLE-2009|Homo_sapiens|),
+ 5,,,,,,,,,Unknown(m.natalensis-wt/sle/2019/largo-00291 OM735973|M.na),
+ 5,,,,,,,,,Unknown(g610-sle-2009 KM821776|G610_SLE_2009|Human|SLE|200),
+ 5,,,,,,,,,Unknown(g-7821-5 OQ919507|G-7821-5-1||SLE|2018-01-28|OQ919),
+ 5,,,,,,,,,Unknown(g2197-sle-2011 KM821829|G2197_SLE_2011|Human|SLE|2),
+ 5,,,,,,,,,Unknown(g2147-sle-2011 KM821823|G2147_SLE_2011|Human|SLE|2),
+ 5,,,,,,,,,Unknown(g-7661-1 OQ919505|G-7661-1-1||SLE|2017-08-03|OQ919),
+ 5,,,,,,,,,Unknown(g2315-sle-2012 KM821842|G2315_SLE_2012|Human|SLE|2),
+ 5,,,,,,,,,Unknown(g3206-sle-2013 KM821898|G3206_SLE_2013|Human|SLE|2),
+ 5,,,,,,,,,Unknown(g502-sle-2009 KM821772|G502_SLE_2009|Human|SLE|200),
+ 5,,,,,,,,,Unknown(g3010-sle-2013 KM821881|G3010_SLE_2013|Human|SLE|2),
+ 5,,,,,,,,,Unknown(g-27671-1 OQ919502|G-27671-1-1||SLE|2022-06-09|OQ9),
+ 5,,,,,,,,,Unknown(g-27952-1 OR113008|G-27952-1-1|Homo_sapiens|SLE|20),
+ 5,,,,,,,,,Unknown(g733-sle-2010 KM821786|G733_SLE_2010|Human|SLE|201),
+ 5,,,,,,,,,Unknown(g2612-sle-2012 KM821866|G2612_SLE_2012|Human|SLE|2),
+ 5,,,,,,,,,Unknown(g2165-sle-2011 KM821825|G2165_SLE_2011|Human|SLE|2),
+ 5,,,,,,,,,Unknown(g2565-sle-2012 KM821862|G2565-SLE-2012|Homo_sapien),
+ 5,,,,,,,,,Unknown(g676-sle-2009 KM821780|G676_SLE_2009|Human|SLE|200),
+ 5,,,,,,,,,Unknown(g808-sle-2010 KM821791|G808_SLE_2010|Human|SLE|201),
+ 5,,,,,,,,,Unknown(g2903-sle-2012 KM821875|G2903_SLE_2012|Human|SLE|2),
+ 5,,,,,,,,,Unknown(g2405-sle-2012 KM821851|G2405_SLE_2012|Human|SLE|2),
+ 5,,,,,,,,,Unknown(g3229-sle-2013 KM821901|G3229_SLE_2013|Human|SLE|2),
+ 5,,,,,,,,,Unknown(g2184-sle-2011 KM821827|G2184_SLE_2011|Human|SLE|2),
+ 5,,,,,,,,,Unknown(g2944-sle-2012 KM821879|G2944-SLE-2012|Homo_sapien),
+ 5,,,,,,,,,Unknown(g1792-sle-2011 KM821813|G1792_SLE_2011|Human|SLE|2),
+ 5,,,,,,,,,Unknown(g0959 |G0959-L||GIN|2023-07-31||G0959-S||GIN|2023-),
+ 5,,,,,,,,,Unknown(g1646-sle-2011 KM821805|G1646-SLE-2011|Homo_sapien),
+ 5,,,,,,,,,Unknown(g1727-sle-2011 KM821809|G1727-SLE-2011|Homo_sapien),
+ 5,,,,,,,,,Unknown(g1960-sle-2011 KM821819|G1960-SLE-2011|Homo_sapien),
+ 5,,,,,,,,,Unknown(g3016-sle-2013 KM821883|G3016_SLE_2013|Human|SLE|2),
+ 5,,,,,,,,,Unknown(g503-sle-2009 KM821774|G503_SLE_2009|Human|SLE|200),
+ 5,,,,,,,,,Unknown(g2427-sle-2012 KM821853|G2427_SLE_2012|Human|SLE|2),
+ 5,,,,,,,,,Unknown(g2554-sle-2012 KM821858|G2554_SLE_2012|Human|SLE|2),
+ 5,,,,,,,,,Unknown(g1618-sle-2011 KM821803|G1618_SLE_2011|Human|SLE|2),
+ 5,,,,,,,,,Unknown(g-8439-1 OQ919499|G-8439-1-1||SLE|2020-01-14|OQ919),
+ 5,,,,,,,,,Unknown(g2318-sle-2012 KM821844|G2318_SLE_2012|Human|SLE|2),
+ 5,,,,,,,,,Unknown(806827 MG812638|806827|Homo_sapiens|SLE|1977|MG812),
+
+ 6 ,7, 7772, 10201*, 7418, 9847*, 7718, 10147*,g-8439-1 OQ919499|G-8439-1-1||SLE|2020-01-14|OQ919,Unknown (g3206-sle-2013 KM821898|G3206_SLE_2013|Human|SLE|2),g2315-sle-2012 KM821842|G2315_SLE_2012|Human|SLE|2,NS,NS,NS, 1.14771136261685E-06, 6.74190784957848E-06, 3.55027788930543E-04,NS,NS, 2.43965484703068E-07,
+ 6,,,,,,,,,,g636-sle-2009 KM821778|G636_SLE_2009|Human|SLE|200
+
+ 7 ,9~, 8698, 8784, 8306, 8392, 8644, 8730,^yak-20 OR490754|Yak-20|Mastomys_natalensis|SLE|201,Unknown (saf-01 OR490743|Saf-01|Mastomys_natalensis|GIN|201),mad41 KT992427|Mad41|Mouse|GIN|2014-05-08|KT992417, 5.01491997114422E-06, 7.56402400048893E-05,NS, 3.36544660882288E-02,NS,NS,NS,NS,NS,
+ 7,,,,,,,,,Unknown(sil-03 OR490744|Sil-03|Mastomys_natalensis|GIN|201),mad63 KT992429|Mad63|Mouse|GIN|2014-05-09|KT992419
+ 7,,,,,,,,,,mad83 KT992431|Mad83|Mouse|GIN|2014-05-10|KT992421
+ 7,,,,,,,,,,mad69 KT992430|Mad69|Mouse|GIN|2014-05-09|KT992420
+ 7,,,,,,,,,,g733-sle-2010 KM821786|G733_SLE_2010|Human|SLE|201
+ 7,,,,,,,,,,g2165-sle-2011 KM821825|G2165_SLE_2011|Human|SLE|2
+ 7,,,,,,,,,,g1646-sle-2011 KM821805|G1646-SLE-2011|Homo_sapien
+ 7,,,,,,,,,,g2554-sle-2012 KM821858|G2554_SLE_2012|Human|SLE|2
+ 7,,,,,,,,,,mad62 KT992428|Mad62|Mouse|GIN|2014-05-09|KT992418
+
+ 8 ,10~, 4354, 7201, 4312, 5010, 4312, 7147,^yak-02 OR490752|Yak-02|Mastomys_natalensis|SLE|201,yak-20 OR490754|Yak-20|Mastomys_natalensis|SLE|201,Unknown (g3234-sle-2013 KM821903|G3234_SLE_2013|Human|SLE|2), 1.15697070183017E-05, 1.4380809129199E-06, 5.28714041092709E-05,NS, 2.19350579185135E-03, 1.26583178414073E-08,NS,NS,NS,
+ 8,,,,,,,,,,Unknown(g1529-sle-2011 KM821801|G1529_SLE_2011|Human|SLE|2)
+
+ 9 ,12~, 7722, 9502, 4189, 5893, 7668, 9448,bad-27 OR490748|Bad-27|Mastomys_natalensis|SLE|201,mak-67 OR490751|Mak-67|Mastomys_natalensis|SLE|201,fal-31 OR490750|Fal-31|Mastomys_natalensis|SLE|201, 4.50216476128764E-05,NS, 2.76302620203857E-04, 4.11311044099315E-04, 2.42892194362195E-02, 1.02258185930834E-04,NS,NS, 3.68432635636486E-02,
+ 9,,,,,,,,,,fal-26 OR490749|Fal-26|Mastomys_natalensis|SLE|201
+
+ 10 ,15~, 8504, 9500, 8444, 9440, 8450, 9446,^l.sikapusi-wt/sle/2019/barlie-00241 OM735975|L.sik,Unknown (g1013 |G1013-L||GIN|2024-01-31||G1013-S||GIN|2024-),g-7661-1 OQ919505|G-7661-1-1||SLE|2017-08-03|OQ919, 7.06070417595637E-04,NS, 3.74016158186961E-02,NS,NS, 6.46731508503385E-04,NS,NS,NS,
+ 10,,,,,,,,l.sikapusi-wt/sle/2019/barlie-00019 OM735991|L.sik,Unknown(lasv/gui/kis-2019 MT861993|KIS-2019|Human|GIN|2019),
+
+Table Key:
+~            = It is possible that this apparent recombination signal could have been caused by an evolutionary
+               process other than recombination.
+*            = The actual breakpoint position is undetermined (it was most likely overprinted by a subsequent 
+               recombination event).
+^            = The recombinant sequence may have been misidentified (one of the identified parents might be the recombinant)
+Minor Parent = Parent contributing the smaller fraction of sequence.
+Major Parent = Parent contributing the larger fraction of sequence.
+Unknown      = Only one parent and a recombinant need be in the alignment for a recombination event to be detectable.
+               The sequence listed as unknown was used to infer the existance of a missing parental sequence.
+NS           = No significant P-value was recorded for this recombination event using this method.

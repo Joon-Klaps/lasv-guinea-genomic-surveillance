@@ -1,0 +1,1266 @@
+IQ-TREE multicore version 2.1.4-beta COVID-edition for Linux 64-bit built Jun 24 2021
+Developed by Bui Quang Minh, James Barbetti, Nguyen Lam Tung,
+Olga Chernomor, Heiko Schmidt, Dominik Schrempf, Michael Woodhams.
+
+Host:    r22g40 (AVX512, FMA3, 187 GB RAM)
+Command: iqtree -B 1000 -m GTR+G -s LASV_GENBANK_20250725_curated.added_background_S_concat.fa -nt AUTO -ntmax 6 -mem 36GB
+Seed:    759614 (Using SPRNG - Scalable Parallel Random Number Generator)
+Time:    Fri Aug  8 08:07:32 2025
+Kernel:  AVX+FMA - auto-detect threads (6 CPU cores detected)
+
+Reading alignment file LASV_GENBANK_20250725_curated.added_background_S_concat.fa ... Fasta format detected
+Alignment most likely contains DNA/RNA sequences
+Alignment has 1062 sequences with 3186 columns, 2947 distinct patterns
+2115 parsimony-informative, 273 singleton sites, 798 constant sites
+                                                                                        Gap/Ambiguity  Composition  p-value
+   1  GU481060-GU481061|Nig07-05|Homo_sapiens|NGA|2007                                         73.41%    passed     97.15%
+   2  GU481063-GU481064|Nig08-02|Homo_sapiens|NGA|2008                                         53.45%    passed     63.02%
+   3  KF478765|Soromba-R|Mastomys_natalensis|MLI|2009-06                                        0.00%    passed     76.25%
+   4  KM406620-KM406552|LM0714|Mastomys_natalensis|SLE|2009-08-14                              80.51%    passed     26.58%
+   5  KM821781|G676-SLE-2009|Homo_sapiens|SLE|2009                                              0.00%    passed     84.83%
+   6  KM821783|G692-SLE-2009|Homo_sapiens|SLE|2009                                              0.00%    passed     82.02%
+   7  KM821785|G693-SLE-2009|Homo_sapiens|SLE|2009                                              0.00%    passed     70.66%
+   8  KM821789|G771-SLE-2010|Homo_sapiens|SLE|2010                                              0.00%    passed     73.57%
+   9  KM821794|G1180-SLE-2010|Homo_sapiens|SLE|2010                                             0.00%    passed     87.61%
+  10  KM821796|G1190-SLE-2010|Homo_sapiens|SLE|2010                                             0.00%    passed     79.52%
+  11  KM821806|G1646-SLE-2011|Homo_sapiens|SLE|2011                                             0.00%    passed     77.13%
+  12  KM821810|G1727-SLE-2011|Homo_sapiens|SLE|2011                                             0.03%    passed     77.08%
+  13  KM821820|G1960-SLE-2011|Homo_sapiens|SLE|2011                                             0.00%    passed     79.90%
+  14  KM821822|G2141-SLE-2011|Homo_sapiens|SLE|2011                                             0.00%    passed     43.93%
+  15  KM821841|G2295-SLE-2012|Homo_sapiens|SLE|2012                                             0.00%    passed     74.66%
+  16  KM821850|G2392-SLE-2012|Homo_sapiens|SLE|2012                                             0.09%    passed     78.78%
+  17  KM821863|G2565-SLE-2012|Homo_sapiens|SLE|2012                                             0.00%    passed     75.24%
+  18  KM821865|G2587-SLE-2012|Homo_sapiens|SLE|2012                                             0.00%    passed     74.95%
+  19  KM821880|G2944-SLE-2012|Homo_sapiens|SLE|2012                                             0.00%    passed     69.24%
+  20  KM821895|G3157-SLE-2013|Homo_sapiens|SLE|2013                                             0.00%    passed     77.16%
+  21  KM821900|G3222-SLE-2013|Homo_sapiens|SLE|2013                                             0.00%    passed     88.20%
+  22  KP339050|129|Mastomys_natalensis|GIN|2003-05-21                                          76.27%    passed     75.97%
+  23  KP339051|132|Mastomys_natalensis|GIN|2003-05-21                                          76.27%    passed     72.90%
+  24  KP339052|148|Mastomys_natalensis|GIN|2003-05-22                                          76.27%    passed     69.26%
+  25  KP339053|153|Mastomys_natalensis|GIN|2003-05-22                                          76.27%    passed     77.21%
+  26  KP339055|185|Mastomys_natalensis|GIN|2003-05-25                                          76.27%    passed     61.23%
+  27  KP339058|302|Mastomys_natalensis|GIN|2003-09-26                                          76.27%    passed     68.22%
+  28  KP339059|350|Mastomys_natalensis|GIN|2003-09-27                                          76.27%    passed     64.11%
+  29  KP339062|356|Mastomys_natalensis|GIN|2003-09-27                                          76.27%    passed     64.69%
+  30  KP339063|366|Mastomys_natalensis|GIN|2003-09-28                                          76.27%    passed     61.23%
+  31  KP339064|375|Mastomys_natalensis|GIN|2003-09-28                                          76.27%    passed     56.69%
+  32  KP339065|377|Mastomys_natalensis|GIN|2003-09-28                                          76.27%    passed     59.12%
+  33  KP339066|378|Mastomys_natalensis|GIN|2003-09-28                                          76.27%    passed     65.72%
+  34  KP339069|390|Mastomys_natalensis|GIN|2003-09-29                                          76.27%    passed     61.38%
+  35  KP339073|425|Mastomys_natalensis|GIN|2003-10-02                                          76.27%    passed     60.80%
+  36  KP339074|431|Mastomys_natalensis|GIN|2003-10-02                                          76.27%    passed     59.66%
+  37  KP339076|462|Mastomys_natalensis|GIN|2003-10-04                                          77.68%    passed     30.49%
+  38  KP339080|497|Mastomys_natalensis|GIN|2003-10-05                                          76.27%    passed     73.85%
+  39  KP339081|686|Mastomys_natalensis|GIN|2004-01-27                                          76.27%    passed     68.45%
+  40  KP339082|717|Mastomys_natalensis|GIN|2004-01-27                                          76.27%    passed     66.80%
+  41  KP339084|817|Mastomys_natalensis|GIN|2004-02-01                                          76.74%    passed     72.31%
+  42  KP339085|820|Mastomys_natalensis|GIN|2004-02-01                                          76.27%    passed     60.80%
+  43  KP339087|903|Mastomys_natalensis|GIN|2004-05-21                                          76.33%    passed     67.64%
+  44  KP339090|939|Mastomys_natalensis|GIN|2004-05-22                                          76.27%    passed     59.13%
+  45  KP339095|1007|Mastomys_natalensis|GIN|2004-05-29                                         77.02%    passed     56.11%
+  46  KP339096|1008|Mastomys_natalensis|GIN|2004-05-29                                         76.30%    passed     70.93%
+  47  KP339097|1010|Mastomys_natalensis|GIN|2004-05-29                                         76.27%    passed     73.30%
+  48  KP339098|1011|Mastomys_natalensis|GIN|2004-05-29                                         76.27%    passed     73.61%
+  49  KP339100|1034|Mastomys_natalensis|GIN|2004-05-30                                         76.27%    passed     74.20%
+  50  KP339105|1210|Mastomys_natalensis|GIN|2004-10-05                                         76.37%    passed     67.59%
+  51  KP339107|1241|Mastomys_natalensis|GIN|2004-10-06                                         76.27%    passed     62.59%
+  52  KP339109|1259|Mastomys_natalensis|GIN|2004-10-06                                         76.96%    passed     77.73%
+  53  KP339110|1276|Mastomys_natalensis|GIN|2004-10-10                                         76.27%    passed     72.92%
+  54  KP339111|1310|Mastomys_natalensis|GIN|2004-10-11                                         76.30%    passed     62.06%
+  55  KP339114|1549|Mastomys_natalensis|GIN|2005-01-27                                         76.27%    passed     64.68%
+  56  KP339116|1591|Mastomys_natalensis|GIN|2005-01-29                                         76.27%    passed     62.30%
+  57  KP339119|1645|Mastomys_natalensis|GIN|2005-01-31                                         76.27%    passed     57.95%
+  58  KP339120|1747|Mastomys_natalensis|GIN|2011-10-18                                         76.27%    passed     63.51%
+  59  KP339125|1826|Mastomys_natalensis|GIN|2011-10-21                                         76.27%    passed     56.66%
+  60  KP339128|1873|Mastomys_natalensis|GIN|2011-10-23                                         76.27%    passed     64.37%
+  61  KP339129|1878|Mastomys_natalensis|GIN|2011-10-23                                         76.27%    passed     67.71%
+  62  KP339130|1892|Mastomys_natalensis|GIN|2011-10-24                                         76.27%    passed     61.90%
+  63  KP339131|1918|Mastomys_natalensis|GIN|2011-10-25                                         76.27%    passed     77.90%
+  64  KP339133|1946|Mastomys_natalensis|GIN|2011-10-25                                         76.27%    passed     64.37%
+  65  KT833175|Sok07|Mastomys_natalensis|GIN|2013-11-08                                        76.33%    passed     67.17%
+  66  KT833177|Sok18|Mastomys_natalensis|GIN|2013-11-09                                        76.33%    passed     67.17%
+  67  KT833180|Sok32|Mastomys_natalensis|GIN|2013-11-10                                        76.33%    passed     67.98%
+  68  KT833182|Dam03|Mastomys_natalensis|GIN|2013-11-15                                        76.33%    passed     61.71%
+  69  KT833183|Dam05|Mastomys_natalensis|GIN|2013-11-15                                        76.33%    passed     57.84%
+  70  KT833184|Dam15|Mastomys_natalensis|GIN|2013-11-15                                        76.33%    passed     57.17%
+  71  KT833185|Dam20|Mastomys_natalensis|GIN|2013-11-16                                        76.33%    passed     56.11%
+  72  KT833186|Dam38|Mastomys_natalensis|GIN|2013-11-16                                        76.33%    passed     70.85%
+  73  KT833187|Dam49|Mastomys_natalensis|GIN|2013-11-17                                        76.33%    passed     59.65%
+  74  KT833188|Yar14|Mastomys_natalensis|GIN|2013-11-20                                        76.33%    passed     62.39%
+  75  KT833189|Yar20|Mastomys_natalensis|GIN|2013-11-20                                        76.33%    passed     61.28%
+  76  KT833190|Yar24|Mastomys_natalensis|GIN|2013-11-21                                        76.33%    passed     65.02%
+  77  KT833191|Yar36|Mastomys_natalensis|GIN|2013-11-21                                        76.33%    passed     70.09%
+  78  KT833192|Yar46|Mastomys_natalensis|GIN|2013-11-21                                        76.33%    passed     73.90%
+  79  KT833193|Kho10|Mastomys_natalensis|GIN|2013-11-24                                        76.33%    passed     71.46%
+  80  KT833194|Kho29|Mastomys_natalensis|GIN|2013-11-26                                        76.33%    passed     66.81%
+  81  KT833195|Kho30|Mastomys_natalensis|GIN|2013-11-26                                        76.33%    passed     75.56%
+  82  KT833197|Dal04|Mastomys_natalensis|GIN|2013-11-28                                        76.33%    passed     40.90%
+  83  KT833199|Dal17|Mastomys_natalensis|GIN|2013-11-29                                        76.37%    passed     72.56%
+  84  KT833200|Dal25|Mastomys_natalensis|GIN|2013-11-29                                        76.33%    passed     64.15%
+  85  KT833203|Saf01|Mastomys_natalensis|GIN|2013-12-03                                        76.33%    passed     72.33%
+  86  KT833204|Sil03|Mastomys_natalensis|GIN|2013-12-06                                        76.59%    passed     81.13%
+  87  KT833205|Bri08|Mastomys_natalensis|GIN|2013-12-14                                        76.33%    passed     67.98%
+  88  KT833206|Bri39|Mastomys_natalensis|GIN|2013-12-16                                        76.33%    passed     83.14%
+  89  KT833207|Dam71|Mastomys_natalensis|GIN|2014-03-26                                        76.33%    passed     73.07%
+  90  KT833208|Dam72|Mastomys_natalensis|GIN|2014-03-26                                        76.33%    passed     71.86%
+  91  KT833209|Dam90|Mastomys_natalensis|GIN|2014-03-27                                        76.33%    passed     47.54%
+  92  KT833210|Dam95|Mastomys_natalensis|GIN|2014-03-27                                        76.33%    passed     60.57%
+  93  KT833211|Sok40|Mastomys_natalensis|GIN|2014-04-03                                        76.33%    passed     69.65%
+  94  KT833213|Sok51|Mastomys_natalensis|GIN|2014-04-03                                        76.33%    passed     62.65%
+  95  KT833214|Sok61|Mastomys_natalensis|GIN|2014-04-04                                        76.33%    passed     50.58%
+  96  KT833216|Sok75|Mastomys_natalensis|GIN|2014-04-05                                        76.33%    passed     50.58%
+  97  KT833217|Sok76|Mastomys_natalensis|GIN|2014-04-05                                        76.33%    passed     50.45%
+  98  KT833219|Son85|Mastomys_natalensis|GIN|2014-04-08                                        76.33%    passed     65.25%
+  99  KT833220|Son109|Mastomys_natalensis|GIN|2014-04-09                                       76.33%    passed     68.33%
+ 100  KT833221|Yar51|Mastomys_natalensis|GIN|2014-04-13                                        76.33%    passed     64.18%
+ 101  KT833222|Dal53|Mastomys_natalensis|GIN|2014-04-19                                        76.33%    passed     61.57%
+ 102  KT992418|Mad62|Mastomys_erythroleucus|GIN|2014-05-09                                      0.00%    passed     81.80%
+ 103  MF990888|Lassa/H.sapiens-wt/TGO/2016/201600568|Homo_sapiens|TGO|2016-03-12                0.66%    passed     86.49%
+ 104  MG812639|806827|Homo_sapiens|SLE|1977                                                     0.00%    passed     84.97%
+ 105  MG812657|LF13006|Homo_sapiens|LBR|2013-04-29                                              0.00%    passed     58.75%
+ 106  MG812661|LF13007|Homo_sapiens|LBR|2013-04-29                                              0.00%    passed     71.40%
+ 107  MG812667|LF17007|Homo_sapiens|LBR|2017-01-09                                              0.00%    passed     63.58%
+ 108  MG812670|LF17020|Homo_sapiens|LBR|2017-05-02                                              0.00%    passed     68.30%
+ 109  MG812673|LF17001|Homo_sapiens|LBR|2017-01-09                                              0.00%    passed     45.90%
+ 110  MH028396-MH028399|Odo-akaba_13|Mus_baoulei|BEN|2017-10-13                                 4.08%    passed     12.92%
+ 111  MH028397-MH028400|Worogui_50|Mus_baoulei|BEN|2017-09-24                                   6.81%    passed     12.61%
+ 112  MH028398-MH028401|Worogui_51|Mus_baoulei|BEN|2017-09-24                                   4.08%    passed     27.21%
+ 113  MH053463|Lassa_virus/H.sapiens-wt/NGA/2016/ISTH_0917|Homo_sapiens|NGA|2016-03-13          0.09%    passed     83.23%
+ 114  MH053468|Lassa_virus/H.sapiens-wt/NGA/2016/ISTH_1546|Homo_sapiens|NGA|2016-10-16          0.09%    passed     74.94%
+ 115  MH053470|Lassa_virus/H.sapiens-wt/NGA/2016/ISTH_0419|Homo_sapiens|NGA|2016-01-28          0.09%    passed     98.03%
+ 116  MH053472|Lassa_virus/H.sapiens-wt/NGA/2016/ISTH_1604|Homo_sapiens|NGA|2016-11-05          0.09%    passed     67.93%
+ 117  MH053474|Lassa_virus/H.sapiens-wt/NGA/2016/ISTH_0621|Homo_sapiens|NGA|2016-02-12          0.09%    passed     75.74%
+ 118  MH053475|Lassa_virus/H.sapiens-wt/NGA/2015/ISTH_0831|Homo_sapiens|NGA|2015-12-30          0.09%    passed     64.89%
+ 119  MH053476|Lassa_virus/H.sapiens-wt/NGA/2016/ISTH_0717|Homo_sapiens|NGA|2016-02-23          0.09%    passed     94.60%
+ 120  MH053478|Lassa_virus/H.sapiens-wt/NGA/2016/ISTH_0187|Homo_sapiens|NGA|2016-01-17          0.09%    passed     86.07%
+ 121  MH053480|Lassa_virus/H.sapiens-wt/NGA/2015/ISTH_0789|Homo_sapiens|NGA|2015-12-15          0.09%    passed     87.78%
+ 122  MH053482|Lassa_virus/H.sapiens-wt/NGA/2016/ISTH_1541|Homo_sapiens|NGA|2016-10-13          0.09%    passed     62.35%
+ 123  MH053483|Lassa_virus/H.sapiens-wt/NGA/2016/ISTH_1174|Homo_sapiens|NGA|2016-04-29          0.09%    passed     88.77%
+ 124  MH053484|Lassa_virus/H.sapiens-wt/NGA/2016/ISTH_0702|Homo_sapiens|NGA|2016-02-23          0.09%    passed     98.94%
+ 125  MH053485|Lassa_virus/H.sapiens-wt/NGA/2016/ISTH_0447|Homo_sapiens|NGA|2016-02-02          0.09%    passed     90.23%
+ 126  MH053487|Lassa_virus/H.sapiens-wt/NGA/2016/ISTH_1568|Homo_sapiens|NGA|2016-10-27          0.09%    passed     98.04%
+ 127  MH053488|Lassa_virus/H.sapiens-wt/NGA/2016/ISTH_1250|Homo_sapiens|NGA|2016-05-18          0.09%    passed     99.17%
+ 128  MH053490|Lassa_virus/H.sapiens-wt/NGA/2016/ISTH_0314|Homo_sapiens|NGA|2016-01-23          1.41%    passed     95.89%
+ 129  MH053491|Lassa_virus/H.sapiens-wt/NGA/2016/ISTH_0017|Homo_sapiens|NGA|2016-01-04          0.09%    passed     95.51%
+ 130  MH053493|Lassa_virus/H.sapiens-wt/NGA/2016/ISTH_0176|Homo_sapiens|NGA|2016-01-17          0.09%    passed     84.66%
+ 131  MH053497|Lassa_virus/H.sapiens-wt/NGA/2016/ISTH_0009|Homo_sapiens|NGA|2016-01-02          0.09%    passed     88.57%
+ 132  MH053498|Lassa_virus/H.sapiens-wt/NGA/2015/ISTH_0736|Homo_sapiens|NGA|2015-11-27          0.09%    passed     93.95%
+ 133  MH053501|Lassa_virus/H.sapiens-wt/NGA/2016/ISTH_1311|Homo_sapiens|NGA|2016-06-10          0.09%    passed     95.14%
+ 134  MH053502|Lassa_virus/H.sapiens-wt/NGA/2016/ISTH_1423|Homo_sapiens|NGA|2016-08-16          0.09%    passed     87.02%
+ 135  MH053506|Lassa_virus/H.sapiens-wt/NGA/2016/ISTH_1496|Homo_sapiens|NGA|2016-09-21          0.09%    passed     83.04%
+ 136  MH053511|Lassa_virus/H.sapiens-wt/NGA/2015/ISTH_0687|Homo_sapiens|NGA|2015-11-10          0.09%    passed     91.68%
+ 137  MH053513|Lassa_virus/H.sapiens-wt/NGA/2015/ISTH_0547|Homo_sapiens|NGA|2015-09-14          0.09%    passed     98.05%
+ 138  MH053514|Lassa_virus/H.sapiens-wt/NGA/2016/ISTH_0610|Homo_sapiens|NGA|2016-02-15          0.09%    passed     97.32%
+ 139  MH053518|Lassa_virus/H.sapiens-wt/NGA/2016/ISTH_1462|Homo_sapiens|NGA|2016-09-04          0.09%    passed     95.50%
+ 140  MH053522|Lassa_virus/H.sapiens-wt/NGA/2016/ISTH_1026|Homo_sapiens|NGA|2016-04-04          0.09%    passed     90.32%
+ 141  MH053526|Lassa_virus/H.sapiens-wt/NGA/2016/ISTH_0759|Homo_sapiens|NGA|2016-02-28          0.09%    passed     97.41%
+ 142  MH053527|Lassa_virus/H.sapiens-wt/NGA/2016/ISTH_0543|Homo_sapiens|NGA|2016-02-08          0.09%    passed     86.08%
+ 143  MH053528|Lassa_virus/H.sapiens-wt/NGA/2016/ISTH_0703|Homo_sapiens|NGA|2016-02-24          0.09%    passed     97.31%
+ 144  MH053531|Lassa_virus/H.sapiens-wt/NGA/2016/ISTH_1207|Homo_sapiens|NGA|2016-05-03          0.09%    passed     97.09%
+ 145  MH053533|Lassa_virus/H.sapiens-wt/NGA/2016/ISTH_1069|Homo_sapiens|NGA|2016-04-13          0.09%    passed     95.70%
+ 146  MH053536|Lassa_virus/H.sapiens-wt/NGA/2016/ISTH_1610|Homo_sapiens|NGA|2016-11-07          0.09%    passed     93.34%
+ 147  MH053537|Lassa_virus/H.sapiens-wt/NGA/2016/ISTH_1472|Homo_sapiens|NGA|2016-09-13          0.09%    passed     88.65%
+ 148  MH053544|Lassa_virus/H.sapiens-wt/NGA/2016/ISTH_0753|Homo_sapiens|NGA|2016-02-28          0.09%    passed     92.60%
+ 149  MH053545|Lassa_virus/H.sapiens-wt/NGA/2016/ISTH_0572|Homo_sapiens|NGA|2016-02-11          0.09%    passed     93.05%
+ 150  MH053552|Lassa_virus/H.sapiens-wt/NGA/2016/ISTH_0777|Homo_sapiens|NGA|2016-02-28          0.09%    passed     90.63%
+ 151  MH053553|Lassa_virus/H.sapiens-wt/NGA/2015/ISTH_0681|Homo_sapiens|NGA|2015-11-06          0.09%    passed     98.05%
+ 152  MH053554|Lassa_virus/H.sapiens-wt/NGA/2016/ISTH_0035|Homo_sapiens|NGA|2016-01-06          0.09%    passed     96.11%
+ 153  MH053555|Lassa_virus/H.sapiens-wt/NGA/2016/ISTH_0089|Homo_sapiens|NGA|2016-01-10          3.64%    passed     93.99%
+ 154  MH053557|Lassa_virus/H.sapiens-wt/NGA/2016/ISTH_1306|Homo_sapiens|NGA|2016-06-08          0.09%    passed     96.02%
+ 155  MH053559|Lassa_virus/H.sapiens-wt/NGA/2015/ISTH_0682|Homo_sapiens|NGA|2015-11-06          0.09%    passed     96.74%
+ 156  MH053560|Lassa_virus/H.sapiens-wt/NGA/2016/ISTH_1150|Homo_sapiens|NGA|2016-04-25          0.09%    passed     88.13%
+ 157  MH053561|Lassa_virus/H.sapiens-wt/NGA/2016/ISTH_0701|Homo_sapiens|NGA|2016-02-23          0.09%    passed     80.93%
+ 158  MH053562|Lassa_virus/H.sapiens-wt/NGA/2016/ISTH_0104|Homo_sapiens|NGA|2016-01-05          0.09%    passed     81.66%
+ 159  MH053567|Lassa_virus/H.sapiens-wt/NGA/2016/ISTH_0133|Homo_sapiens|NGA|2016-01-14          0.09%    passed     77.64%
+ 160  MH053572|Lassa_virus/H.sapiens-wt/NGA/2016/ISTH_0565|Homo_sapiens|NGA|2016-02-11          0.09%    passed     94.55%
+ 161  MH053573|Lassa_virus/H.sapiens-wt/NGA/2015/ISTH_0543|Homo_sapiens|NGA|2015-09-14          0.09%    passed     97.14%
+ 162  MH053574|Lassa_virus/H.sapiens-wt/NGA/2015/ISTH_0821|Homo_sapiens|NGA|2015-12-27          0.09%    passed     98.66%
+ 163  MH053575|Lassa_virus/H.sapiens-wt/NGA/2016/ISTH_1006|Homo_sapiens|NGA|2016-03-24          0.09%    passed     99.51%
+ 164  MH053577|Lassa_virus/H.sapiens-wt/NGA/2016/ISTH_1591|Homo_sapiens|NGA|2016-11-02          0.09%    passed     91.14%
+ 165  MH053578|Lassa_virus/H.sapiens-wt/NGA/2016/ISTH_0141|Homo_sapiens|NGA|2016-01-14          0.09%    passed     90.35%
+ 166  MH053580|Lassa_virus/H.sapiens-wt/NGA/2016/ISTH_1070|Homo_sapiens|NGA|2016-04-13          0.09%    passed     89.72%
+ 167  MH053582|Lassa_virus/H.sapiens-wt/NGA/2016/ISTH_0199|Homo_sapiens|NGA|2016-01-18          0.09%    passed     96.59%
+ 168  MH053584|Lassa_virus/H.sapiens-wt/NGA/2016/ISTH_0779|Homo_sapiens|NGA|2016-02-29          0.25%    passed     93.21%
+ 169  MH053586|Lassa_virus/H.sapiens-wt/NGA/2015/ISTH_0574|Homo_sapiens|NGA|2015-09-16          0.09%    passed     94.27%
+ 170  MH053588|Lassa_virus/H.sapiens-wt/NGA/2016/ISTH_0919|Homo_sapiens|NGA|2016-03-16          0.09%    passed     95.19%
+ 171  MH053589|Lassa_virus/H.sapiens-wt/NGA/2016/ISTH_1609|Homo_sapiens|NGA|2016-11-01          0.09%    passed     77.69%
+ 172  MH157028|Lassa_virus/H.sapiens-wt/NGA/2018/ISTH_0664|Homo_sapiens|NGA|2018-02-04          0.09%    passed     98.27%
+ 173  MH157032|Lassa_virus/H.sapiens-wt/NGA/2018/ISTH_0959|Homo_sapiens|NGA|2018-02-12          0.09%    passed     90.75%
+ 174  MH157034|Lassa_virus/H.sapiens-wt/NGA/2018/ISTH_1177|Homo_sapiens|NGA|2018-02-18          0.09%    passed     84.12%
+ 175  MH157037|Lassa_virus/H.sapiens-wt/NGA/2018/ISTH_1024|Homo_sapiens|NGA|2018-02-14          0.09%    passed     91.30%
+ 176  MH157038|Lassa_virus/H.sapiens-wt/NGA/2018/ISTH_1079|Homo_sapiens|NGA|2018-02-15          0.09%    passed     94.38%
+ 177  MH157039|Lassa_virus/H.sapiens-wt/NGA/2018/ISTH_0611|Homo_sapiens|NGA|2018-02-02          7.16%    passed     94.71%
+ 178  MH157041|Lassa_virus/H.sapiens-wt/NGA/2018/ISTH_1381|Homo_sapiens|NGA|2018-02-23          0.09%    passed     99.45%
+ 179  MH157044|Lassa_virus/H.sapiens-wt/NGA/2018/ISTH_0541|Homo_sapiens|NGA|2018-01-02          0.19%    passed     94.91%
+ 180  MH157045|Lassa_virus/H.sapiens-wt/NGA/2018/ISTH_1375|Homo_sapiens|NGA|2018-02-23          0.09%    passed     89.52%
+ 181  MH157046|Lassa_virus/H.sapiens-wt/NGA/2018/ISTH_0026|Homo_sapiens|NGA|2018-01-07         14.47%    passed     44.14%
+ 182  MH157050|Lassa_virus/H.sapiens-wt/NGA/2018/ISTH_1643|Homo_sapiens|NGA|2018-03-05          0.09%    passed     95.42%
+ 183  MH157052|Lassa_virus/H.sapiens-wt/NGA/2018/ISTH_1392|Homo_sapiens|NGA|2018-02-24          4.68%    passed     99.76%
+ 184  MH215279|LF18001|Homo_sapiens|LBR|2018-01-10                                              0.00%    passed     68.86%
+ 185  MH215281|LF18002|Homo_sapiens|GIN|2018-01-10                                              0.00%    passed     65.69%
+ 186  MH215283|LF18037|Homo_sapiens|LBR|2018-02-13                                              0.00%    passed     55.17%
+ 187  MH215285|LF18040|Homo_sapiens|LBR|2018-03-02                                              0.00%    passed     83.79%
+ 188  MH215287|LF18041|Homo_sapiens|LBR|2018-03-03                                              0.00%    passed     52.38%
+ 189  MH215289|LF18042|Homo_sapiens|LBR|2018-03-01                                              0.00%    passed     71.56%
+ 190  MH887755|H.sapiens-wt/NGA/2018/LASV0194-EDO-2018|Homo_sapiens|NGA|2018-02-17              0.09%    passed     96.72%
+ 191  MH887756|H.sapiens-wt/NGA/2018/LASV0151-EDO-2018|Homo_sapiens|NGA|2018-02-02              2.13%    passed     85.95%
+ 192  MH887757|H.sapiens-wt/NGA/2018/LASV0105-ONDO-2017|Homo_sapiens|NGA|2017-12-17             0.09%    passed     97.32%
+ 193  MH887758|H.sapiens-wt/NGA/2018/LASV0096-ONDO-2017|Homo_sapiens|NGA|2017-09-18             0.09%    passed     99.54%
+ 194  MH887759|H.sapiens-wt/NGA/2018/LASV0208-EDO-2018|Homo_sapiens|NGA|2018-03-01              0.09%    passed     71.95%
+ 195  MH887760|H.sapiens-wt/NGA/2018/LASV0212-EDO-2018|Homo_sapiens|NGA|2018-03-11              0.97%    passed     94.88%
+ 196  MH887761|H.sapiens-wt/NGA/2018/LASV0093-EDO-2017|Homo_sapiens|NGA|2017-08-19              0.09%    passed     99.06%
+ 197  MH887762|H.sapiens-wt/NGA/2018/LASV0215-ONDO-2018|Homo_sapiens|NGA|2018-03-21             0.09%    passed     97.34%
+ 198  MH887763|H.sapiens-wt/NGA/2018/LASV0075-EDO-2017|Homo_sapiens|NGA|2017-03-15              0.09%    passed     98.84%
+ 199  MH887764|H.sapiens-wt/NGA/2018/LASV0144-ONDO-2018|Homo_sapiens|NGA|2018-01-23             0.09%    passed     97.74%
+ 200  MH887765|H.sapiens-wt/NGA/2018/LASV0138-KOGI-2018|Homo_sapiens|NGA|2018-01-17             0.09%    passed     91.48%
+ 201  MH887767|H.sapiens-wt/NGA/2018/LASV0158-EDO-2018|Homo_sapiens|NGA|2018-02-06              0.09%    passed     76.60%
+ 202  MH887768|H.sapiens-wt/NGA/2018/LASV0192-ONDO-2018|Homo_sapiens|NGA|2018-02-16             0.09%    passed     96.29%
+ 203  MH887770|H.sapiens-wt/NGA/2018/LASV0119-EDO-2018|Homo_sapiens|NGA|2018-01-09              0.09%    passed     97.03%
+ 204  MH887771|H.sapiens-wt/NGA/2018/LASV0147-EDO-2018|Homo_sapiens|NGA|2018-01-26              0.09%    passed     79.00%
+ 205  MH887772|H.sapiens-wt/NGA/2018/LASV0101-EDO-2017|Homo_sapiens|NGA|2017-11-10              0.09%    passed     98.01%
+ 206  MH887773|H.sapiens-wt/NGA/2018/LASV0109-ONDO-2017|Homo_sapiens|NGA|2017-12-18             0.09%    passed     94.11%
+ 207  MH887774|H.sapiens-wt/NGA/2018/LASV0191-ONDO-2018|Homo_sapiens|NGA|2018-02-15             0.09%    passed     93.55%
+ 208  MH887775|H.sapiens-wt/NGA/2018/LASV0156-ONDO-2018|Homo_sapiens|NGA|2018-02-05             0.09%    passed     97.00%
+ 209  MH887777|H.sapiens-wt/NGA/2018/LASV0216-EDO-2018|Homo_sapiens|NGA|2018-03-23              0.09%    passed     97.11%
+ 210  MH887778|H.sapiens-wt/NGA/2018/LASV0079-EDO-2017|Homo_sapiens|NGA|2017-05-15              0.09%    passed     99.70%
+ 211  MH887780|H.sapiens-wt/NGA/2018/LASV0172-ONDO-2018|Homo_sapiens|NGA|2018-02-12             0.09%    passed     99.07%
+ 212  MH887781|H.sapiens-wt/NGA/2018/LASV0128-ONDO-2018|Homo_sapiens|NGA|2018-01-14             1.00%    passed     91.03%
+ 213  MH887782|H.sapiens-wt/NGA/2018/LASV0197-EDO-2018|Homo_sapiens|NGA|2018-02-19              0.44%    passed     93.68%
+ 214  MH887783|H.sapiens-wt/NGA/2018/LASV0076-EDO-2017|Homo_sapiens|NGA|2017-03-16              0.09%    passed     84.84%
+ 215  MH887785|H.sapiens-wt/NGA/2018/LASV0209-KOGI-2018|Homo_sapiens|NGA|2018-03-02             0.09%    passed     99.36%
+ 216  MH887786|H.sapiens-wt/NGA/2018/LASV0141-EDO-2018|Homo_sapiens|NGA|2018-01-19              0.09%    passed     94.32%
+ 217  MH887787|H.sapiens-wt/NGA/2018/LASV0081-EDO-2017|Homo_sapiens|NGA|2017-06-05              0.09%    passed     91.76%
+ 218  MH887788|H.sapiens-wt/NGA/2018/LASV0107-ONDO-2017|Homo_sapiens|NGA|2017-12-17             0.09%    passed     84.60%
+ 219  MH887789|H.sapiens-wt/NGA/2018/LASV0090-ONDO-2017|Homo_sapiens|NGA|2017-07-19             0.09%    passed     97.68%
+ 220  MH887790|H.sapiens-wt/NGA/2018/LASV0120-ONDO-2018|Homo_sapiens|NGA|2018-01-11             0.09%    passed     95.61%
+ 221  MH887791|H.sapiens-wt/NGA/2018/LASV0106-ONDO-2017|Homo_sapiens|NGA|2017-12-17             0.09%    passed     96.17%
+ 222  MH887793|H.sapiens-wt/NGA/2018/LASV0065-ONDO-2017|Homo_sapiens|NGA|2017-01-09             0.09%    passed     84.70%
+ 223  MH887794|H.sapiens-wt/NGA/2018/LASV0115-ONDO-2018|Homo_sapiens|NGA|2018-01-06             2.17%    passed     98.56%
+ 224  MH887795|H.sapiens-wt/NGA/2018/LASV0112-ONDO-2017|Homo_sapiens|NGA|2017-12-29             0.09%    passed     79.27%
+ 225  MH887796|H.sapiens-wt/NGA/2018/LASV0160-KOGI-2018|Homo_sapiens|NGA|2018-02-06             0.09%    passed     95.37%
+ 226  MH887797|H.sapiens-wt/NGA/2018/LASV0103-EDO-2017|Homo_sapiens|NGA|2017-11-29              0.09%    passed     98.16%
+ 227  MH887798|H.sapiens-wt/NGA/2018/LASV0199.2-EDO-2018|Homo_sapiens|NGA|2018-02-25            1.26%    passed     91.13%
+ 228  MH887799|H.sapiens-wt/NGA/2018/LASV0165-EBONYI-2018|Homo_sapiens|NGA|2018-02-10           0.09%    passed     95.43%
+ 229  MH887800|H.sapiens-wt/NGA/2018/LASV0082-EDO-2017|Homo_sapiens|NGA|2017-06-07              0.09%    passed     91.76%
+ 230  MH887801|H.sapiens-wt/NGA/2018/LASV0083-ONDO-2017|Homo_sapiens|NGA|2017-06-13             0.09%    passed     98.37%
+ 231  MH887803|H.sapiens-wt/NGA/2018/LASV0207-ONDO-2018|Homo_sapiens|NGA|2018-02-28             0.09%    passed     98.68%
+ 232  MH887804|H.sapiens-wt/NGA/2018/LASV0123-ONDO-2018|Homo_sapiens|NGA|2018-01-12             0.09%    passed     97.55%
+ 233  MH887805|H.sapiens-wt/NGA/2018/LASV0117-ONDO-2018|Homo_sapiens|NGA|2018-01-07             0.09%    passed     96.11%
+ 234  MH887806|H.sapiens-wt/NGA/2018/LASV0188-ONDO-2018|Homo_sapiens|NGA|2018-02-14             0.09%    passed     98.07%
+ 235  MH887807|H.sapiens-wt/NGA/2018/LASV0173-EDO-2018|Homo_sapiens|NGA|2018-02-12              0.09%    passed     95.36%
+ 236  MH887808|H.sapiens-wt/NGA/2018/LASV0088-EDO-2017|Homo_sapiens|NGA|2017-06-27              0.09%    passed     98.55%
+ 237  MH887809|H.sapiens-wt/NGA/2018/LASV0142-IMO-2018|Homo_sapiens|NGA|2018-01-19              0.09%    passed     92.51%
+ 238  MH887810|H.sapiens-wt/NGA/2018/LASV0149-KOGI-2018|Homo_sapiens|NGA|2018-01-30             0.09%    passed     79.90%
+ 239  MH887811|H.sapiens-wt/NGA/2018/LASV0084-EDO-2017|Homo_sapiens|NGA|2017-06-16              0.09%    passed     95.74%
+ 240  MH887812|H.sapiens-wt/NGA/2018/LASV0184-ONDO-2018|Homo_sapiens|NGA|2018-02-13             3.30%    passed     98.89%
+ 241  MH887813|H.sapiens-wt/NGA/2018/LASV0199-EDO-2018|Homo_sapiens|NGA|2018-02-20              0.09%    passed     93.06%
+ 242  MH887814|H.sapiens-wt/NGA/2018/LASV0176-EDO-2018|Homo_sapiens|NGA|2018-02-12              1.66%    passed     85.69%
+ 243  MH887815|H.sapiens-wt/NGA/2018/LASV0133-EDO-2018|Homo_sapiens|NGA|2018-01-16              0.09%    passed     99.00%
+ 244  MH887816|H.sapiens-wt/NGA/2018/LASV0130-EDO-2018|Homo_sapiens|NGA|2018-01-15              0.66%    passed     81.58%
+ 245  MH887817|H.sapiens-wt/NGA/2018/LASV0073-EDO-2017|Homo_sapiens|NGA|2017-03-07              0.09%    passed     92.56%
+ 246  MH887818|H.sapiens-wt/NGA/2018/LASV0159-KOGI-2018|Homo_sapiens|NGA|2018-02-06             0.09%    passed     94.02%
+ 247  MH887819|H.sapiens-wt/NGA/2018/LASV0140-EDO-2018|Homo_sapiens|NGA|2018-01-18              0.09%    passed     95.26%
+ 248  MH887820|H.sapiens-wt/NGA/2018/LASV0126-EBONYI-2018|Homo_sapiens|NGA|2018-01-13           0.09%    passed     92.53%
+ 249  MH887821|H.sapiens-wt/NGA/2018/LASV0164-ONDO-2018|Homo_sapiens|NGA|2018-02-09             0.09%    passed     93.35%
+ 250  MH887822|H.sapiens-wt/NGA/2018/LASV0071-EDO-2017|Homo_sapiens|NGA|2017-02-14              0.09%    passed     99.03%
+ 251  MH887823|H.sapiens-wt/NGA/2018/LASV0100-EDO-2017|Homo_sapiens|NGA|2017-10-18              0.19%    passed     94.10%
+ 252  MH887824|H.sapiens-wt/NGA/2018/LASV0202-EDO-2018|Homo_sapiens|NGA|2018-02-22              0.09%    passed     96.74%
+ 253  MH887825|H.sapiens-wt/NGA/2018/LASV0214-KOGI-2018|Homo_sapiens|NGA|2018-03-18             0.09%    passed     96.09%
+ 254  MH887826|H.sapiens-wt/NGA/2018/LASV0085-EDO-2017|Homo_sapiens|NGA|2017-06-17              0.09%    passed     94.45%
+ 255  MH887827|H.sapiens-wt/NGA/2018/LASV0067-EDO-2017|Homo_sapiens|NGA|2017-01-24              0.09%    passed     90.62%
+ 256  MH887828|H.sapiens-wt/NGA/2018/LASV0195-EBONYI-2018|Homo_sapiens|NGA|2018-02-17           0.09%    passed     95.39%
+ 257  MH887829|H.sapiens-wt/NGA/2018/LASV0185-ONDO-2018|Homo_sapiens|NGA|2018-02-13             0.09%    passed     99.07%
+ 258  MH887830|H.sapiens-wt/NGA/2018/LASV0094-KOGI-2017|Homo_sapiens|NGA|2017-09-02             0.09%    passed     97.56%
+ 259  MH887831|H.sapiens-wt/NGA/2018/LASV0069-EDO-2017|Homo_sapiens|NGA|2017-02-07              0.09%    passed     94.21%
+ 260  MH887832|H.sapiens-wt/NGA/2018/LASV0217-DELTA-2018|Homo_sapiens|NGA|2018-03-27            0.09%    passed     92.10%
+ 261  MH887833|H.sapiens-wt/NGA/2018/LASV0118-EDO-2018|Homo_sapiens|NGA|2018-01-09              0.09%    passed     99.15%
+ 262  MH887834|H.sapiens-wt/NGA/2018/LASV0168-DELTA-2018|Homo_sapiens|NGA|2018-02-10            0.09%    passed     98.71%
+ 263  MH887835|H.sapiens-wt/NGA/2018/LASV0102-ONDO-2017|Homo_sapiens|NGA|2017-11-26             0.19%    passed     69.89%
+ 264  MH887836|H.sapiens-wt/NGA/2018/LASV0170-ONDO-2018|Homo_sapiens|NGA|2018-02-11             0.09%    passed     93.45%
+ 265  MH887837|H.sapiens-wt/NGA/2018/LASV0125-EBONYI-2018|Homo_sapiens|NGA|2018-01-13           0.09%    passed     72.23%
+ 266  MH887838|H.sapiens-wt/NGA/2018/LASV0086-EDO-2017|Homo_sapiens|NGA|2017-06-25              0.09%    passed     98.70%
+ 267  MH887839|H.sapiens-wt/NGA/2018/LASV0201-ONDO-2018|Homo_sapiens|NGA|2018-02-21             0.09%    passed     98.29%
+ 268  MH887840|H.sapiens-wt/NGA/2018/LASV0092-EDO-2017|Homo_sapiens|NGA|2017-08-04              0.09%    passed     99.34%
+ 269  MH887841|H.sapiens-wt/NGA/2018/LASV0091-EDO-2017|Homo_sapiens|NGA|2017-08-03              0.09%    passed     93.64%
+ 270  MH887842|H.sapiens-wt/NGA/2018/LASV0097-EDO-2017|Homo_sapiens|NGA|2017-10-06              0.09%    passed     95.04%
+ 271  MH887843|H.sapiens-wt/NGA/2018/LASV0111-ONDO-2017|Homo_sapiens|NGA|2017-12-28             0.09%    passed     94.14%
+ 272  MH887844|H.sapiens-wt/NGA/2018/LASV0089-ONDO-2017|Homo_sapiens|NGA|2017-07-05             0.09%    passed     98.77%
+ 273  MH887845|H.sapiens-wt/NGA/2018/LASV0190-ONDO-2018|Homo_sapiens|NGA|2018-02-15             0.09%    passed     95.28%
+ 274  MH887846|H.sapiens-wt/NGA/2018/LASV0122-ONDO-2018|Homo_sapiens|NGA|2018-01-11             0.09%    passed     93.67%
+ 275  MH887847|H.sapiens-wt/NGA/2018/LASV0210-EDO-2018|Homo_sapiens|NGA|2018-03-03              0.09%    passed     78.72%
+ 276  MH887848|H.sapiens-wt/NGA/2018/LASV0108-ONDO-2017|Homo_sapiens|NGA|2017-12-17             0.09%    passed     95.29%
+ 277  MH887849|H.sapiens-wt/NGA/2018/LASV0104-ONDO-2017|Homo_sapiens|NGA|2017-12-12             0.09%    passed     99.14%
+ 278  MH887850|H.sapiens-wt/NGA/2018/LASV0157-ONDO-2018|Homo_sapiens|NGA|2018-02-05             2.98%    passed     98.92%
+ 279  MH887851|H.sapiens-wt/NGA/2018/LASV0146-EDO-2018|Homo_sapiens|NGA|2018-01-24              0.09%    passed     95.35%
+ 280  MH887854|H.sapiens-wt/NGA/2018/LASV0095-EDO-2017|Homo_sapiens|NGA|2017-09-14              0.09%    passed     95.05%
+ 281  MH887855|H.sapiens-wt/NGA/2018/LASV0163-ONDO-2018|Homo_sapiens|NGA|2018-02-09             0.09%    passed     96.17%
+ 282  MH887857|H.sapiens-wt/NGA/2018/LASV0177-EDO-2018|Homo_sapiens|NGA|2018-02-12              0.09%    passed     97.25%
+ 283  MH887858|H.sapiens-wt/NGA/2018/LASV0167-ONDO-2018|Homo_sapiens|NGA|2018-02-10             0.09%    passed     99.44%
+ 284  MH887859|H.sapiens-wt/NGA/2018/LASV0161-ONDO-2018|Homo_sapiens|NGA|2018-02-06             2.54%    passed     95.47%
+ 285  MH887860|H.sapiens-wt/NGA/2018/LASV0127-EBONYI-2018|Homo_sapiens|NGA|2018-01-13           0.09%    passed     74.19%
+ 286  MH887861|H.sapiens-wt/NGA/2018/LASV0206-EDO-2018|Homo_sapiens|NGA|2018-02-25              0.09%    passed     87.52%
+ 287  MH887863|H.sapiens-wt/NGA/2018/LASV0174-EDO-2018|Homo_sapiens|NGA|2018-02-12              0.09%    passed     85.34%
+ 288  MH887864|H.sapiens-wt/NGA/2018/LASV0132-ONDO-2018|Homo_sapiens|NGA|2018-01-15             0.09%    passed     99.07%
+ 289  MH887865|H.sapiens-wt/NGA/2018/LASV0135-ONDO-2018|Homo_sapiens|NGA|2018-01-17             0.09%    passed     98.65%
+ 290  MH887866|H.sapiens-wt/NGA/2018/LASV0137-ONDO-2018|Homo_sapiens|NGA|2018-01-17             0.09%    passed     88.00%
+ 291  MH887867|H.sapiens-wt/NGA/2018/LASV0162-ONDO-2018|Homo_sapiens|NGA|2018-02-09             0.09%    passed     97.93%
+ 292  MH887868|H.sapiens-wt/NGA/2018/LASV0136-ONDO-2018|Homo_sapiens|NGA|2018-01-17             0.09%    passed     97.83%
+ 293  MH887869|H.sapiens-wt/NGA/2018/LASV0175-EDO-2018|Homo_sapiens|NGA|2018-02-12              0.09%    passed     79.02%
+ 294  MH887870|H.sapiens-wt/NGA/2018/LASV0145-EDO-2018|Homo_sapiens|NGA|2018-01-23              0.09%    passed     96.58%
+ 295  MH887872|H.sapiens-wt/NGA/2018/LASV0110-ONDO-2017|Homo_sapiens|NGA|2017-12-26             0.09%    passed     90.33%
+ 296  MH887873|H.sapiens-wt/NGA/2018/LASV0166-ONDO-2018|Homo_sapiens|NGA|2018-02-10             0.09%    passed     89.20%
+ 297  MH887874|H.sapiens-wt/NGA/2018/LASV0074-EDO-2017|Homo_sapiens|NGA|2017-03-12              0.09%    passed     98.26%
+ 298  MH887875|H.sapiens-wt/NGA/2018/LASV0131-ONDO-2018|Homo_sapiens|NGA|2018-01-15             0.09%    passed     79.55%
+ 299  MH887877|H.sapiens-wt/NGA/2018/LASV0072-ONDO-2017|Homo_sapiens|NGA|2017-02-14             0.09%    passed     96.91%
+ 300  MH887878|H.sapiens-wt/NGA/2018/LASV0182-EDO-2018|Homo_sapiens|NGA|2018-02-13              0.09%    passed     90.69%
+ 301  MH887879|H.sapiens-wt/NGA/2018/LASV0139-NASARAWA-2018|Homo_sapiens|NGA|2018-01-18         0.09%    passed     96.67%
+ 302  MH887881|H.sapiens-wt/NGA/2018/LASV0066-EDO-2017|Homo_sapiens|NGA|2017-01-21              0.09%    passed     96.97%
+ 303  MH887882|H.sapiens-wt/NGA/2018/LASV0183-ONDO-2018|Homo_sapiens|NGA|2018-02-13             0.09%    passed     88.96%
+ 304  MH887883|H.sapiens-wt/NGA/2018/LASV0080-ONDO-2017|Homo_sapiens|NGA|2017-05-16             0.09%    passed     82.12%
+ 305  MH887884|H.sapiens-wt/NGA/2018/LASV0098-EDO-2017|Homo_sapiens|NGA|2017-10-16              0.09%    passed     98.01%
+ 306  MH887885|H.sapiens-wt/NGA/2018/LASV0070-ONDO-2017|Homo_sapiens|NGA|2017-02-10             0.09%    passed     97.83%
+ 307  MH887886|H.sapiens-wt/NGA/2018/LASV0213-EDO-2018|Homo_sapiens|NGA|2018-03-16              0.09%    passed     98.82%
+ 308  MH887887|H.sapiens-wt/NGA/2018/LASV0155-EDO-2018|Homo_sapiens|NGA|2018-02-05              0.09%    passed     90.85%
+ 309  MH887888|H.sapiens-wt/NGA/2018/LASV0068-ONDO-2017|Homo_sapiens|NGA|2017-01-26             0.09%    passed     98.55%
+ 310  MH887889|H.sapiens-wt/NGA/2018/LASV0193-DELTA-2018|Homo_sapiens|NGA|2018-02-17            0.09%    passed     93.24%
+ 311  MH887890|H.sapiens-wt/NGA/2018/LASV0114-ONDO-2018|Homo_sapiens|NGA|2018-01-05             0.91%    passed     95.31%
+ 312  MH887892|H.sapiens-wt/NGA/2018/LASV0121-ONDO-2018|Homo_sapiens|NGA|2018-01-11             2.54%    passed     94.25%
+ 313  MH887893|H.sapiens-wt/NGA/2018/LASV0198-EDO-2018|Homo_sapiens|NGA|2018-02-20              1.51%    passed     89.85%
+ 314  MH887895|H.sapiens-wt/NGA/2018/LASV0078-ONDO-2017|Homo_sapiens|NGA|2017-05-07             0.09%    passed     96.34%
+ 315  MH887896|H.sapiens-wt/NGA/2018/LASV0099-EDO-2017|Homo_sapiens|NGA|2017-10-17              0.09%    passed     83.73%
+ 316  MH887897|H.sapiens-wt/NGA/2018/LASV0077-EDO-2017|Homo_sapiens|NGA|2017-04-17              0.09%    passed     94.79%
+ 317  MK107897|LASV/H.sapiens-tc/NGA/2011/IRR_001|Homo_sapiens|NGA|2011-08-02                   0.09%    passed     96.73%
+ 318  MK107906|LASV/H.sapiens-tc/NGA/2014/IRR_009|Homo_sapiens|NGA|2014-05-17                   0.09%    passed     96.55%
+ 319  MK107913|LASV/H.sapiens-tc/NGA/2015/IRR_010|Homo_sapiens|NGA|2015-07-02                   0.09%    passed     97.68%
+ 320  MK107925|LASV/H.sapiens-tc/NGA/2016/IRR_026|Homo_sapiens|NGA|2016-02-26                   0.09%    passed     94.45%
+ 321  MK107926|LASV/H.sapiens-tc/NGA/2016/IRR_027|Homo_sapiens|NGA|2016-02-28                   0.09%    passed     98.01%
+ 322  MK107944|LASV/H.sapiens-tc/NGA/2017/IRR_016|Homo_sapiens|NGA|2017                         0.09%    passed     96.43%
+ 323  MK107959|LASV/H.sapiens-tc/NGA/2012/IRR_002|Homo_sapiens|NGA|2012-02-10                   0.09%    passed     59.05%
+ 324  MK107966|LASV/H.sapiens-tc/NGA/2012/IRR_004|Homo_sapiens|NGA|2012-02-10                   0.09%    passed     84.00%
+ 325  MK107969|LASV/H.sapiens-tc/NGA/2012/IRR_005|Homo_sapiens|NGA|2012-02-10                   0.09%    passed     57.53%
+ 326  MK107971|LASV/H.sapiens-wt/NGA/2012/IRR_008|Homo_sapiens|NGA|2012-03-08                  73.76%    passed     30.26%
+ 327  MK107977|LASV/H.sapiens-wt/NGA/2013/IRR_009|Homo_sapiens|NGA|2013-03-09                  72.88%    passed     19.66%
+ 328  MK117955|LASV/H.sapiens-wt/NGA/2018/IRR_005|Homo_sapiens|NGA|2018-01-09                  16.98%    passed     68.62%
+ 329  MK117958|LASV/H.sapiens-wt/NGA/2018/IRR_009|Homo_sapiens|NGA|2018-01-13                   0.44%    passed     90.03%
+ 330  MK117961|LASV/H.sapiens-wt/NGA/2018/IRR_013|Homo_sapiens|NGA|2018-01-13                   0.13%    passed     74.58%
+ 331  MK117981|LASV/H.sapiens-wt/NGA/2018/IRR_045|Homo_sapiens|NGA|2018-02-04                  18.46%    passed     80.33%
+ 332  MK118012|LASV/H.sapiens-wt/NGA/2018/IRR_089|Homo_sapiens|NGA|2018-02-15                  14.72%    passed     83.04%
+ 333  MK118019|LASV/H.sapiens-wt/NGA/2018/IRR_100|Homo_sapiens|NGA|2018-02-12                   0.28%    passed     98.77%
+ 334  MK118036|LASV/H.sapiens-wt/NGA/2018/IRR_138|Homo_sapiens|NGA|2018-03-08                  23.60%    passed     76.25%
+ 335  MK281624|H.sapiens-wt/NGA/2018/LASV0230-DELTA-2018|Homo_sapiens|NGA|2018-02-04            3.08%    passed     91.22%
+ 336  MK281625|H.sapiens-wt/NGA/2018/LASV0237-EDO-2018|Homo_sapiens|NGA|2018-02-26              3.42%    passed     96.20%
+ 337  MK281627|H.sapiens-wt/NGA/2018/LASV0225-ONDO-2018|Homo_sapiens|NGA|2018-01-20             1.29%    passed     93.13%
+ 338  MK281631|H.sapiens-wt/NGA/2018/LASV0233-EDO-2018|Homo_sapiens|NGA|2018-02-18             21.97%    passed     69.91%
+ 339  MK656414-MK656427|LASV_3604|Mastomys_natalensis|CIV|2015-08-28                            0.22%    passed     82.66%
+ 340  MK656415-MK656428|LASV_3609|Mastomys_natalensis|CIV|2015-08-28                            2.04%    passed     91.54%
+ 341  MK656416-MK656429|LASV_3625|Mastomys_natalensis|CIV|2015-08-29                            0.28%    passed     85.01%
+ 342  MK656417-MK656430|LASV_3629|Mastomys_natalensis|CIV|2015-08-29                            1.88%    passed     88.51%
+ 343  MK656418-MK656431|LASV_3630|Mastomys_natalensis|CIV|2015-08-29                            0.94%    passed     85.86%
+ 344  MK656419-MK656432|LASV_R124|Mastomys_natalensis|CIV|2013-08-20                            0.19%    passed     54.57%
+ 345  MK656420-MK656433|LASV_R132|Mastomys_natalensis|CIV|2013-08-22                            0.19%    passed     61.91%
+ 346  MK656421-MK656434|LASV_CIV139|Mastomys_natalensis|CIV|2013-08-22                          0.31%    passed     61.07%
+ 347  MK656422-MK656435|LASV_3523|Mastomys_natalensis|CIV|2015-08-24                            1.95%    passed     99.91%
+ 348  MK656423-MK656436|LASV_3706|Mastomys_natalensis|CIV|2015-09-07                           12.34%    passed     99.90%
+ 349  MK656424-MK656437|LASV_3711|Mastomys_natalensis|CIV|2015-09-07                           12.37%    passed     99.50%
+ 350  MK656425-MK656438|LASV_3713|Mastomys_natalensis|CIV|2015-09-07                            1.54%    passed     98.54%
+ 351  MK656426-MK656439|LASV_3715|Mastomys_natalensis|CIV|2015-09-07                            0.22%    passed     93.79%
+ 352  MN123651|DGD-4|Mastomys_natalensis|GIN|2005-02-16                                        72.10%    passed     63.92%
+ 353  MN123653|DGD-35|Mastomys_natalensis|GIN|2005-02-17                                       72.10%    passed     70.78%
+ 354  MN123654|DGD-87|Mastomys_natalensis|GIN|2005-02-17                                       72.10%    passed     73.86%
+ 355  MN123655|DGD-104|Mastomys_natalensis|GIN|2005-02-17                                      71.75%    passed     72.70%
+ 356  MN123656|DGD-112|Mastomys_natalensis|GIN|2005-02-17                                      71.78%    passed     74.82%
+ 357  MN123697|EGU-106|Mastomys_natalensis|NGA|2011-03-23                                      77.75%    passed     94.51%
+ 358  MN123698|EGU-240|Mastomys_natalensis|NGA|2011-10-17                                      77.87%    passed     86.58%
+ 359  MN123699|EGU-271|Mastomys_natalensis|NGA|2011-10-19                                      77.87%    passed     88.77%
+ 360  MN123700|EGU-88|Mastomys_natalensis|NGA|2011-03-22                                       77.97%    passed     83.98%
+ 361  MN123701|EKP-447|Mastomys_natalensis|NGA|2012-03-26                                      77.75%    passed     89.94%
+ 362  MN123703|EKP-512|Mastomys_natalensis|NGA|2012-10-18                                      77.81%    passed     84.38%
+ 363  MN123704|EKP-518|Mastomys_natalensis|NGA|2012-10-18                                      77.75%    passed     80.10%
+ 364  MN123705|EKP-521|Mastomys_natalensis|NGA|2012-10-18                                      77.75%    passed     96.50%
+ 365  MN123707|EKP-549|Mastomys_natalensis|NGA|2012-10-18                                      77.78%    passed     86.61%
+ 366  MN123709|EKP-601|Mastomys_natalensis|NGA|2012-10-21                                      77.75%    passed     96.03%
+ 367  MT001745-MT001758|NIG-EKP-1187|Mastomys_natalensis|NGA|2014-10-17                        49.97%    passed     55.34%
+ 368  MT001746-MT001759|NIG-EKP-1215|Mastomys_natalensis|NGA|2014-10-18                        50.09%    passed     36.07%
+ 369  MT001747-MT001760|NIG-EKP-1350|Mastomys_natalensis|NGA|2015-04-02                        49.97%    passed     48.24%
+ 370  MT001748-MT001761|NIG-EKP-1363|Mastomys_natalensis|NGA|2015-04-03                        49.97%    passed     55.97%
+ 371  MT001749-MT001762|NIG-EKP-1374|Mastomys_natalensis|NGA|2015-04-04                        49.97%    passed     46.72%
+ 372  MT001750-MT001763|NIG-EKP-1429|Mastomys_natalensis|NGA|2015-07-17                        49.97%    passed     34.89%
+ 373  MT001751-MT001764|NIG-EKP-1441|Mastomys_natalensis|NGA|2015-07-18                        49.97%    passed     35.22%
+ 374  MT001752-MT001765|NIG-EKP-1526|Mastomys_natalensis|NGA|2015-10-14                        49.97%    passed     65.91%
+ 375  MT001753-MT001766|NIG-EKP-1908|Mastomys_natalensis|NGA|2016-01-29                        49.97%    passed     55.25%
+ 376  MT001754-MT001767|NIG-EKP-1951|Mastomys_natalensis|NGA|2016-04-11                        50.00%    passed     49.42%
+ 377  MT001755-MT001768|NIG-EKP-1960|Mastomys_natalensis|NGA|2016-04-12                        50.03%    passed     33.61%
+ 378  MT001756-MT001769|NIG-EKP-1969|Mastomys_natalensis|NGA|2016-04-13                        49.97%    passed     40.51%
+ 379  MT001757-MT001770|NIG-EKP-1984|Mastomys_natalensis|NGA|2016-04-13                        50.00%    passed     40.62%
+ 380  MT119463-MT119557|Bri-94|Mastomys_natalensis|GIN|2015-05-13                              49.06%    passed     98.80%
+ 381  MT119464-MT119558|Bri-99|Mastomys_natalensis|GIN|2015-05-15                              49.06%    passed     96.31%
+ 382  MT119465-MT119559|Bri-103|Mastomys_natalensis|GIN|2015-11-09                             49.06%    passed     97.68%
+ 383  MT119466-MT119560|Bri-115|Mastomys_natalensis|GIN|2015-11-09                             49.06%    passed     98.36%
+ 384  MT119467-MT119561|Bri-116|Mastomys_natalensis|GIN|2015-11-09                             49.06%    passed     98.27%
+ 385  MT119468-MT119562|Bri-124|Mastomys_natalensis|GIN|2015-11-09                             49.06%    passed     92.35%
+ 386  MT119469-MT119563|Bri-145|Mastomys_natalensis|GIN|2015-11-10                             49.12%    passed     92.61%
+ 387  MT119470-MT119564|Bri-161|Mastomys_natalensis|GIN|2015-11-11                             49.06%    passed     97.68%
+ 388  MT119471-MT119565|Bri-174|Mastomys_natalensis|GIN|2015-11-11                             49.06%    passed     84.97%
+ 389  MT119472-MT119566|Bri-194|Mastomys_natalensis|GIN|2016-11-12                             49.06%    passed     96.51%
+ 390  MT119473-MT119567|Bri-195|Mastomys_natalensis|GIN|2016-11-12                             49.06%    passed     95.62%
+ 391  MT119474-MT119568|Bri-201|Mastomys_natalensis|GIN|2016-11-12                             49.06%    passed     87.81%
+ 392  MT119475-MT119569|Bri-210|Mastomys_natalensis|GIN|2016-11-12                             49.06%    passed     92.35%
+ 393  MT119476-MT119570|Bri-215|Mastomys_natalensis|GIN|2016-11-13                             49.06%    passed     96.19%
+ 394  MT119477-MT119571|Bri-216|Mastomys_natalensis|GIN|2016-11-13                             49.06%    passed     97.77%
+ 395  MT119478-MT119572|Bri-221|Mastomys_natalensis|GIN|2016-11-13                             49.06%    passed     84.25%
+ 396  MT119479-MT119573|Bri-222|Mastomys_natalensis|GIN|2016-11-13                             49.06%    passed     82.04%
+ 397  MT119480-MT119574|Bri-228|Mastomys_natalensis|GIN|2016-11-14                             49.06%    passed     98.51%
+ 398  MT119481-MT119575|Bri-229|Mastomys_natalensis|GIN|2016-11-14                             49.06%    passed     97.74%
+ 399  MT119482|Dal-10|Mastomys_natalensis|GIN|2013-11-28                                       72.13%    passed     53.69%
+ 400  MT119483-MT119576|Dal-29|Mastomys_natalensis|GIN|2013-11-30                              49.06%    passed     96.27%
+ 401  MT119484-MT119577|Dal-31|Mastomys_natalensis|GIN|2013-11-30                              49.06%    passed     85.01%
+ 402  MT119485-MT119578|Dal-44|Mastomys_natalensis|GIN|2014-04-17                              49.06%    passed     93.82%
+ 403  MT119486-MT119579|Dal-46|Mastomys_natalensis|GIN|2014-04-17                              49.06%    passed     99.10%
+ 404  MT119487-MT119580|Dal-47|Mastomys_natalensis|GIN|2014-04-17                              49.06%    passed     92.01%
+ 405  MT119488|Dal-65|Mastomys_natalensis|GIN|2015-03-19                                       72.13%    passed     39.46%
+ 406  MT119489-MT119581|Dal-77|Mastomys_natalensis|GIN|2016-01-15                              49.06%    passed     99.65%
+ 407  MT119490-MT119582|Dal-78|Mastomys_natalensis|GIN|2016-01-15                              49.06%    passed     98.99%
+ 408  MT119493-MT119585|Dal-100|Mastomys_natalensis|GIN|2016-01-16                             49.06%    passed     99.24%
+ 409  MT119495-MT119587|Dal-109|Mastomys_natalensis|GIN|2016-01-17                             49.40%    passed     96.13%
+ 410  MT119497-MT119589|Dal-120|Mastomys_natalensis|GIN|2017-01-16                             49.09%    passed     99.67%
+ 411  MT119498-MT119590|Dal-121|Mastomys_natalensis|GIN|2017-01-16                             49.06%    passed     99.33%
+ 412  MT119499-MT119591|Dal-125|Mastomys_natalensis|GIN|2017-01-16                             49.06%    passed     99.26%
+ 413  MT119500-MT119592|Dal-139|Mastomys_natalensis|GIN|2017-01-18                             49.09%    passed     99.55%
+ 414  MT119503|Dam-29|Mastomys_natalensis|GIN|2013-11-16                                       99.97%    passed     51.43%
+ 415  MT119506-MT119594|Dam-54|Mastomys_natalensis|GIN|2014-03-25                              49.06%    passed     90.54%
+ 416  MT119507-MT119595|Dam-59|Mastomys_natalensis|GIN|2014-03-25                              49.09%    passed     92.95%
+ 417  MT119508-MT119596|Dam-65|Mastomys_natalensis|GIN|2014-03-26                              49.06%    passed     92.25%
+ 418  MT119509|Dam-67|Mastomys_natalensis|GIN|2014-03-26                                       72.13%    passed     44.18%
+ 419  MT119510-MT119597|Dam-70|Mastomys_natalensis|GIN|2014-03-26                              49.81%    passed     90.35%
+ 420  MT119511|Dam-96|Mastomys_natalensis|GIN|2014-03-27                                       72.13%    passed     52.24%
+ 421  MT119512-MT119598|Dam-119|Mastomys_natalensis|GIN|2015-04-18                             49.09%    passed     98.09%
+ 422  MT119513-MT119599|Dam-127|Mastomys_natalensis|GIN|2015-04-19                             49.06%    passed     95.72%
+ 423  MT119517-MT119602|Dam-162|Mastomys_natalensis|GIN|2016-11-16                             49.06%    passed     85.12%
+ 424  MT119518-MT119603|Dam-163|Mastomys_natalensis|GIN|2016-11-16                             49.06%    passed     84.20%
+ 425  MT119519-MT119604|Dam-183|Mastomys_natalensis|GIN|2016-11-16                             49.06%    passed     82.07%
+ 426  MT119520-MT119605|Dam-192|Mastomys_natalensis|GIN|2016-11-17                             49.06%    passed     86.34%
+ 427  MT119521-MT119606|Sok-22|Mastomys_natalensis|GIN|2013-11-09                              49.06%    passed     99.33%
+ 428  MT119522-MT119607|Sok-34|Mastomys_natalensis|GIN|2013-11-10                              49.06%    passed     98.51%
+ 429  MT119523-MT119608|Sok-37|Mastomys_natalensis|GIN|2014-04-03                              76.99%    passed     66.91%
+ 430  MT119524-MT119609|Sok-41|Mastomys_natalensis|GIN|2014-04-03                              49.06%    passed     95.85%
+ 431  MT119525-MT119610|Sok-42|Mastomys_natalensis|GIN|2014-04-03                              49.06%    passed     96.63%
+ 432  MT119526-MT119611|Sok-49|Mastomys_natalensis|GIN|2014-04-03                              49.06%    passed     97.86%
+ 433  MT119527-MT119612|Sok-58|Mastomys_natalensis|GIN|2014-04-04                              76.90%    passed     56.98%
+ 434  MT119528-MT119613|Sok-62|Mastomys_natalensis|GIN|2014-04-04                              49.50%    passed     98.96%
+ 435  MT119529-MT119614|Sok-68|Mastomys_natalensis|GIN|2014-04-04                              78.22%    passed     64.32%
+ 436  MT119530-MT119615|Sok-76|Mastomys_natalensis|GIN|2014-04-05                              49.06%    passed     96.77%
+ 437  MT119531-MT119616|Sok-77|Mastomys_natalensis|GIN|2014-04-05                              49.06%    passed     98.88%
+ 438  MT119532-MT119617|Sok-95|Mastomys_natalensis|GIN|2017-01-31                              76.90%    passed     49.03%
+ 439  MT119533-MT119618|Sok-103|Mastomys_natalensis|GIN|2017-02-01                             76.90%    passed     56.47%
+ 440  MT119534-MT119619|Sok-104|Mastomys_natalensis|GIN|2017-02-01                             49.06%    passed     98.19%
+ 441  MT119535-MT119620|Son-29|Mastomys_natalensis|GIN|2013-11-13                              80.26%    passed     50.25%
+ 442  MT119536-MT119621|Son-69|Mastomys_natalensis|GIN|2014-04-07                              49.06%    passed     84.49%
+ 443  MT119537-MT119622|Son-105|Mastomys_natalensis|GIN|2014-04-09                             49.40%    passed     98.30%
+ 444  MT119538-MT119623|Son-116|Mastomys_natalensis|GIN|2015-11-19                             49.37%    passed     81.15%
+ 445  MT119539-MT119624|Son-124|Mastomys_natalensis|GIN|2015-11-19                             49.40%    passed     80.78%
+ 446  MT119540-MT119625|Son-133|Mastomys_natalensis|GIN|2015-11-20                             49.50%    passed     88.16%
+ 447  MT119541-MT119626|Son-140|Mastomys_natalensis|GIN|2015-11-20                             49.34%    passed     88.81%
+ 448  MT119542-MT119627|Son-146|Mastomys_natalensis|GIN|2015-11-20                             49.40%    passed     82.22%
+ 449  MT119543-MT119628|Son-193|Mastomys_natalensis|GIN|2016-11-25                             76.90%    passed     66.32%
+ 450  MT119544-MT119629|Son-197|Mastomys_natalensis|GIN|2016-11-25                             49.06%    passed     96.35%
+ 451  MT119545-MT119630|Son-198|Mastomys_natalensis|GIN|2016-11-25                             49.37%    passed     78.25%
+ 452  MT119546-MT119631|Son-211|Mastomys_natalensis|GIN|2016-11-26                             49.06%    passed     90.71%
+ 453  MT119547-MT119632|Yar-09|Mastomys_natalensis|GIN|2013-11-20                              49.91%    passed     98.71%
+ 454  MT119548|Yar-17|Mastomys_natalensis|GIN|2013-11-20                                       72.13%    passed     38.91%
+ 455  MT119549-MT119633|Yar-33|Mastomys_natalensis|GIN|2013-11-21                              49.06%    passed     89.51%
+ 456  MT119550-MT119634|Yar-51|Mastomys_natalensis|GIN|2014-04-13                              76.90%    passed     59.81%
+ 457  MT119551-MT119635|Yar-62|Mastomys_natalensis|GIN|2014-04-15                              49.06%    passed     80.00%
+ 458  MT119552-MT119636|Yar-130|Mastomys_natalensis|GIN|2015-11-16                             49.09%    passed     95.93%
+ 459  MT119553-MT119637|Yar-151|Mastomys_natalensis|GIN|2015-11-17                             49.09%    passed     97.80%
+ 460  MT119554-MT119638|Yar-185|Mastomys_natalensis|GIN|2016-11-20                             49.06%    passed     98.44%
+ 461  MT119555-MT119639|Yar-194|Mastomys_natalensis|GIN|2016-11-20                             49.06%    passed     97.99%
+ 462  MT119556-MT119640|Yar-217|Mastomys_natalensis|GIN|2016-11-22                             49.91%    passed     98.52%
+ 463  MW776596|Yar-8|Mastomys_natalensis|GIN|2019-11-07                                        72.13%    passed     48.07%
+ 464  MW776597|Yar-13|Mastomys_natalensis|GIN|2019-11-07                                       72.16%    passed     56.46%
+ 465  MW776598|Yar-26|Mastomys_natalensis|GIN|2019-11-07                                       72.13%    passed     41.41%
+ 466  MW776599|Yar-31|Mastomys_natalensis|GIN|2019-11-07                                       72.13%    passed     43.48%
+ 467  OM735968|M.natalensis-wt/SLE/2019/Bafodia-00303|Mastomys_natalensis|SLE|2019-11-06        0.00%    passed     89.67%
+ 468  OM735970|M.natalensis-wt/SLE/2019/Largo-00292|Mastomys_natalensis|SLE|2019-10-27          0.00%    passed     68.48%
+ 469  OM735972|M.natalensis-wt/SLE/2019/Largo-00291|Mastomys_natalensis|SLE|2019-10-27          0.00%    passed     68.32%
+ 470  OM735974|L.sikapusi-wt/SLE/2019/Barlie-00241|Lophuromys_sikapusi|SLE|2019-10-11           0.00%    passed     45.22%
+ 471  OM735976|M.natalensis-wt/SLE/2019/Kapethe-00217|Mastomys_natalensis|SLE|2019-10-03        0.00%    passed     41.29%
+ 472  OM735978|M.natalensis-wt/SLE/2019/Kapethe-00214|Mastomys_natalensis|SLE|2019-10-03        0.00%    passed     40.91%
+ 473  OM735980|M.natalensis-wt/SLE/2019/Bafodia-00204|Mastomys_natalensis|SLE|2019-09-08        0.00%    passed     85.84%
+ 474  OM735982|M.natalensis-wt/SLE/2019/Bafodia-00188|Mastomys_natalensis|SLE|2019-09-08        0.00%    passed     87.14%
+ 475  OM735986|M.natalensis-wt/SLE/2019/Bafodia-00106|Mastomys_natalensis|SLE|2019-09-07        0.00%    passed     88.38%
+ 476  OM735988|M.natalensis-wt/SLE/2019/Makump-00052|Mastomys_natalensis|SLE|2019-08-02         0.00%    passed     81.15%
+ 477  OM735990|L.sikapusi-wt/SLE/2019/Barlie-00019|Lophuromys_sikapusi|SLE|2019-07-13           0.00%    passed     74.36%
+ 478  OM791220|M.natalensis/SLE/2020/Barlie-00512|Mastomys_natalensis|SLE|2020-02-05            0.00%    passed     47.39%
+ 479  OM791222|M.natalensis/SLE/2020/Largo-00521|Mastomys_natalensis|SLE|2020-02-18             0.00%    passed     69.59%
+ 480  OM791226|M.erythroleucus/SLE/2019/Kamasseh-08476|Mastomys_erythroleucus|SLE|2019-04-17    0.00%    passed     74.82%
+ 481  OM791228|M.natalensis/SLE/2019/Kamasseh-08477|Mastomys_natalensis|SLE|2019-04-17          0.00%    passed     80.73%
+ 482  OM791230|M.natalensis/SLE/2019/Kapethe-08499|Mastomys_natalensis|SLE|2019-05-29           0.00%    passed     33.06%
+ 483  OM791232|M.natalensis/SLE/2019/Kapethe-08503|Mastomys_natalensis|SLE|2019-05-30           0.00%    passed     42.42%
+ 484  OQ556910-OQ556995|EBU-986|Mastomys_natalensis|NGA|2014-07-22                             48.59%    passed     44.08%
+ 485  OQ556911-OQ556996|EBU-992|Mastomys_natalensis|NGA|2014-07-22                             48.59%    passed     55.33%
+ 486  OQ556912-OQ556997|OKH-1044|Mastomys_natalensis|NGA|2014-07-24                            48.59%    passed     37.71%
+ 487  OQ556913-OQ556998|EKP-1217|Mastomys_erythroleucus|NGA|2014-10-18                         48.59%    passed     32.98%
+ 488  OQ556915-OQ557000|EBU-1280|Mastomys_natalensis|NGA|2014-01-24                            48.59%    passed     39.51%
+ 489  OQ556916-OQ557001|EBU-1294|Mastomys_natalensis|NGA|2014-01-24                            48.71%    passed     41.94%
+ 490  OQ556917-OQ557002|EBU-1295|Mastomys_natalensis|NGA|2014-01-24                            48.59%    passed     43.11%
+ 491  OQ556919-OQ557004|EBU-1332|Mastomys_natalensis|NGA|2014-01-26                            48.59%    passed     41.70%
+ 492  OQ556920-OQ557005|EBU-1340|Mastomys_natalensis|NGA|2014-01-26                            48.90%    passed     38.78%
+ 493  OQ556921-OQ557006|EBU-1393|Mastomys_natalensis|NGA|2015-04-06                            48.59%    passed     37.56%
+ 494  OQ556922-OQ557007|EBU-1397|Mastomys_natalensis|NGA|2015-04-06                            48.59%    passed     38.48%
+ 495  OQ556923-OQ557008|EBU-1457|Mastomys_natalensis|NGA|2015-07-20                            48.62%    passed     35.13%
+ 496  OQ556924-OQ557009|EBU-1480|Mastomys_natalensis|NGA|2015-07-21                            48.59%    passed     44.45%
+ 497  OQ556925-OQ557010|EBU-1557|Mastomys_natalensis|NGA|2015-10-16                            48.59%    passed     41.35%
+ 498  OQ556926-OQ557011|EBU-1571|Mastomys_natalensis|NGA|2015-10-17                            48.59%    passed     40.70%
+ 499  OQ556927-OQ557012|EBU-1580|Mastomys_erythroleucus|NGA|2015-10-17                         48.59%    passed     35.54%
+ 500  OQ556928-OQ557013|EBU-1589|Mastomys_erythroleucus|NGA|2015-10-17                         48.78%    passed     41.73%
+ 501  OQ556929-OQ557014|EBU-1590|Mastomys_natalensis|NGA|2015-10-17                            55.65%    passed     72.52%
+ 502  OQ556930-OQ557015|EBU-1592|Mastomys_erythroleucus|NGA|2015-10-18                         48.68%    passed     45.71%
+ 503  OQ556931-OQ557016|EBU-1594|Mastomys_erythroleucus|NGA|2015-10-18                         49.56%    passed     42.18%
+ 504  OQ556932-OQ557017|EBU-1598|Mastomys_natalensis|NGA|2015-10-18                            48.59%    passed     44.80%
+ 505  OQ556933-OQ557018|OKE-1608|Mastomys_natalensis|NGA|2015-10-19                            48.59%    passed     35.21%
+ 506  OQ556934-OQ557019|OKE-1610|Mastomys_natalensis|NGA|2015-10-19                            48.59%    passed     46.51%
+ 507  OQ556935-OQ557020|OKE-1611|Mastomys_natalensis|NGA|2015-10-19                            48.59%    passed     42.69%
+ 508  OQ556936-OQ557021|OKE-1612|Mastomys_natalensis|NGA|2015-10-19                            48.59%    passed     40.14%
+ 509  OQ556937-OQ557022|OKE-1613|Mastomys_natalensis|NGA|2015-10-19                            48.59%    passed     48.46%
+ 510  OQ556938-OQ557023|OKE-1615|Mastomys_natalensis|NGA|2015-10-19                            48.59%    passed     34.30%
+ 511  OQ556939-OQ557024|OKE-1620|Mastomys_natalensis|NGA|2015-10-19                            48.59%    passed     38.48%
+ 512  OQ556940-OQ557025|OKE-1622|Mastomys_natalensis|NGA|2015-10-19                            48.59%    passed     62.01%
+ 513  OQ556941-OQ557026|OKE-1627|Mastomys_natalensis|NGA|2015-10-19                            48.62%    passed     64.01%
+ 514  OQ556942-OQ557027|OKE-1634|Mastomys_natalensis|NGA|2015-10-20                            48.59%    passed     60.80%
+ 515  OQ556943-OQ557028|OKE-1635|Mastomys_natalensis|NGA|2015-10-20                            48.59%    passed     54.89%
+ 516  OQ556944-OQ557029|OKE-1637|Mastomys_natalensis|NGA|2015-10-20                            48.62%    passed     40.72%
+ 517  OQ556945-OQ557030|OKE-1639|Mastomys_natalensis|NGA|2015-10-20                            48.59%    passed     60.15%
+ 518  OQ556946-OQ557031|OKE-1641|Mastomys_natalensis|NGA|2015-10-20                            48.59%    passed     61.45%
+ 519  OQ556953-OQ557038|OKE-1654|Mastomys_natalensis|NGA|2015-10-20                            48.59%    passed     49.73%
+ 520  OQ556954-OQ557039|OKE-1655|Mastomys_natalensis|NGA|2015-10-20                            48.87%    passed     43.75%
+ 521  OQ556958-OQ557043|OKE-1666|Mastomys_natalensis|NGA|2015-10-21                            48.59%    passed     54.49%
+ 522  OQ556959-OQ557044|OKE-1669|Mastomys_natalensis|NGA|2015-10-21                            48.59%    passed     45.73%
+ 523  OQ556960-OQ557045|OKE-1674|Mastomys_natalensis|NGA|2015-10-21                            48.59%    passed     63.79%
+ 524  OQ556961-OQ557046|OKE-1676|Mastomys_natalensis|NGA|2015-10-21                            48.59%    passed     49.75%
+ 525  OQ556962-OQ557047|OKE-1677|Mastomys_natalensis|NGA|2015-10-21                            48.59%    passed     41.54%
+ 526  OQ556964-OQ557049|OKE-1680|Mastomys_natalensis|NGA|2015-10-21                            48.59%    passed     45.97%
+ 527  OQ556966-OQ557051|OKE-1684|Mastomys_natalensis|NGA|2015-10-21                            48.59%    passed     43.57%
+ 528  OQ556967-OQ557052|OKE-1685|Mastomys_natalensis|NGA|2015-10-21                            48.59%    passed     53.35%
+ 529  OQ556968-OQ557053|OKE-1687|Mastomys_natalensis|NGA|2015-10-21                            48.59%    passed     52.65%
+ 530  OQ556969-OQ557054|OKE-1689|Mastomys_natalensis|NGA|2015-10-21                            48.59%    passed     43.44%
+ 531  OQ556971-OQ557056|IFO-1703|Mastomys_natalensis|NGA|2015-10-22                            48.59%    passed     55.07%
+ 532  OQ556972-OQ557057|IFO-1704|Mastomys_natalensis|NGA|2015-10-22                            48.62%    passed     39.19%
+ 533  OQ556973-OQ557058|IFO-1729|Mastomys_natalensis|NGA|2015-10-23                            48.59%    passed     46.87%
+ 534  OQ556974-OQ557059|EBU-1991|Mastomys_natalensis|NGA|2016-04-14                            48.59%    passed     48.20%
+ 535  OQ556975-OQ557060|EBU-1992|Mastomys_erythroleucus|NGA|2016-04-14                         48.59%    passed     45.66%
+ 536  OQ556977-OQ557062|EBU-2019|Mastomys_natalensis|NGA|2016-04-15                            48.59%    passed     66.91%
+ 537  OQ556978-OQ557063|EBU-2028|Mastomys_erythroleucus|NGA|2016-04-15                         48.59%    passed     38.05%
+ 538  OQ556979-OQ557064|EBU-2042|Mastomys_erythroleucus|NGA|2016-04-16                         48.59%    passed     46.42%
+ 539  OQ556980-OQ557065|EBU-2046|Mastomys_erythroleucus|NGA|2016-04-16                         48.59%    passed     45.41%
+ 540  OQ556981-OQ557066|EBU-2063|Mastomys_natalensis|NGA|2016-04-16                            48.59%    passed     46.98%
+ 541  OQ556982-OQ557067|OWO-2337|Mastomys_natalensis|NGA|2019-05-15                            48.59%    passed     53.23%
+ 542  OQ556983-OQ557068|OWO-2353|Mastomys_natalensis|NGA|2019-05-16                            48.59%    passed     44.31%
+ 543  OQ556984-OQ557069|OWO-2367|Mastomys_natalensis|NGA|2019-05-17                            48.68%    passed     41.52%
+ 544  OQ556986-OQ557071|OWO-2379|Mastomys_natalensis|NGA|2019-05-18                            48.59%    passed     48.25%
+ 545  OQ556987-OQ557072|OWO-2380|Mastomys_natalensis|NGA|2019-05-18                            48.59%    passed     47.09%
+ 546  OQ556989-OQ557074|OWO-2382|Mastomys_natalensis|NGA|2019-05-18                            48.59%    passed     43.48%
+ 547  OQ556990-OQ557075|OWO-2385|Mastomys_natalensis|NGA|2019-05-18                            48.59%    passed     64.56%
+ 548  OQ556992-OQ557077|OWO-2395|Mastomys_natalensis|NGA|2019-05-19                            48.59%    passed     42.65%
+ 549  OQ556993-OQ557078|OWO-2396|Mastomys_natalensis|NGA|2019-05-19                            48.59%    passed     43.44%
+ 550  OQ556994-OQ557079|OWO-2397|Mastomys_natalensis|NGA|2019-05-19                            48.59%    passed     47.05%
+ 551  OQ919510|G-26293-1-2||SLE|2021-07-29                                                      3.64%    passed     71.49%
+ 552  OQ919511|G-24650-1-2||SLE|2021-03-12                                                      0.00%    passed     77.37%
+ 553  OQ919512|G-7821-5-2||SLE|2018-01-28                                                       1.00%    passed     68.33%
+ 554  OQ919513|G-7601-4-2||SLE|2017-04-09                                                       0.00%    passed     74.69%
+ 555  OQ919514|G-7661-1-2||SLE|2017-08-03                                                       1.69%    passed     91.42%
+ 556  OQ919515|G-8410-1-2||SLE|2019-12-26                                                       0.00%    passed     75.67%
+ 557  OQ919516|G-7823-2-2||SLE|2018-01-30                                                       1.35%    passed     70.87%
+ 558  OQ919517|G-27653-1-2||SLE|2022-05-28                                                      0.09%    passed     76.50%
+ 559  OQ919518|G-8439-1-2||SLE|2020-01-14                                                       0.00%    passed     81.66%
+ 560  OQ919519|G-27671-1-2||SLE|2022-06-09                                                      0.19%    passed     63.07%
+ 561  OQ919520|G-20573-1-2||SLE|2020-12-18                                                      0.00%    passed     72.22%
+ 562  OR041676|G-27901-1-2|Homo_sapiens|SLE|2023-02-08                                          0.35%    passed     79.01%
+ 563  OR041677|G-27804-1-2|Homo_sapiens|SLE|2022-09-11                                         11.90%    passed     88.11%
+ 564  OR041680|G-27879-1-2|Homo_sapiens|SLE|2023-01-17                                          0.00%    passed     72.38%
+ 565  OR041681|G-27882-1-2|Homo_sapiens|SLE|2023-01-20                                          0.00%    passed     61.30%
+ 566  OR041682|G-27807-1-2|Homo_sapiens|SLE|2022-09-12                                          0.00%    passed     82.93%
+ 567  OR041683|G-26293-2-2|Homo_sapiens|SLE|2021-07-31                                          0.00%    passed     76.02%
+ 568  OR041684|G-27645-1-2|Homo_sapiens|SLE|2022-05-17                                          5.84%    passed     81.05%
+ 569  OR041685|G-25197-1-2|Homo_sapiens|SLE|2021-05-24                                         36.53%    passed     92.72%
+ 570  OR041686|G-27785-1-2|Homo_sapiens|SLE|2022-08-11                                          0.00%    passed     65.39%
+ 571  OR041687|G-23362-2-2|Homo_sapiens|SLE|2021-02-08                                          0.00%    passed     77.41%
+ 572  OR113004|G-27952-1-2|Homo_sapiens|SLE|2023-04-11                                          0.00%    passed     77.01%
+ 573  OR113005|G-27961-1-2|Homo_sapiens|SLE|2023-04-18                                          0.63%    passed     88.81%
+ 574  OR113006|G-7840-1-2|Homo_sapiens|SLE|2018-02-13                                          12.12%    passed     83.87%
+ 575  OR113007|G-7843-2-2|Homo_sapiens|SLE|2018-02-20                                          12.71%    passed     91.71%
+ 576  OR490691-OR490713|Ban-377|Mastomys_natalensis|GIN|2003-09-28                             44.48%    passed     13.17%
+ 577  OR490692-OR490714|Bri-08|Mastomys_natalensis|GIN|2013-12-14                               0.00%    passed     80.56%
+ 578  OR490693-OR490715|Dal-11|Mastomys_natalensis|GIN|2013-11-28                              23.85%    passed     84.20%
+ 579  OR490694-OR490716|Dam-05|Mastomys_natalensis|GIN|2013-11-15                              25.42%    passed     75.84%
+ 580  OR490695-OR490717|Dam-15|Mastomys_natalensis|GIN|2013-11-15                              62.12%    passed     43.15%
+ 581  OR490696-OR490718|Dam-49|Mastomys_natalensis|GIN|2013-11-17                              46.30%    passed     20.03%
+ 582  OR490697-OR490719|Den-43|Mastomys_natalensis|GIN|2005-02-17                               5.90%    passed     68.16%
+ 583  OR490698-OR490720|Kho-29|Mastomys_natalensis|GIN|2013-11-24                               0.00%    passed     79.22%
+ 584  OR490699-OR490721|Saf-01|Mastomys_natalensis|GIN|2013-12-03                               0.00%    passed     76.80%
+ 585  OR490700-OR490722|Sil-03|Mastomys_natalensis|GIN|2013-12-06                              14.66%    passed     74.95%
+ 586  OR490701-OR490723|Tan-491|Mastomys_natalensis|GIN|2003-10-05                             46.26%    passed     22.58%
+ 587  OR490702-OR490724|Yar-24|Mastomys_natalensis|GIN|2013-11-21                               1.85%    passed     81.92%
+ 588  OR490703-OR490725|Yar-46|Mastomys_natalensis|GIN|2013-11-21                               0.00%    passed     76.23%
+ 589  OR490704-OR490726|Bad-27|Mastomys_natalensis|SLE|2018-11-22                              22.07%    passed     65.33%
+ 590  OR490705-OR490727|Bad-35|Mastomys_natalensis|SLE|2018-11-24                              38.01%    passed     69.63%
+ 591  OR490706-OR490728|Fal-26|Mastomys_natalensis|SLE|2017-06-26                              21.50%    passed     97.27%
+ 592  OR490707-OR490729|Fal-31|Mastomys_natalensis|SLE|2017-06-27                              19.52%    passed     97.62%
+ 593  OR490708-OR490730|Fal-25|Mastomys_natalensis|SLE|2017-06-26                               1.19%    passed     65.69%
+ 594  OR490709-OR490731|Mak-67|Mastomys_natalensis|SLE|2017-06-12                               1.85%    passed     36.84%
+ 595  OR490710-OR490732|Mak-01|Mastomys_natalensis|SLE|2017-06-11                               4.46%    passed     40.57%
+ 596  OR490711-OR490733|Mak-02|Mastomys_natalensis|SLE|2017-06-11                               0.69%    passed     53.95%
+ 597  OR490712-OR490734|Mak-68|Mastomys_natalensis|SLE|2017-06-12                              21.78%    passed     38.18%
+ 598  OR493499|AINKWGOT002OS|Capra_hircus|NGA|2022-02-21                                       46.39%    passed     82.15%
+ 599  OR493500|OWEHDOG007OS|Canis_lupus_familiaris|NGA|2021-06-30                              52.64%    passed     72.70%
+ 600  OR493501|AINKWGOT003RS|Capra_hircus|NGA|2022-02-22                                       46.39%    passed     86.68%
+ 601  OR493502|AIODUGOT002RS|Capra_hircus|NGA|2022-03-08                                       50.94%    passed     40.34%
+ 602  OR493503|OWEHLIZ002CS||NGA|2021-07-13                                                    46.39%    passed     72.94%
+ 603  OR493504|OWIYLI013CS||NGA|2021-07-09                                                     49.12%    passed     82.79%
+ 604  PP079040|Bri-439|Mastomys_natalensis|GIN|2019-11-14                                      70.62%    passed     76.70%
+ 605  PP079041|Bri-444|Mastomys_natalensis|GIN|2019-11-15                                      74.29%    passed     31.47%
+ 606  PP079043|Bri-450|Mastomys_natalensis|GIN|2019-11-16                                      70.62%    passed     60.35%
+ 607  PP079045|Bri-463|Mastomys_natalensis|GIN|2019-11-16                                      70.62%    passed     66.06%
+ 608  PP079046|Bri-465|Mastomys_natalensis|GIN|2019-11-16                                      70.62%    passed     60.35%
+ 609  PP079050|Bri-476|Mastomys_natalensis|GIN|2019-11-17                                      70.62%    passed     56.08%
+ 610  PP079054|Bri-493|Mastomys_natalensis|GIN|2019-11-18                                      70.62%    passed     56.45%
+ 611  PP431155|OWEHR140OS|Rodentia|NGA|2022-02-22                                              46.42%    passed     80.65%
+ 612  PP431158|OWEHR133RS|Rodentia|NGA|2022-02-16                                              64.53%    passed     84.17%
+ 613  PP431160|OWEHR055SPL|Rodentia|NGA|2021-11-06                                             47.99%    passed     80.77%
+ 614  PP431162|OWIYR124|Rodentia|NGA|2021-06-07                                                47.52%    passed     85.32%
+ 615  PP431163|OWEHR159TEST|Rodentia|NGA|2022-08-03                                            63.43%    passed     45.59%
+ 616  PP431164|OWEHR061LIV|Rodentia|NGA|2021-11-11                                             56.06%    passed     96.49%
+ 617  PP431165|OWIYR108|Rodentia|NGA|2021-06-18                                                46.42%    passed     80.98%
+ 618  PP431167|OWEHR056SPL|Rodentia|NGA|2021-11-07                                             48.87%    passed     75.06%
+ 619  PP431169|OWEHR055TEST|Rodentia|NGA|2021-11-06                                            51.41%    passed     72.52%
+ 620  PP431172|OWEHR058LIV|Rodentia|NGA|2021-11-09                                             59.04%    passed     98.53%
+ 621  PP431173|OWEHR061SPL|Rodentia|NGA|2021-11-11                                             50.03%    passed     90.61%
+ 622  PP431180|OWISR001KID|Rodentia|NGA|2021-01-06                                             52.20%    passed     89.36%
+ 623  PP431183|OWIYR063|Rodentia|NGA|2021-06-16                                                46.42%    passed     85.09%
+ 624  PP431184|OWIJR150KID|Rodentia|NGA|2022-03-02                                             56.25%    passed     83.44%
+ 625  PP431185|OWIYR047|Rodentia|NGA|2021-06-15                                                46.42%    passed     93.91%
+ 626  PP431187|OWISR018KID|Rodentia|NGA|2021-04-06                                             49.50%    passed     95.79%
+ 627  PP431188|OWIYR071KD|Rodentia|NGA|2021-06-16                                              55.74%    passed     82.05%
+ 628  PP431189|OWEHR055KID|Rodentia|NGA|2021-11-06                                             61.11%    passed     97.40%
+ 629  PP431190|OWIYR155LIV|Rodentia|NGA|2022-01-02                                             68.52%    passed     59.98%
+ 630  PP431193|OWISR002KID|Rodentia|NGA|2021-01-06                                             75.61%    passed     91.18%
+ 631  PP431194|OWEHR159SPL|Rodentia|NGA|2022-08-03                                             48.74%    passed     59.86%
+ 632  PP431196|OWEHR061KID|Rodentia|NGA|2021-11-11                                             47.58%    passed     91.93%
+ 633  PP431198|OWEHR140RS|Rodentia|NGA|2022-02-22                                              46.52%    passed     78.39%
+ 634  PP431199|OWIJR133LIV|Rodentia|NGA|2022-01-21                                             54.21%    passed     83.19%
+ 635  PP431201|OWIJR133SPL|Rodentia|NGA|2022-01-21                                             53.11%    passed     68.75%
+ 636  PP431202|OWIYR159KID|Rodentia|NGA|2022-01-02                                             53.95%    passed     80.79%
+ 637  PP431203|OWEHR056KID|Rodentia|NGA|2021-11-07                                             48.84%    passed     81.85%
+ 638  PP431204|OWIYR048|Rodentia|NGA|2021-06-15                                                46.42%    passed     81.82%
+ 639  PP431205|OWEHR175SPL|Rodentia|NGA|2022-09-03                                             48.96%    passed     89.41%
+ 640  PP431208|OWEHR075KID|Rodentia|NGA|2021-06-29                                             48.81%    passed     86.07%
+ 641  PP431211|OWIYR062|Rodentia|NGA|2021-06-15                                                46.42%    passed     87.54%
+ 642  MW039388/NYA-44/Mn/SLE/2014-04-28                                                         3.74%    passed     89.24%
+ 643  KM821833/G2230_SLE_2012/Human/SLE/2011-12-29                                              0.00%    passed     81.38%
+ 644  KM821835/G2259_SLE_2012/Human/SLE/2012-01-16                                              0.00%    passed     75.09%
+ 645  KM821871/G2723_SLE_2012/Human/SLE/2012-08-21                                              0.00%    passed     88.43%
+ 646  KM821909/G3278_SLE_2013/Human/SLE/2013-08-02                                              0.00%    passed     77.95%
+ 647  KM821869/G2615_SLE_2012/Human/SLE/2012-07-24                                              0.00%    passed     83.57%
+ 648  KM821861/G2557_SLE_2012/Human/SLE/2012-06-26                                              0.00%    passed     89.22%
+ 649  MW039390/YAK-08/Mn/SLE/2014-04-10                                                         1.26%    passed     94.78%
+ 650  KM821856/G2431_SLE_2012/Human/SLE/2012-04-02                                              0.00%    passed     89.15%
+ 651  AF182235/las803205/Human/SLE/1976                                                        80.29%    passed     15.02%
+ 652  MG812647/las803209/Human/SLE/1975                                                         0.00%    passed     86.45%
+ 653  AF182237/las9607290/Human/SLE/1996                                                       80.29%    passed     35.94%
+ 654  AF182246/las807976/Human/SLE/1977                                                        80.19%    passed     18.49%
+ 655  AF182247/las803211/Human/SLE/1972                                                        80.29%    passed     24.57%
+ 656  AF182250/las803206/Human/SLE/1976                                                        80.29%    passed     35.84%
+ 657  AF182252/las9607300/Human/SLE/1996                                                       80.29%    passed     38.20%
+ 658  AF182253/las801100/Mouse/SLE/1978                                                        80.19%    passed     21.30%
+ 659  AF182254/las806843/Human/SLE/1993                                                        80.29%    passed     15.85%
+ 660  AF182255/las9607302/Human/SLE/1996                                                       80.29%    passed     21.30%
+ 661  KM406554/LM0729/Mastomys_natalensis/SierraLeone/2009-08-15                               80.51%    passed     26.58%
+ 662  KM821859/G2554_SLE_2012/Human/SLE/2012-06-24                                              0.00%    passed     67.61%
+ 663  KM821787/G733_SLE_2010/Human/SLE/2010-01-17                                               0.00%    passed     72.55%
+ 664  KM821804/G1618_SLE_2011/Human/SLE/2011-03-26                                              0.00%    passed     79.99%
+ 665  KM821773/G502_SLE_2009/Human/SLE/2009-04-29                                               0.00%    passed     89.18%
+ 666  KM821824/G2147_SLE_2011/Human/SLE/2011-11-16                                              0.00%    passed     84.32%
+ 667  KM821790/G806_SLE_2010/Human/SLE/2010-02-26                                               0.88%    passed     70.60%
+ 668  KM821812/G1774_SLE_2011/Human/SLE/2011-06-11                                              0.00%    passed     76.15%
+ 669  KM821832/G2222_SLE_2011/Human/SLE/2011-12-19                                              0.00%    passed     82.25%
+ 670  KM821808/G1647_SLE_2011/Human/SLE/2011-04-15                                              0.00%    passed     76.16%
+ 671  KM821816/G1932_SLE_2011/Human/SLE/2011-08-24                                              0.00%    passed     65.37%
+ 672  KM821857/G2511_SLE_2012/Human/SLE/2012-05-18                                              0.00%    passed     84.94%
+ 673  KM821887/G3101_SLE_2013/Human/SLE/2013-05-11                                              0.25%    passed     66.31%
+ 674  KM821892/G3148_SLE_2013/Human/SLE/2013-06-01                                              0.00%    passed     77.83%
+ 675  KM821910/G3283_SLE_2013/Human/SLE/2013-08-05                                              0.00%    passed     75.96%
+ 676  KM821839/G2280_SLE_2012/Human/SLE/2012-01-23                                              0.00%    passed     73.16%
+ 677  KM821867/G2612_SLE_2012/Human/SLE/2012-07-23                                              0.00%    passed     74.44%
+ 678  KM821884/G3016_SLE_2013/Human/SLE/2013-02-14                                              0.00%    passed     60.13%
+ 679  KM821852/G2405_SLE_2012/Human/SLE/2012-03-27                                              0.00%    passed     87.44%
+ 680  KM821886/G3076_SLE_2013/Human/SLE/2013-04-15                                              0.00%    passed     86.53%
+ 681  KM821815/G1897_SLE_2011/Human/SLE/2011-07-27                                              0.00%    passed     80.98%
+ 682  KM821779/G636_SLE_2009/Human/SLE/2009-10-09                                               0.00%    passed     78.14%
+ 683  KM821843/G2315_SLE_2012/Human/SLE/2012-02-10                                              0.00%    passed     73.90%
+ 684  KM821876/G2903_SLE_2012/Human/SLE/2012-10-30                                              0.00%    passed     77.86%
+ 685  KM821899/G3206_SLE_2013/Human/SLE/2013-07-01                                              0.00%    passed     71.18%
+ 686  KM406538/LM0396/Mastomys_natalensis/SierraLeone/2009-07-22                               80.51%    passed     11.38%
+ 687  KM821777/G610_SLE_2009/Human/SLE/2009-08-28                                               0.00%    passed     69.12%
+ 688  KM821814/G1792_SLE_2011/Human/SLE/2011-06-17                                              0.00%    passed     70.77%
+ 689  KM821878/G2934_SLE_2012/Human/SLE/2012-11-27                                              0.66%    passed     79.64%
+ 690  KM821830/G2197_SLE_2011/Human/SLE/2011-12-04                                              0.00%    passed     72.32%
+ 691  KM821826/G2165_SLE_2011/Human/SLE/2011-11-18                                              0.00%    passed     67.30%
+ 692  KM821828/G2184_SLE_2011/Human/SLE/2011-11-26                                              0.00%    passed     82.43%
+ 693  KM821848/G2384_SLE_2012/Human/SLE/2012-03-09                                              0.00%    passed     84.94%
+ 694  KM821775/G503_SLE_2009/Human/SLE/2009-04-30                                               0.00%    passed     83.21%
+ 695  KM821818/G1959_SLE_2011/Human/SLE/2011-09-09                                              0.00%    passed     80.49%
+ 696  KM821877/G2906_SLE_2012/Human/SLE/2012-11-03                                              0.00%    passed     79.79%
+ 697  KM821882/G3010_SLE_2013/Human/SLE/2013-02-05                                              0.00%    passed     81.53%
+ 698  KM821792/G808_SLE_2010/Human/SLE/2010-02-27                                               0.00%    passed     83.69%
+ 699  KM821874/G2868_SLE_2012/Human/SLE/2012-10-08                                              0.00%    passed     84.89%
+ 700  KM821845/G2318_SLE_2012/Human/SLE/2012-02-12                                              0.00%    passed     83.08%
+ 701  KM821854/G2427_SLE_2012/Human/SLE/2012-03-31                                              0.00%    passed     92.63%
+ 702  KM821890/G3110_SLE_2013/Human/SLE/2013                                                    0.00%    passed     86.34%
+ 703  KM821902/G3229_SLE_2013/Human/SLE/2013-07-13                                              0.00%    passed     83.68%
+ 704  KM821894/G3151_SLE_2013/Human/SLE/2013-06-05                                              0.00%    passed     89.55%
+ 705  KM821802/G1529_SLE_2011/Human/SLE/2011-03-02                                              0.00%    passed     88.10%
+ 706  KM821904/G3234_SLE_2013/Human/SLE/2013-07-15                                              0.00%    passed     81.94%
+ 707  KM821847/G2363_SLE_2012/Human/SLE/2012-02-27                                              0.00%    passed     86.86%
+ 708  KM821885/G3034_SLE_2013/Human/SLE/2013-02-27                                              0.00%    passed     72.51%
+ 709  KM821800/G1442_SLE_2011/Human/SLE/2011-01-20                                              0.00%    passed     79.60%
+ 710  MW039391/YAK-20/Mn/SLE/2014-04-11                                                         0.00%    passed     67.31%
+ 711  KM406540/LM0513/Mastomys_natalensis/SierraLeone/2009-08-01                               80.51%    passed     51.24%
+ 712  KM406543/LM0619/Mastomys_natalensis/SierraLeone/2009-08-08                               80.51%    passed     42.62%
+ 713  AF182257/las807974/Human/SLE/1976                                                        80.29%    passed     67.48%
+ 714  MW039389/YAK-02/Mn/SLE/2014-04-10                                                         3.20%    passed     74.64%
+ 715  KT992416/Mad39/Mouse/GIN/2014-05-08                                                       0.00%    passed     83.81%
+ 716  KT992419/Mad63/Mouse/GIN/2014-05-09                                                       0.00%    passed     86.46%
+ 717  KT992420/Mad69/Mouse/GIN/2014-05-09                                                       0.00%    passed     87.34%
+ 718  KT992421/Mad83/Mouse/GIN/2014-05-10                                                       0.00%    passed     83.82%
+ 719  KT992417/Mad41/Mouse/GIN/2014-05-08                                                       0.00%    passed     87.49%
+ 720  MT861994/KIS-2019/Human/GIN/2019-1-28                                                     0.00%    passed     57.94%
+ 721  DQ832692/DGD4/Mouse/GIN/2005                                                             80.29%    passed     70.63%
+ 722  DQ832694/DGD28/Mouse/GIN/2005                                                            80.29%    passed     75.47%
+ 723  AF182265/las807998/Human/GIN/1997                                                        80.19%    passed     73.66%
+ 724  MH732623/GUIN-1739-Mn-2018/Mastomys_natalensis/GIN/2018                                  72.16%    passed     69.22%
+ 725  AF182267/las807992/Human/GIN/1997                                                        80.19%    passed     80.76%
+ 726  MN123681/Sok10/Mn/GIN/2013-11-08                                                         46.67%    passed     97.67%
+ 727  MN123682/Sok18/Mn/GIN/2013-11-09                                                         46.64%    passed     91.21%
+ 728  MN123685/Sok40/Mn/GIN/2014-04-03                                                         46.67%    passed     97.60%
+ 729  MN123680/Sok07/Mn/GIN/2013-11-08                                                         46.64%    passed     90.97%
+ 730  MN123687/Sok51/Mn/GIN/2014-04-03                                                         46.64%    passed     88.86%
+ 731  MN123684/Sok32/Mn/GIN/2013-11-10                                                         46.64%    passed     92.42%
+ 732  KP339126/1840/Mastomys_natalensis/GIN/2011-10-21                                         76.33%    passed     68.61%
+ 733  MN123663/Dal25/Mn/GIN/2013-11-29                                                         46.64%    passed     87.93%
+ 734  MN123664/Dal53/Mn/GIN/2014-04-19                                                         46.64%    passed     90.81%
+ 735  KP339103/1198/Mastomys_natalensis/GIN/2004-10-4                                          76.33%    passed     69.61%
+ 736  MN123679/Sil03/Mn/GIN/2013-12-06                                                         46.89%    passed     85.45%
+ 737  MN123683/Sok21/Mn/GIN/2013-11-09                                                         46.64%    passed     97.17%
+ 738  MN123686/Sok44/Mn/GIN/2014-04-03                                                         46.64%    passed     97.61%
+ 739  MN123659/Dal02/Mn/GIN/2013-11-28                                                         46.64%    passed     90.81%
+ 740  MN123662/Dal17/Mn/GIN/2013-11-29                                                         46.70%    passed     75.58%
+ 741  MN123661/Dal11/Mn/GIN/2013-11-28                                                         46.64%    passed     91.16%
+ 742  MN123658/Bri39/Mn/GIN/2013-12-16                                                         46.64%    passed     92.12%
+ 743  DQ832669/BA263/Mouse/GIN/2003                                                            80.32%    passed     52.77%
+ 744  DQ832672/BA350/Mouse/GIN/2003                                                            80.29%    passed     50.67%
+ 745  DQ832674/BA356/Mouse/GIN/2003                                                            80.29%    passed     55.03%
+ 746  DQ832678/BA378/Mouse/GIN/2003                                                            80.29%    passed     52.58%
+ 747  KP339089/936/Mastomys_natalensis/GIN/2004-5-22                                           76.33%    passed     63.97%
+ 748  KP339121/1755/Mastomys_natalensis/GIN/2011-10-19                                         76.33%    passed     60.15%
+ 749  KP339122/1770/Mastomys_natalensis/GIN/2011-10-19                                         76.33%    passed     71.61%
+ 750  MN123657/Bri08/Mn/GIN/2013-12-14                                                         46.64%    passed     96.37%
+ 751  MN123669/Dam38/Mn/GIN/2013-11-16                                                         46.64%    passed     85.12%
+ 752  MN123692/Yar14/Mn/GIN/2013-11-20                                                         46.67%    passed     98.70%
+ 753  DQ832682/TA416/Mouse/GIN/2003                                                            80.29%    passed     72.16%
+ 754  DQ832683/TA341/Mouse/GIN/2003                                                            80.29%    passed     64.62%
+ 755  DQ832686/TA464/Mouse/GIN/2003                                                            80.29%    passed     71.85%
+ 756  DQ832690/TA820/Mouse/GIN/2004                                                            80.29%    passed     70.91%
+ 757  KP339127/1858/Mastomys_natalensis/GIN/2011-10-23                                         76.33%    passed     68.47%
+ 758  MN123675/Kho10/Mn/GIN/2013-11-24                                                         46.67%    passed     94.52%
+ 759  MN123677/Kho30/Mn/GIN/2013-11-26                                                         46.67%    passed     96.08%
+ 760  MN123676/Kho29/Mn/GIN/2013-11-26                                                         46.64%    passed     95.77%
+ 761  KP339132/1925/Mastomys_natalensis/GIN/2011-10-25                                         76.33%    passed     76.68%
+ 762  AF182270/las808255/Mouse/GIN/1996                                                        80.19%    passed     40.29%
+ 763  DQ832667/GB129/Mouse/GIN/2003                                                            80.29%    passed     74.01%
+ 764  DQ832668/GB132/Mouse/GIN/2003                                                            80.32%    passed     77.28%
+ 765  DQ832684/TA444/Mouse/GIN/2003                                                            80.29%    passed     70.35%
+ 766  DQ832689/TA817/Mouse/GIN/2004                                                            80.29%    passed     72.75%
+ 767  KP339083/813/Mastomys_natalensis/GIN/2004-2-1                                            76.37%    passed     73.57%
+ 768  MN123696/Yar46/Mn/GIN/2013-11-21                                                         46.64%    passed     82.31%
+ 769  MN123678/Saf01/Mn/GIN/2013-12-03                                                         46.64%    passed     85.31%
+ 770  MN123695/Yar36/Mn/GIN/2013-11-21                                                         46.64%    passed     93.17%
+ 771  MN123665/Dam03/Mn/GIN/2013-11-15                                                         46.64%    passed     94.08%
+ 772  MN123668/Dam20/Mn/GIN/2013-11-16                                                         46.64%    passed     95.43%
+ 773  KP339054/170/Mastomys_natalensis/GIN/2003-5-23                                           76.33%    passed     57.01%
+ 774  DQ832671/BA302/Mouse/GIN/2003                                                            80.29%    passed     67.36%
+ 775  MN123690/Son85/Mn/GIN/2014-04-08                                                         46.64%    passed     91.63%
+ 776  MN123691/Son109/Mn/GIN/2014-04-09                                                        46.64%    passed     72.13%
+ 777  MN123667/Dam15/Mn/GIN/2013-11-15                                                         46.67%    passed     61.29%
+ 778  MN123671/Dam71/Mn/GIN/2014-03-26                                                         46.64%    passed     74.84%
+ 779  MN123670/Dam49/Mn/GIN/2013-11-17                                                         46.64%    passed     95.67%
+ 780  MN123673/Dam90/Mn/GIN/2014-03-27                                                         46.67%    passed     99.62%
+ 781  DQ832676/BA375/Mouse/GIN/2003                                                            80.29%    passed     52.47%
+ 782  AF182269/las807868/Human/GIN/1996                                                        80.19%    passed     39.12%
+ 783  MN123689/Sok75/Mn/GIN/2014-04-05                                                         46.64%    passed     99.28%
+ 784  MN123688/Sok61/Mn/GIN/2014-04-04                                                         47.21%    passed     98.73%
+ 785  MN123660/Dal04/Mn/GIN/2013-11-28                                                         46.64%    passed     87.08%
+ 786  MN123674/Dam95/Mn/GIN/2014-03-27                                                         46.64%    passed     93.84%
+ 787  MN123666/Dam05/Mn/GIN/2013-11-15                                                         46.64%    passed     87.85%
+ 788  MN123693/Yar20/Mn/GIN/2013-11-20                                                         46.67%    passed     92.34%
+ 789  MN123694/Yar24/Mn/GIN/2013-11-21                                                         46.64%    passed     97.05%
+ 790  MG812653/LF11003/Human/LBR/Bong/2011-02-20                                                0.00%    passed     69.05%
+ 791  MG812655/LF11011/Human/LBR/Bong/2011-04-14                                                0.00%    passed     62.13%
+ 792  MG812663/LF16004/Human/LBR/Bong/2016-02-26                                                0.00%    passed     64.10%
+ 793  MG812677/LF17013/Human/LBR/Bong/2017-02-13                                                0.00%    passed     46.21%
+ 794  MG812665/LF16016/Human/LBR/Nimba/2016-04-13                                               0.00%    passed     71.96%
+ 795  MG812669/LF17019/Human/LBR/Bong/2017-05-04                                                0.00%    passed     70.32%
+ 796  FJ824031/Soromba/Human/MLI/2009-02-17                                                    72.60%    passed     15.76%
+ 797  GU573551/Soromba_R245/Mouse/MLI/2009                                                     75.80%    passed      5.68%
+ 798  KF478767/Komina_R16/Mouse/MLI/2012-03-03                                                  0.00%    passed     92.42%
+ 799  KF478769/Soromba-R30/Mn/MLI/2012-03-03                                                    5.84%    passed     78.88%
+ 800  KF478766/Bamba_R114/Mouse/MLI/2012-03                                                     0.00%    passed     94.04%
+ 801  KF478768/Ouoma-R123/Mn/MLI/2012-03                                                        0.00%    passed     93.74%
+ 802  AF182272/las9608911/Human/NGA/1996                                                       80.29%    passed     20.62%
+ 803  AF333969/CSF/Human/NGA/2000-03-28                                                         0.13%    passed     69.79%
+ 804  LASV_NGA_2014_IRR_002_NGA-Nassarawa_Lafia_Hs_2014-01-20                                   0.09%    passed     73.53%
+ 805  LASV_NGA_2016_IRR_020_NGA-Nassarawa_Lafia_Hs_2016-02-15                                   0.09%    passed     96.45%
+ 806  LASV_NGA_2015_IRR_014_NGA-Nassarawa_Agyaragu_Hs_2015-12-30                                0.09%    passed     84.81%
+ 807  LASV_NGA_2016_IRR_008_NGA-Nassarawa_Lafia_Hs_2016-01-20                                   0.09%    passed     85.23%
+ 808  LASV_NGA_2016_IRR_032_NGA-Nassarawa_Lafia_Hs_2016-03-13                                   0.09%    passed     83.23%
+ 809  LASV_NGA_2016_IRR_015_NGA-Nassarawa_Lafia_Hs_2016-02-03                                   0.09%    passed     62.10%
+ 810  LASV_NGA_2017_IRR_001_NGA-Nassarawa_NA_Hs_2017-01-24                                      0.09%    passed     48.96%
+ 811  LASV_NGA_2015_IRR_015_NGA-Nassarawa_Lafia_Hs_2015-12-30                                   0.09%    passed     54.24%
+ 812  LASV_NGA_2013_IRR_003_NGA-Nassarawa_Lafia_Hs_2013-01-18                                   0.09%    passed     92.99%
+ 813  LASV_NGA_2012_IRR_007_NGA-Nassarawa_Lafia_Hs_2012-02-27                                  78.19%    passed     45.22%
+ 814  ONM-299_NGA-Benue_COORDINATES_Me_2011-10-23                                               0.09%    passed     79.13%
+ 815  ONM-314_NGA-Benue_COORDINATES_Me_2011-10-24                                               0.09%    passed     77.29%
+ 816  ONM-700_NGA-Benue_COORDINATES_Me_2012-10-29                                               0.09%    passed     74.50%
+ 817  LASV_NGA_2016_IRR_016_NGA-Nassarawa_Kwarra_Hs_2016-02-06                                  0.09%    passed     88.87%
+ 818  LASV_NGA_2018_IRR_025_NGA-Imo_Orlu_Hs_2018-01-19                                          0.28%    passed     91.13%
+ 819  LASV_NGA_2016_IRR_025_NGA-Benue_Oiji_Hs_2016-02-26                                        0.09%    passed     56.58%
+ 820  PB1_NGA-Plateau_Jos_Hs_1982-01                                                           82.77%    failed      2.00%
+ 821  LASV_NGA_2013_IRR_014_NGA-Bauchi_Bauchi_Hs_2013-11-23                                     0.09%    passed     67.32%
+ 822  LASV_NGA_2015_IRR_004_NGA-Bauchi_Bauchi_Hs_2015-01-18                                    74.01%    passed     33.47%
+ 823  LASV_NGA_2013_IRR_016_NGA-Bauchi_Bauchi_Hs_2013-12-08                                     0.09%    passed     70.81%
+ 824  LASV_NGA_2015_IRR_009_NGA-Bauchi_Mbal_Hs_2015-04-25                                       0.09%    passed     47.88%
+ 825  LASV_NGA_2013_IRR_010_NGA-Bauchi_Bauchi_Hs_2013-03-10                                    72.85%    passed     16.11%
+ 826  LASV_NGA_2016_IRR_019_NGA-Bauchi_LimanKatagum_Hs_2016-01-12                               0.09%    passed     75.74%
+ 827  LASV_NGA_2016_IRR_028_NGA-Bauchi_SabonGari_Hs_2016-02-29                                  0.09%    passed     45.09%
+ 828  LASV_NGA_2018_IRR_001_NGA-Bauchi_LimanKatagum_Hs_2018-01-02                               0.09%    passed     65.47%
+ 829  LASV_NGA_2016_IRR_031_NGA-Bauchi_Mbal_Hs_2016-03-11                                       2.45%    passed     63.93%
+ 830  LASV_NGA_2013_IRR_015_NGA-Bauchi_Bauchi_Hs_2013-12-04                                     0.09%    passed     90.40%
+ 831  LASV_NGA_2018_IRR_086_NGA-Bauchi_Wandi_Hs_2018-02-08                                      0.19%    passed     58.98%
+ 832  LASV_NGA_2018_IRR_054_NGA-Bauchi_Kufai_Hs_2018-02-04                                      0.22%    passed     71.64%
+ 833  LASV_NGA_2018_IRR_136_NGA-Bauchi_Lukshi_Hs_2018-03-05                                     2.54%    passed     55.30%
+ 834  LASV_NGA_2016_IRR_005_NGA-Bauchi_Bundot_Hs_2016-01-08                                     0.09%    passed     52.75%
+ 835  LASV_NGA_2016_IRR_003_NGA-Plateau_Kumbul_Hs_2016-01-04                                    0.09%    passed     60.16%
+ 836  LASV_NGA_2016_IRR_009_NGA-Plateau_Shendam_Hs_2016-01-20                                   0.09%    passed     59.84%
+ 837  LASV/NGA/2019/IRR_0070/2019-02-08                                                         1.44%    passed     97.54%
+ 838  LASV_NGA_2015_IRR_008_NGA-Bauchi_Alkaleri_Hs_2015-04-10                                   0.09%    passed     93.96%
+ 839  LASV_NGA_2016_IRR_014_NGA-Bauchi_Alkaleri_Hs_2016-01-28                                   0.09%    passed     98.03%
+ 840  LASV_NGA_2016_IRR_012_NGA-Bauchi_TafawaBalewa_Hs_2016-01-25                               0.09%    passed     74.51%
+ 841  LASV_NGA_2016_IRR_010_NGA-Taraba_Kwesati_Hs_2016-01-22                                    0.09%    passed     94.84%
+ 842  GA391_NGA-Kaduna_Zaria_Hs_1977-11                                                        46.33%    passed     35.87%
+ 843  AF182228/las806791/Human/NGA/1993                                                        80.29%    passed     18.04%
+ 844  AF182229/las803210/Human/NGA/1975                                                        80.29%    passed     15.71%
+ 845  LASV_NGA_2013_IRR_002_NGA-Benue_Makurdi_Hs_2013-01-17                                     0.09%    passed     82.54%
+ 846  AF182230/las803212/Human/NGA/1976                                                        80.29%    passed     14.19%
+ 847  AF182232/las803208/Human/NGA/1975                                                        80.29%    passed     15.80%
+ 848  LASV_NGA_2016_IRR_023_NGA-Kaduna_Kaduna_Hs_2016-02-23                                     0.09%    passed     94.60%
+ 849  LASV_NGA_2015_IRR_003_NGA-Plateau_Vom_Hs_2015-01-12                                      75.33%    passed     16.51%
+ 850  LASV_NGA_2013_IRR_013_NGA-Plateau_Jos_Hs_2013-02-27                                      77.68%    passed     10.17%
+ 851  LASV_NGA_2015_IRR_002_NGA-Bauchi_Bauchi_Hs_2015-01-08                                    72.28%    passed     60.12%
+ 852  LASV_NGA_2015_IRR_005_NGA-Kaduna_Zaria_Hs_2015-01-28                                     76.24%    passed     14.90%
+ 853  AF181854/las803213/Human/NGA/1974-02                                                      0.09%    passed     88.79%
+ 854  AF182220/las803214/Human/NGA/1974                                                        80.29%    passed     87.73%
+ 855  MH887880/LASV0154-TARABA-2018/Human/NGA/2018-02-04                                        0.09%    passed     80.89%
+ 856  LASV_NGA_2012_IRR_001_NGA-Taraba_Jalingo_Hs_2012-02-08                                    0.09%    passed     57.15%
+ 857  LASV_NGA_2013_IRR_008_NGA-Taraba_Jalingo_Hs_2013-03-06                                    0.09%    passed     99.06%
+ 858  LASV_NGA_2015_IRR_007_NGA-Taraba_Jalingo_Hs_2015-02-25                                    0.09%    passed     97.57%
+ 859  LASV_NGA_2016_IRR_004_NGA-Taraba_Takun_Hs_2016-01-05                                      0.09%    passed     81.66%
+ 860  LASV_NGA_2012_IRR_003_NGA-Taraba_Jalingo_Hs_2012-02-10                                    0.09%    passed     84.62%
+ 861  AF182221/las806316/Human/NGA/1989                                                        80.29%    passed     81.68%
+ 862  AF182222/las808031/Human/NGA/1994                                                        80.19%    passed     84.67%
+ 863  LASV_NGA_2017_IRR_003_NGA-Edo_NA_Hs_2017-04-03                                           29.85%    passed     87.63%
+ 864  LASV_NGA_2018_IRR_031_NGA-Edo_Uromi_Hs_2018-01-24                                         0.19%    passed     98.56%
+ 865  LASV_NGA_2018_IRR_121_NGA-Edo_Uhiele_Hs_2018-02-26                                        0.19%    passed     97.19%
+ 866  GU481076/Nig08_A41/Human/NGA/2008-02                                                      0.09%    passed     98.71%
+ 867  LASV_NGA_2016_IRR_022_NGA-Kogi_Idah_Hs_2016-02-20                                         0.09%    passed     98.36%
+ 868  LASV_NGA_2018_IRR_022_NGA-Kogi_Lokoja_Hs_2018-01-17                                       0.16%    passed     92.29%
+ 869  LASV_NGA_2018_IRR_141_NGA-Kogi_Idah_Hs_2018-02-23                                         1.66%    passed     98.74%
+ 870  LASV_NGA_2018_IRR_006_NGA-Edo_Auchi_Hs_2018-01-09                                         0.16%    passed     96.40%
+ 871  LASV_NGA_2018_IRR_091_NGA-Edo_Afowa_Hs_2018-02-15                                         5.40%    passed     89.52%
+ 872  LASV/NGA/2019/IRR_0008/2019-01-20                                                         0.25%    passed     95.92%
+ 873  LASV/NGA/2019/IRR_0067/2019-02-08                                                         0.13%    passed     97.86%
+ 874  LASV_NGA_2018_IRR_015_NGA-Ondo_Owo_Hs_2018-01-16                                          0.28%    passed     99.21%
+ 875  LASV_NGA_2015_IRR_001_NGA-Plateau_Buji_Hs_2015-01-08                                      0.09%    passed     97.93%
+ 876  LASV_NGA_2016_IRR_001_NGA-Edo_NA_Hs_2016-01-04                                            0.09%    passed     95.51%
+ 877  LASV/NGA/2019/IRR_0001/2019-01-15                                                         0.19%    passed     97.81%
+ 878  LASV/NGA/2019/IRR_0049/2019-01-04                                                         0.28%    passed     99.23%
+ 879  LASV/NGA/2019/IRR_0031/2019-01-08                                                        14.88%    passed     99.65%
+ 880  LASV/NGA/2019/IRR_0050/2019-01-16                                                         0.31%    passed     99.14%
+ 881  LASV_NGA_2017_IRR_004_NGA-Edo_Uzairue_Hs_2017                                             0.09%    passed     96.36%
+ 882  LASV/NGA/2019/IRR_0060/2019-02-06                                                         0.47%    passed     97.54%
+ 883  LASV/NGA/2019/IRR_0073/2019-01-21                                                         0.31%    passed     89.90%
+ 884  LASV/NGA/2019/IRR_0065/2019-01-02                                                         0.19%    passed     90.38%
+ 885  LASV_NGA_2014_IRR_010_NGA-Ondo_Okeluse_Hs_2014-05-17                                      0.09%    passed     87.71%
+ 886  LASV_NGA_2014_IRR_011_NGA-Ondo_Okeluse_Hs_2014-08-01                                      0.09%    passed     86.91%
+ 887  LASV_NGA_2014_IRR_004_NGA-Ondo_Okeluse_Hs_2014-05-08                                      0.09%    passed     96.49%
+ 888  LASV_NGA_2018_IRR_131_NGA-Edo_BeninCity_Hs_2018-03-01                                     0.19%    passed     68.39%
+ 889  LASV_NGA_2018_IRR_050_NGA-Ondo_Ifon_Hs_2018-02-05                                         0.16%    passed     83.21%
+ 890  LASV/NGA/2019/IRR_0004/2019-01-17                                                         0.16%    passed     97.94%
+ 891  LASV_NGA_2016_IRR_033_NGA-Ondo_Ondo_Hs_2016-03-14                                         0.09%    passed     91.67%
+ 892  LASV/NGA/2019/IRR_0063/2018-12-31                                                         0.28%    passed     91.43%
+ 893  LASV_NGA_2018_IRR_023_NGA-Edo_Uzebba_Hs_2018-01-18                                        6.40%    passed     99.25%
+ 894  MH887876/LASV0153-EDO-2018/Human/NGA/2018-02-04                                           1.16%    passed     95.30%
+ 895  LASV_NGA_2018_IRR_017_NGA-Ondo_Owo_Hs_2018-01-15                                          0.31%    passed     82.50%
+ 896  LASV_NGA_2018_IRR_008_NGA-Ondo_IjebuOwo_Hs_2018-01-11                                     4.68%    passed     99.05%
+ 897  LASV/NGA/2019/IRR_0074/2019-01-31                                                         0.38%    passed     98.84%
+ 898  LASV/NGA/2019/IRR_0079/2019-02-04                                                         0.41%    passed     99.12%
+ 899  LASV/NGA/2019/IRR_0011/2019-01-22                                                         0.41%    passed     98.18%
+ 900  LASV_NGA_2018_IRR_048_NGA-Ondo_Owo_Hs_2018-02-04                                          0.41%    passed     97.20%
+ 901  LASV/NGA/2019/IRR_0028/2019-01-25                                                         0.16%    passed     96.59%
+ 902  LASV_NGA_2018_IRR_072_NGA-Ondo_Owo_Hs_2018-02-12                                          0.53%    passed     98.60%
+ 903  LASV_NGA_2016_IRR_029_NGA-Ondo_Owo_Hs_2016-03-01                                          0.09%    passed     94.47%
+ 904  LASV_NGA_2017_IRR_006_NGA-Ondo_Owo_Hs_2017-01-19                                          0.09%    passed     89.51%
+ 905  LASV_NGA_2018_IRR_014_NGA-Ondo_Owo_Hs_2018-01-15                                          0.19%    passed     94.06%
+ 906  LASV_NGA_2018_IRR_083_NGA-Ondo_Owo_Hs_2018-02-13                                          0.22%    passed     89.68%
+ 907  LASV/NGA/2019/IRR_0054/2019-01-12                                                         3.80%    passed     98.64%
+ 908  LASV/NGA/2019/IRR_0099/2019-03-01                                                         0.25%    passed     97.11%
+ 909  LASV_NGA_2018_IRR_084_NGA-Ondo_Owo_Hs_2018-02-13                                          0.19%    passed     99.04%
+ 910  LASV_NGA_2018_IRR_021_NGA-Nassarawa_Keffi_Hs_2018-01-18                                   0.13%    passed     96.87%
+ 911  LASV/NGA/2019/IRR_0077/2019-01-19                                                         0.88%    passed     93.72%
+ 912  LASV_NGA_2017_IRR_014_NGA-Ondo_Owo_Hs_2017-04-28                                          2.17%    passed     94.92%
+ 913  LASV/NGA/2019/IRR_0023/2019-01-26                                                         0.25%    passed     94.78%
+ 914  LASV/NGA/2019/IRR_0029/2019-01-18                                                         0.25%    passed     95.37%
+ 915  LASV_NGA_2018_IRR_010_NGA-Ondo_Owo_Hs_2018-01-12                                          0.38%    passed     96.93%
+ 916  LASV_NGA_2018_IRR_056_NGA-Ondo_Owo_Hs_2018-02-09                                         12.30%    passed     87.52%
+ 917  LASV/NGA/2019/IRR_0041/2019-01-24                                                        16.67%    passed     95.47%
+ 918  LASV/NGA/2019/IRR_0057/2019-01-29                                                         0.22%    passed     92.93%
+ 919  LASV/NGA/2019/IRR_0113/2019-03-06                                                         0.31%    passed     95.86%
+ 920  LASV_NGA_2015_IRR_011_NGA-Ondo_Owo_Hs_2015-09-16                                          0.09%    passed     94.27%
+ 921  LASV_NGA_2018_IRR_020_NGA-Ondo_Owo_Hs_2018-01-17                                          1.26%    passed     88.76%
+ 922  LASV_NGA_2018_IRR_092_NGA-Ondo_Owo_Hs_2018-02-15                                          2.13%    passed     95.77%
+ 923  LASV_NGA_2018_IRR_052_NGA-Ondo_Owo_Hs_2018-02-07                                          0.16%    passed     93.60%
+ 924  LASV_NGA_2018_IRR_095_NGA-Ekiti_Ado-Ekiti_Hs_2018-02-15                                   0.19%    passed     94.87%
+ 925  LASV/NGA/2019/IRR_0076/2019-02-05                                                         2.17%    passed     86.13%
+ 926  LASV/NGA/2019/IRR_0101/2019-02-28                                                         0.16%    passed     97.98%
+ 927  LASV_NGA_2018_IRR_047_NGA-Ondo_Owo_Hs_2018-02-05                                          2.01%    passed     90.70%
+ 928  LASV_NGA_2018_IRR_057_NGA-Ondo_Owo_Hs_2018-02-09                                          0.19%    passed     96.32%
+ 929  LASV/NGA/2019/IRR_0062/2019-02-12                                                         0.22%    passed     96.18%
+ 930  LASV_NGA_2018_IRR_093_NGA-Ondo_Owo_Hs_2018-02-15                                          9.10%    passed     91.74%
+ 931  LASV/NGA/2019/IRR_0053/2019-01-23                                                         5.52%    passed     96.25%
+ 932  LASV/NGA/2019/IRR_0017/2018-12-31                                                         0.19%    passed     91.49%
+ 933  LASV/NGA/2019/IRR_0024/2019-01-27                                                         0.16%    passed     97.50%
+ 934  LASV/NGA/2019/IRR_0097/2019-02-24                                                         0.25%    passed     95.04%
+ 935  LASV_NGA_2018_IRR_003_NGA-Ondo_Owo_Hs_2018-01-07                                          5.59%    passed     78.07%
+ 936  LASV_NGA_2014_IRR_012_NGA-Ondo_Ifon_Hs_2014-08-10                                         0.09%    passed     95.96%
+ 937  LASV_NGA_2015_IRR_006_NGA-Ondo_Ifon_Hs_2015-02-22                                         0.09%    passed     95.25%
+ 938  LASV_NGA_2018_IRR_071_NGA-Ondo_Ifon_Hs_2018-02-11                                         0.25%    passed     93.59%
+ 939  LASV_NGA_2015_IRR_012_NGA-Ondo_Ifon_Hs_2015-11-06                                         0.09%    passed     96.74%
+ 940  LASV_NGA_2018_IRR_126_NGA-Ondo_Ute_Hs_2018-02-28                                          0.13%    passed     98.45%
+ 941  LASV/NGA/2019/IRR_0020/2019-01-09                                                         0.35%    passed     85.80%
+ 942  LASV/NGA/2019/IRR_0048/2019-01-08                                                         2.07%    passed     96.01%
+ 943  LASV/NGA/2019/IRR_0112/2019-03-05                                                         0.44%    passed     90.00%
+ 944  LASV/NGA/2019/IRR_0107/2019-02-26                                                         0.25%    passed     91.47%
+ 945  LASV_NGA_2018_IRR_033_NGA-Edo_Jattu_Hs_2018-01-25                                         0.13%    passed     89.76%
+ 946  LASV/NGA/2019/IRR_0071/2019-01-07                                                         0.16%    passed     95.36%
+ 947  LASV_NGA_2018_IRR_114_NGA-Edo_Ekpoma_Hs_2018-02-21                                        0.31%    passed     96.63%
+ 948  LASV/NGA/2019/IRR_0092/2019-01-25                                                         0.16%    passed     98.57%
+ 949  LASV_NGA_2018_IRR_117_NGA-Edo_Afuze_Hs_2018-02-24                                         1.32%    passed     99.93%
+ 950  GU481078/Nig08_A47/Human/NGA/2008-02                                                      0.09%    passed     98.17%
+ 951  LASV/NGA/2019/IRR_0081/2019-02-03                                                         0.25%    passed     97.32%
+ 952  LASV_NGA_2018_IRR_137_NGA-Edo_Uromi_Hs_2018-03-08                                        13.37%    passed     97.76%
+ 953  LASV_NGA_2018_IRR_142_NGA-Edo_Uromi_Hs_2018-03-09                                        31.92%    passed     88.86%
+ 954  LASV/NGA/2019/IRR_0105/2019-02-26                                                         0.25%    passed     99.03%
+ 955  LASV/NGA/2019/IRR_0013/2019-01-18                                                        19.74%    passed     82.47%
+ 956  LASV/NGA/2019/IRR_0114/2019-03-07                                                         0.25%    passed     98.79%
+ 957  LASV/NGA/2019/IRR_0080/2019-01-17                                                         2.32%    passed     97.18%
+ 958  LASV_NGA_2018_IRR_053_NGA-Edo_Uromi_Hs_2018-02-08                                         6.03%    passed     97.68%
+ 959  LASV_NGA_2018_IRR_051_NGA-Edo_Uromi_Hs_2018-02-06                                         0.85%    passed     76.58%
+ 960  LASV_NGA_2018_IRR_103_NGA-Edo_Uromi_Hs_2018-02-18                                         0.19%    passed     83.65%
+ 961  LASV/NGA/2019/IRR_0025/2019-02-02                                                         0.22%    passed     93.82%
+ 962  LASV/NGA/2019/IRR_0006/2019-01-20                                                         0.63%    passed     97.13%
+ 963  LASV/NGA/2019/IRR_0051/2019-02-02                                                         4.39%    passed     99.93%
+ 964  LASV_NGA_2013_IRR_011_NGA-Rivers_Obio-Akpor_Hs_2013-03-18                                 0.09%    passed     96.28%
+ 965  LASV/NGA/2019/IRR_0059/2019-02-17                                                         0.19%    passed     98.37%
+ 966  LASV/NGA/2019/IRR_0083/2019-01-11                                                         1.35%    passed     98.24%
+ 967  LASV_NGA_2018_IRR_119_NGA-Edo_Auchi_Hs_2018-02-25                                         0.16%    passed     95.00%
+ 968  GU481074/Nig08_A37/Human/NGA/2008-02                                                      0.09%    passed     88.94%
+ 969  LASV/NGA/2019/IRR_0003/2019-01-15                                                         1.57%    passed     96.96%
+ 970  LASV/NGA/2019/IRR_0039/2019-01-17                                                         0.22%    passed     94.85%
+ 971  LASV/NGA/2019/IRR_0026/2019-02-02                                                         0.19%    passed     97.82%
+ 972  LASV_NGA_2018_IRR_082_NGA-Ondo_Owo_Hs_2018-02-13                                          0.19%    passed     98.68%
+ 973  LASV_NGA_2018_IRR_019_NGA-Ondo_Owo_Hs_2018-01-17                                          6.37%    passed     98.23%
+ 974  LASV/NGA/2019/IRR_0032/2019-01-27                                                         9.38%    passed     90.79%
+ 975  LASV_NGA_2013_IRR_001_NGA-Ondo_Imoru_Hs_2013-01-16                                        0.09%    passed     82.01%
+ 976  LASV_NGA_2016_IRR_017_NGA-Ondo_Ifon_Hs_2016-02-06                                         0.09%    passed     97.58%
+ 977  LASV_NGA_2018_IRR_075_NGA-Edo_BeninCity_Hs_2018-02-12                                     0.44%    passed     91.88%
+ 978  LASV/NGA/2019/IRR_0021/2019-01-18                                                         0.35%    passed     86.72%
+ 979  LASV_NGA_2018_IRR_140_NGA-Ondo_Akure_Hs_2018-02-23                                       65.54%    passed     84.35%
+ 980  LASV_NGA_2016_IRR_024_NGA-Ondo_Irun_Hs_2016-02-24                                         0.09%    passed     77.70%
+ 981  LASV_NGA_2018_IRR_038_NGA-Ondo_Akure_Hs_2018-01-26                                       16.89%    passed     60.50%
+ 982  LASV_NGA_2013_IRR_006_NGA-Ondo_Ifon_Hs_2013-01-30                                         0.09%    passed     93.39%
+ 983  LASV/NGA/2019/IRR_0106/2019-02-28                                                         4.39%    passed     85.90%
+ 984  LASV/NGA/2019/IRR_0066/2019-01-14                                                        14.75%    passed     55.17%
+ 985  LASV/NGA/2019/IRR_0098/2019-03-03                                                         0.16%    passed     77.50%
+ 986  LASV/NGA/2019/IRR_0068/2019-01-08                                                         0.19%    passed     96.73%
+ 987  LASV_NGA_2018_IRR_074_NGA-Edo_Sobe_Hs_2018-02-12                                          0.25%    passed     96.26%
+ 988  LASV_NGA_2017_IRR_005_NGA-Edo_Okeluse_Hs_2017-01-16                                      24.33%    passed     99.19%
+ 989  LASV/NGA/2019/IRR_0002/2019-01-16                                                         0.25%    passed     85.72%
+ 990  LASV_NGA_2018_IRR_096_NGA-Delta_Asaba_Hs_2018-02-17                                       6.43%    passed     85.91%
+ 991  LASV_NGA_2018_IRR_066_NGA-Edo_Auchi_Hs_2018-02-10                                         0.13%    passed     79.11%
+ 992  LASV_NGA_2018_IRR_085_NGA-Edo_Sabongida-Ora_Hs_2018-02-14                                 0.19%    passed     90.20%
+ 993  LASV/NGA/2019/IRR_0005/2019-01-18                                                         0.19%    passed     99.12%
+ 994  LASV/NGA/2019/IRR_0103/2019-02-28                                                         0.38%    passed     97.69%
+ 995  LASV_NGA_2018_IRR_120_NGA-Edo_Ehor_Hs_2018-02-25                                          0.09%    passed     87.52%
+ 996  LASV_NGA_2018_IRR_077_NGA-Edo_Ubunmwonde_Hs_2018-02-12                                    0.75%    passed     77.45%
+ 997  LASV/NGA/2019/IRR_0056/2019-01-07                                                         6.87%    passed     94.06%
+ 998  LASV/NGA/2019/IRR_0019/2019-01-08                                                         0.31%    passed     99.19%
+ 999  LASV_NGA_2016_IRR_002_NGA-Edo_NA_Hs_2016-02-15                                            1.51%    passed     98.82%
+1000  LASV_NGA_2018_IRR_079_NGA-Edo_Uromi_Hs_2018-02-12                                        22.50%    passed     90.11%
+1001  LASV/NGA/2019/IRR_0075/2019-02-15                                                         0.25%    passed     95.91%
+1002  LASV_NGA_2012_IRR_010_NGA-Delta_Asaba_Hs_2012-05-28                                       0.09%    passed     80.60%
+1003  LASV_NGA_2018_IRR_042_NGA-Anambra_Nzam_Hs_2018-01-29                                      0.41%    passed     79.59%
+1004  LASV_NGA_2018_IRR_073_NGA-Anambra_Ode-Nzam_Hs_2018-02-12                                  0.41%    passed     78.91%
+1005  LASV_NGA_2018_IRR_110_NGA-Edo_Iyamho_Hs_2018-02-20                                        3.33%    passed     73.47%
+1006  LASV_NGA_2018_IRR_024_NGA-Edo_Agenegbode_Hs_2018-01-19                                    0.41%    passed     93.64%
+1007  LASV_NGA_2018_IRR_037_NGA-Edo_Ubiaja_Hs_2018-01-26                                        0.31%    passed     79.91%
+1008  LASV_NGA_2018_IRR_080_NGA-Edo_Ekpoma_Hs_2018-02-13                                       11.17%    passed     82.16%
+1009  KP640572/Ekpoma_521/Mastomys_natalensis/NGA/2012-10-18                                   71.47%    passed     29.37%
+1010  LASV/NGA/2019/IRR_0022/2019-01-25                                                         0.13%    passed     97.66%
+1011  LASV_NGA_2014_IRR_001_NGA-Edo_NA_Hs_2014-01-25                                            0.13%    passed     93.81%
+1012  LASV/NGA/2019/IRR_0072/2019-01-25                                                        18.58%    passed     99.83%
+1013  LASV_NGA_2018_IRR_135_NGA-Edo_Ekpoma_Hs_2018-03-05                                        0.97%    passed     93.93%
+1014  LASV_NGA_2018_IRR_036_NGA-Edo_Ekpoma_Hs_2018-01-26                                        0.16%    passed     92.36%
+1015  LASV_NGA_2018_IRR_046_NGA-Edo_Ekpoma_Hs_2018-02-05                                        1.16%    passed     92.10%
+1016  LASV/NGA/2019/IRR_0100/2019-03-03                                                         0.22%    passed     97.63%
+1017  LASV_NGA_2018_IRR_002_NGA-Edo_Ogwa_Hs_2018-01-07                                         23.95%    passed     62.80%
+1018  KP640562/Eguare-Egoro_88/Mastomys_natalensis/NGA/2011-3-22                               71.44%    passed     24.54%
+1019  KP640574/Ekpoma_549/Mastomys_natalensis/NGA/2012-10-18                                   71.44%    passed     24.54%
+1020  KP640576/Ekpoma_601/Mastomys_natalensis/NGA/2012-10-21                                   71.56%    passed     26.68%
+1021  KP640569/Ekpoma_508/Mastomys_natalensis/NGA/2012-10-18                                   71.50%    passed     22.91%
+1022  KP640563/Eguare-Egoro_97/Mouse/NGA/2011-03-22                                            71.47%    passed     25.30%
+1023  KP640564/Eguare-Egoro_106/Mastomys_natalensis/NGA/2011-3-23                              72.25%    passed     12.75%
+1024  KP640566/Eguare-Egoro_240/Mastomys_natalensis/NGA/2011-10-17                             71.53%    passed     22.03%
+1025  KP640570/Ekpoma_512/Mastomys_natalensis/NGA/2012-10-18                                   71.44%    passed     43.55%
+1026  KP640571/Ekpoma_518/Mastomys_natalensis/NGA/2012-10-18                                   71.44%    passed     33.84%
+1027  LASV/NGA/2019/IRR_0064/2019-01-03                                                         0.47%    passed     93.00%
+1028  LASV/NGA/2019/IRR_0102/2019-02-28                                                         0.41%    passed     82.94%
+1029  LASV_NGA_2012_IRR_009_NGA-Kogi_Iyano_Hs_2012-04-12                                       74.04%    passed     18.93%
+1030  LASV_NGA_2018_IRR_133_NGA-Kogi_Idah_Hs_2018-03-02                                        11.36%    passed     93.32%
+1031  LASV_NGA_2018_IRR_078_NGA-Edo_Auchi_Hs_2018-02-12                                        51.66%    passed     48.07%
+1032  LASV_NGA_2014_IRR_005_NGA-Ebonyi_Abakaliki_Hs_2014-05-14                                  0.09%    passed     96.51%
+1033  LASV_NGA_2018_IRR_064_NGA-Ebonyi_Abakaliki_Hs_2018-02-03                                  1.29%    passed     76.75%
+1034  LASV_NGA_2013_IRR_004_NGA-Plateau_Bukuru_Hs_2013-01                                       0.09%    passed     96.43%
+1035  LASV_NGA_2013_IRR_005_NGA-Ebonyi_Abakaliki_Hs_2013-01-25                                  0.09%    passed     97.80%
+1036  LASV_NGA_2018_IRR_044_NGA-Ebonyi_AgbajaAzumili_Hs_2018-01-30                              0.38%    passed     96.51%
+1037  LASV_NGA_2018_IRR_061_NGA-Ebonyi_Abakaliki_Hs_2018-02-07                                  0.25%    passed     96.98%
+1038  LASV_NGA_2018_IRR_099_NGA-Ebonyi_UmunwaguIdembia_Hs_2018-02-15                            0.16%    passed     95.28%
+1039  LASV_NGA_2018_IRR_063_NGA-Ebonyi_Amogwe_Hs_2018-02-07                                     0.28%    passed     99.43%
+1040  LASV_NGA_2018_IRR_035_NGA-Ebonyi_Okposi-Okwa_Hs_2018-01-23                                0.19%    passed     97.30%
+1041  LASV_NGA_2018_IRR_101_NGA-Ebonyi_Abakaliki_Hs_2018-02-12                                  0.53%    passed     96.46%
+1042  LASV_NGA_2018_IRR_034_NGA-Ebonyi_Iboko_Hs_2018-01-25                                      4.52%    passed     81.67%
+1043  LASV_NGA_2018_IRR_011_NGA-Ebonyi_Amauro_Hs_2018-01-13                                     0.47%    passed     72.75%
+1044  AF182223/las806320/Human/NGA/1989                                                        80.29%    passed     95.60%
+1045  LASV_NGA_2016_IRR_018_NGA-Ebonyi_Ikwo_Hs_2016-02-09                                       0.09%    passed     98.73%
+1046  LASV_NGA_2018_IRR_060_NGA-Ebonyi_Isiama_Hs_2018-02-03                                     0.38%    passed     95.26%
+1047  AF182225/las806321/Human/NGA/1989                                                        80.19%    passed     10.18%
+1048  AF182226/las806322/Human/NGA/1989                                                        80.19%    passed     18.96%
+1049  LASV_NGA_2016_IRR_007_NGA-AkwaIbom_Uyo_Hs_2016-01-18                                      0.09%    passed     75.34%
+1050  LASV_NGA_2012_IRR_006_NGA-Rivers_PortHarcourt_Hs_2012-02-21                               0.09%    passed     83.99%
+1051  LASV_NGA_2013_IRR_007_NGA-Enugu_Enugu_Hs_2013-02-03                                       0.09%    passed     82.44%
+1052  LASV_NGA_2013_IRR_012_NGA-Rivers_Ohio-Akpor_Hs_2013-04-11                                72.54%    passed     15.65%
+1053  LASV_NGA_2016_IRR_013_NGA-Imo_Owerri_Hs_2016-01-27                                        0.09%    passed     77.30%
+1054  Kak-428_NGA-Osun_COORDINATES_Hp_2012-03-15                                                0.09%    passed     95.31%
+1055  OSPMH86_NGA-Osun_COORDINATES_Hp_2008-10                                                  71.16%    passed     38.47%
+1056  OSPMH123_NGA-Osun_COORDINATES_Hp_2009-03                                                 71.16%    passed     40.92%
+1057  OSPMH89_NGA-Osun_COORDINATES_Hp_2008-10                                                  71.16%    passed     24.56%
+1058  OSPMH124_NGA-Osun_COORDINATES_Hp_2009-03                                                 71.16%    passed     34.72%
+1059  LASV/NGA/2019/IRR_0082/2019-01-17                                                         0.63%    passed     73.48%
+1060  LASV_NGA_2016_IRR_006_NGA-Ekiti_IdoEkiti_Hs_2016-01-14                                    0.09%    passed     87.90%
+1061  pinneo_NGA-Borno_Lassa_LS_1969                                                            0.09%    passed     64.41%
+1062  G0927-S/Mouse/GIN/14-09-2022                                                              4.80%    passed     49.73%
+WARNING: 229 sequences contain more than 50% gaps/ambiguity
+****  TOTAL                                                                                    26.50%  1 sequences failed composition chi2 test (p-value<5%; df=3)
+NOTE: KM406554/LM0729/Mastomys_natalensis/SierraLeone/2009-08-15 is identical to KM406620-KM406552|LM0714|Mastomys_natalensis|SLE|2009-08-14 but kept for subsequent analysis
+NOTE: LASV_NGA_2016_IRR_032_NGA-Nassarawa_Lafia_Hs_2016-03-13 is identical to MH053463|Lassa_virus/H.sapiens-wt/NGA/2016/ISTH_0917|Homo_sapiens|NGA|2016-03-13 but kept for subsequent analysis
+NOTE: LASV_NGA_2016_IRR_014_NGA-Bauchi_Alkaleri_Hs_2016-01-28 is identical to MH053470|Lassa_virus/H.sapiens-wt/NGA/2016/ISTH_0419|Homo_sapiens|NGA|2016-01-28 but kept for subsequent analysis
+NOTE: LASV_NGA_2016_IRR_019_NGA-Bauchi_LimanKatagum_Hs_2016-01-12 is identical to MH053474|Lassa_virus/H.sapiens-wt/NGA/2016/ISTH_0621|Homo_sapiens|NGA|2016-02-12 but kept for subsequent analysis
+NOTE: LASV_NGA_2016_IRR_023_NGA-Kaduna_Kaduna_Hs_2016-02-23 is identical to MH053476|Lassa_virus/H.sapiens-wt/NGA/2016/ISTH_0717|Homo_sapiens|NGA|2016-02-23 but kept for subsequent analysis
+NOTE: LASV_NGA_2016_IRR_001_NGA-Edo_NA_Hs_2016-01-04 is identical to MH053491|Lassa_virus/H.sapiens-wt/NGA/2016/ISTH_0017|Homo_sapiens|NGA|2016-01-04 but kept for subsequent analysis
+NOTE: LASV_NGA_2015_IRR_012_NGA-Ondo_Ifon_Hs_2015-11-06 is identical to MH053559|Lassa_virus/H.sapiens-wt/NGA/2015/ISTH_0682|Homo_sapiens|NGA|2015-11-06 but kept for subsequent analysis
+NOTE: LASV_NGA_2016_IRR_004_NGA-Taraba_Takun_Hs_2016-01-05 is identical to MH053562|Lassa_virus/H.sapiens-wt/NGA/2016/ISTH_0104|Homo_sapiens|NGA|2016-01-05 but kept for subsequent analysis
+NOTE: LASV_NGA_2015_IRR_011_NGA-Ondo_Owo_Hs_2015-09-16 is identical to MH053586|Lassa_virus/H.sapiens-wt/NGA/2015/ISTH_0574|Homo_sapiens|NGA|2015-09-16 but kept for subsequent analysis
+NOTE: LASV_NGA_2018_IRR_120_NGA-Edo_Ehor_Hs_2018-02-25 is identical to MH887861|H.sapiens-wt/NGA/2018/LASV0206-EDO-2018|Homo_sapiens|NGA|2018-02-25 but kept for subsequent analysis
+Creating fast initial parsimony tree by random order stepwise addition...
+6.918 seconds, parsimony score: 48608 (based on 2388 sites)
+Generating 1000 samples for ultrafast bootstrap (seed: 759614)...
+
+NOTE: 417 MB RAM (0 GB) is required!
+Measuring multi-threading efficiency up to 6 CPU cores
+4 trees examined
+Threads: 1 / Time: 6.119 sec / Speedup: 1.000 / Efficiency: 100% / LogL: -840283
+Threads: 2 / Time: 3.310 sec / Speedup: 1.849 / Efficiency: 92% / LogL: -840283
+Threads: 3 / Time: 2.567 sec / Speedup: 2.384 / Efficiency: 79% / LogL: -840283
+Threads: 4 / Time: 2.451 sec / Speedup: 2.497 / Efficiency: 62% / LogL: -840283
+Threads: 5 / Time: 1.888 sec / Speedup: 3.241 / Efficiency: 65% / LogL: -840283
+Threads: 6 / Time: 1.749 sec / Speedup: 3.499 / Efficiency: 58% / LogL: -840283
+BEST NUMBER OF THREADS: 6
+
+Estimate model parameters (epsilon = 0.100)
+1. Initial log-likelihood: -259601.657
+2. Current log-likelihood: -219615.667
+3. Current log-likelihood: -218975.533
+4. Current log-likelihood: -218935.483
+5. Current log-likelihood: -218926.518
+6. Current log-likelihood: -218923.779
+7. Current log-likelihood: -218923.005
+8. Current log-likelihood: -218922.780
+Optimal log-likelihood: -218922.699
+Rate parameters:  A-C: 1.04565  A-G: 21.06349  A-T: 2.05534  C-G: 0.78789  C-T: 27.73588  G-T: 1.00000
+Base frequencies:  A: 0.304  C: 0.207  G: 0.230  T: 0.259
+Gamma shape alpha: 0.393
+Parameters optimization took 8 rounds (18.759 sec)
+Computing ML distances based on estimated model parameters...
+Computing ML distances took 2.611616 sec (of wall-clock time) 14.683963 sec(of CPU time)
+WARNING: Some pairwise ML distances are too long (saturated)
+Computing RapidNJ tree took 0.902283 sec (of wall-clock time) 1.137179 sec (of CPU time)
+Log-likelihood of RapidNJ tree: -229778.104
+--------------------------------------------------------------------
+|             INITIALIZING CANDIDATE TREE SET                      |
+--------------------------------------------------------------------
+Generating 98 parsimony trees... 90.195 second
+Computing log-likelihood of 98 initial trees ... 33.891 seconds
+Current best score: -217965.600
+
+Do NNI search on 20 best initial trees
+Estimate model parameters (epsilon = 0.100)
+BETTER TREE FOUND at iteration 1: -216991.265
+Estimate model parameters (epsilon = 0.100)
+BETTER TREE FOUND at iteration 4: -216974.614
+Iteration 10 / LogL: -217182.454 / Time: 0h:5m:54s
+Iteration 20 / LogL: -217262.268 / Time: 0h:8m:55s
+Finish initializing candidate tree set (20)
+Current best tree score: -216974.614 / CPU time: 484.059
+Number of iterations: 20
+--------------------------------------------------------------------
+|               OPTIMIZING CANDIDATE TREE SET                      |
+--------------------------------------------------------------------
+Estimate model parameters (epsilon = 0.100)
+BETTER TREE FOUND at iteration 24: -216963.044
+Estimate model parameters (epsilon = 0.100)
+BETTER TREE FOUND at iteration 27: -216943.332
+Iteration 30 / LogL: -217046.289 / Time: 0h:10m:19s (0h:34m:8s left)
+Estimate model parameters (epsilon = 0.100)
+BETTER TREE FOUND at iteration 31: -216934.236
+Estimate model parameters (epsilon = 0.100)
+BETTER TREE FOUND at iteration 32: -216925.981
+Estimate model parameters (epsilon = 0.100)
+BETTER TREE FOUND at iteration 35: -216870.096
+Estimate model parameters (epsilon = 0.100)
+BETTER TREE FOUND at iteration 37: -216858.515
+Iteration 40 / LogL: -216867.136 / Time: 0h:11m:50s (0h:29m:10s left)
+Estimate model parameters (epsilon = 0.100)
+BETTER TREE FOUND at iteration 44: -216849.489
+Estimate model parameters (epsilon = 0.100)
+BETTER TREE FOUND at iteration 46: -216806.227
+Iteration 50 / LogL: -216907.767 / Time: 0h:13m:12s (0h:25m:38s left)
+Log-likelihood cutoff on original alignment: -216946.943
+Iteration 60 / LogL: -216837.396 / Time: 0h:14m:41s (0h:21m:15s left)
+Estimate model parameters (epsilon = 0.100)
+BETTER TREE FOUND at iteration 61: -216796.946
+Iteration 70 / LogL: -216850.581 / Time: 0h:15m:53s (0h:20m:48s left)
+Estimate model parameters (epsilon = 0.100)
+BETTER TREE FOUND at iteration 73: -216793.629
+Iteration 80 / LogL: -216840.059 / Time: 0h:17m:9s (0h:20m:4s left)
+Iteration 90 / LogL: -216803.736 / Time: 0h:18m:24s (0h:17m:3s left)
+Estimate model parameters (epsilon = 0.100)
+BETTER TREE FOUND at iteration 99: -216785.949
+Iteration 100 / LogL: -216814.616 / Time: 0h:19m:41s (0h:19m:34s left)
+Log-likelihood cutoff on original alignment: -216886.148
+NOTE: Bootstrap correlation coefficient of split occurrence frequencies: 0.941
+NOTE: UFBoot does not converge, continue at least 100 more iterations
+Iteration 110 / LogL: -216925.211 / Time: 0h:20m:53s (0h:17m:9s left)
+Iteration 120 / LogL: -216816.099 / Time: 0h:22m:8s (0h:14m:48s left)
+Estimate model parameters (epsilon = 0.100)
+BETTER TREE FOUND at iteration 124: -216781.033
+Iteration 130 / LogL: -216792.559 / Time: 0h:23m:24s (0h:16m:58s left)
+Iteration 140 / LogL: -216825.156 / Time: 0h:24m:43s (0h:14m:52s left)
+Iteration 150 / LogL: -216834.580 / Time: 0h:25m:59s (0h:12m:51s left)
+Log-likelihood cutoff on original alignment: -216886.148
+Iteration 160 / LogL: -216807.430 / Time: 0h:27m:21s (0h:10m:57s left)
+Iteration 170 / LogL: -216884.863 / Time: 0h:28m:36s (0h:9m:6s left)
+Iteration 180 / LogL: -217631.129 / Time: 0h:29m:46s (0h:7m:17s left)
+Estimate model parameters (epsilon = 0.100)
+BETTER TREE FOUND at iteration 189: -216778.072
+Iteration 190 / LogL: -216883.768 / Time: 0h:30m:56s (0h:16m:8s left)
+Iteration 200 / LogL: -216952.736 / Time: 0h:32m:10s (0h:14m:20s left)
+Log-likelihood cutoff on original alignment: -216854.682
+NOTE: Bootstrap correlation coefficient of split occurrence frequencies: 0.988
+NOTE: UFBoot does not converge, continue at least 100 more iterations
+Iteration 210 / LogL: -216783.063 / Time: 0h:33m:28s (0h:14m:21s left)
+Iteration 220 / LogL: -217752.016 / Time: 0h:34m:39s (0h:12m:37s left)
+Iteration 230 / LogL: -216833.278 / Time: 0h:35m:48s (0h:10m:54s left)
+Iteration 240 / LogL: -216804.377 / Time: 0h:37m:4s (0h:9m:16s left)
+Estimate model parameters (epsilon = 0.100)
+BETTER TREE FOUND at iteration 242: -216772.655
+Iteration 250 / LogL: -216880.925 / Time: 0h:38m:15s (0h:14m:5s left)
+Log-likelihood cutoff on original alignment: -216853.410
+Iteration 260 / LogL: -217780.061 / Time: 0h:39m:34s (0h:12m:29s left)
+Iteration 270 / LogL: -216884.382 / Time: 0h:40m:53s (0h:10m:54s left)
+Iteration 280 / LogL: -216934.156 / Time: 0h:42m:5s (0h:9m:19s left)
+Iteration 290 / LogL: -217602.336 / Time: 0h:43m:13s (0h:7m:45s left)
+Iteration 300 / LogL: -216800.703 / Time: 0h:44m:24s (0h:6m:13s left)
+Log-likelihood cutoff on original alignment: -216850.426
+NOTE: Bootstrap correlation coefficient of split occurrence frequencies: 0.989
+NOTE: UFBoot does not converge, continue at least 100 more iterations
+Iteration 310 / LogL: -216786.676 / Time: 0h:45m:44s (0h:13m:17s left)
+Iteration 320 / LogL: -216850.211 / Time: 0h:46m:57s (0h:11m:44s left)
+Iteration 330 / LogL: -216825.520 / Time: 0h:48m:11s (0h:10m:13s left)
+Iteration 340 / LogL: -216990.119 / Time: 0h:49m:16s (0h:8m:42s left)
+Iteration 350 / LogL: -216777.259 / Time: 0h:50m:31s (0h:7m:13s left)
+Log-likelihood cutoff on original alignment: -216850.426
+Iteration 360 / LogL: -216881.425 / Time: 0h:51m:43s (0h:5m:45s left)
+Iteration 370 / LogL: -216816.574 / Time: 0h:52m:55s (0h:4m:17s left)
+Iteration 380 / LogL: -216795.364 / Time: 0h:54m:9s (0h:2m:51s left)
+Iteration 390 / LogL: -216940.379 / Time: 0h:55m:23s (0h:1m:25s left)
+Iteration 400 / LogL: -216781.802 / Time: 0h:56m:40s (0h:0m:0s left)
+Log-likelihood cutoff on original alignment: -216850.426
+NOTE: Bootstrap correlation coefficient of split occurrence frequencies: 0.993
+TREE SEARCH COMPLETED AFTER 400 ITERATIONS / Time: 0h:56m:45s
+
+--------------------------------------------------------------------
+|                    FINALIZING TREE SEARCH                        |
+--------------------------------------------------------------------
+Performs final model parameters optimization
+Estimate model parameters (epsilon = 0.010)
+1. Initial log-likelihood: -216772.655
+Optimal log-likelihood: -216772.654
+Rate parameters:  A-C: 1.04817  A-G: 21.18991  A-T: 2.04318  C-G: 0.79559  C-T: 27.72059  G-T: 1.00000
+Base frequencies:  A: 0.304  C: 0.207  G: 0.230  T: 0.259
+Gamma shape alpha: 0.388
+Parameters optimization took 1 rounds (0.790 sec)
+BEST SCORE FOUND : -216772.654
+Creating bootstrap support values...
+Split supports printed to NEXUS file LASV_GENBANK_20250725_curated.added_background_S_concat.fa.splits.nex
+Total tree length: 30.490
+
+Total number of iterations: 400
+CPU time used for tree search: 19192.379 sec (5h:19m:52s)
+Wall-clock time used for tree search: 3353.798 sec (0h:55m:53s)
+Total CPU time used: 19441.840 sec (5h:24m:1s)
+Total wall-clock time used: 3411.536 sec (0h:56m:51s)
+
+Computing bootstrap consensus tree...
+Reading input file LASV_GENBANK_20250725_curated.added_background_S_concat.fa.splits.nex...
+1062 taxa and 3396 splits.
+Consensus tree written to LASV_GENBANK_20250725_curated.added_background_S_concat.fa.contree
+Reading input trees file LASV_GENBANK_20250725_curated.added_background_S_concat.fa.contree
+Log-likelihood of consensus tree: -216773.154
+
+Analysis results written to:
+  IQ-TREE report:                LASV_GENBANK_20250725_curated.added_background_S_concat.fa.iqtree
+  Maximum-likelihood tree:       LASV_GENBANK_20250725_curated.added_background_S_concat.fa.treefile
+  Likelihood distances:          LASV_GENBANK_20250725_curated.added_background_S_concat.fa.mldist
+
+Ultrafast bootstrap approximation results written to:
+  Split support values:          LASV_GENBANK_20250725_curated.added_background_S_concat.fa.splits.nex
+  Consensus tree:                LASV_GENBANK_20250725_curated.added_background_S_concat.fa.contree
+  Screen log file:               LASV_GENBANK_20250725_curated.added_background_S_concat.fa.log
+
+Date and Time: Fri Aug  8 09:04:29 2025

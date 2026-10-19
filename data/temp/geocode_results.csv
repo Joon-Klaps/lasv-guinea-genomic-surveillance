@@ -1,0 +1,98 @@
+geo,api_lat,api_lon,api_prec,api_comments
+"Sierra Leone",8.5,-11.5,"country_geonames",NA
+"Liberia",6.5,-9.5,"country_geonames",NA
+"Nigeria",10,8,"country_geonames",NA
+"Guinea",10.83333,-10.66667,"country_geonames",NA
+"Nigeria: Plateau State",9.16667,9.75,"region_geonames",NA
+"Nigeria: Federal Capital Territory",8.83333,7.16667,"region_geonames",NA
+"Sierra Leone: Songo Hospital, Sebgwema",7.99471,-10.9502,"city_geonames","Location corrected from 'Sierra Leone: Songo Hospital, Sebgwema'"
+"Nigeria: Edo State",6.5,6,"region_geonames",NA
+"Ghana",8.1,-1.2,"country_geonames",NA
+"Guinea: Silimi",9.96667,-10.65,"city_geonames",NA
+"Togo",8.66667,1.08333,"country_geonames",NA
+"Guinea: Macenta",8.54351,-9.47099,"city_geonames",NA
+"Sierra Leone: Sebgwema",7.99471,-10.9502,"city_geonames","Location corrected from 'Sierra Leone: Sebgwema'"
+"Nigeria: Ebonyi State",6.25,8.08333,"region_geonames",NA
+"Germany",39.00285,-82.90545,"city_geonames",NA
+"Benin",9.5,2.25,"country_geonames",NA
+"Liberia: Nimba",6.81667,-8.78333,"region_geonames",NA
+"Benin: Odo-akaba",8.77429,2.6017,"city_geonames","Location corrected from 'Benin: Odo-akaba'"
+"Liberia: Bong",6.96667,-9.63333,"region_geonames",NA
+"Liberia: Monsterrado",6.5,-10.56667,"region_geonames","Location corrected from 'Liberia: Monsterrado'"
+"Mali",18,-2,"country_geonames",NA
+"Nigeria: Ondo",7.16667,5.08333,"region_geonames",NA
+"Nigeria: Ebonyi",6.25,8.08333,"region_geonames",NA
+"Nigeria: Kogi",7.75,6.75,"region_geonames",NA
+"Nigeria: Plateau",9.16667,9.75,"region_geonames",NA
+"Nigeria: Tararba",8,10.5,"region_geonames","Location corrected from 'Nigeria: Tararba'"
+"Nigeria: unknown",10,8,"country_geonames","Location corrected from 'Nigeria: unknown'"
+"Nigeria: Rivers",4.74974,6.82766,"region_geonames",NA
+"Nigeria: FCT",8.83333,7.16667,"region_geonames",NA
+"Nigeria: Taraba",8,10.5,"region_geonames",NA
+"Nigeria: BAUCHI",10.31032,9.84388,"city_geonames",NA
+"Nigeria: IMO",5.5,7.16667,"region_geonames",NA
+"Nigeria: OWO",7.1962,5.58681,"city_geonames",NA
+"Nigeria: NASARAWA",8.5,8.25,"region_geonames",NA
+"Nigeria: EDO",6.5,6,"region_geonames",NA
+"Nigeria: ONDO",7.16667,5.08333,"region_geonames",NA
+"Nigeria: ANAMBRA",6.33333,7,"region_geonames",NA
+"Nigeria: DELTA",5.5,6,"region_geonames",NA
+"Nigeria: EBONYI",6.25,8.08333,"region_geonames",NA
+"Cote d'Ivoire",8,-5.5,"country_geonames",NA
+"Guinea: Damania",9.8,-10.86667,"city_geonames",NA
+"Nigeria: Eguare-Egoro",6.77516,6.07753,"city_geonames",NA
+"Nigeria: Ekpoma",6.743,6.14029,"city_geonames",NA
+"Guinea: Brissa",10.21667,-10.7,"city_geonames","Location corrected from 'Guinea: Brissa'"
+"Guinea: Dalafilani",10.15,-10.61667,"city_geonames",NA
+"Guinea: Sokourala",9.21667,-8.06667,"city_geonames",NA
+"Guinea: Sonkonia",9.91667,-10.8,"city_geonames",NA
+"Guinea: Yarawalia",9.95,-10.73333,"city_geonames",NA
+"USA: MD",39.30554,-76.55101,"location_geonames",NA
+"Sierra Leone: Bafodia",9.68315,-11.73421,"city_geonames",NA
+"Sierra Leone: Largo",8.27903,-12.1578,"city_geonames",NA
+"Sierra Leone: Barlie",7.48325,-11.88876,"city_geonames","Location corrected from 'Sierra Leone: Barlie'"
+"Sierra Leone: Kapethe",9.06667,-11.95,"city_geonames","Location corrected from 'Sierra Leone: Kapethe'"
+"Sierra Leone: Makump",9.03906,-12.05576,"city_geonames",NA
+"Nigeria: Ebudin",6.59516,6.17711,"city_geonames",NA
+"Nigeria: Okhuesan",6.61579,6.4034,"city_geonames","Location corrected from 'Nigeria: Okhuesan'"
+"Nigeria: Okeluse",6.78162,5.58919,"city_geonames",NA
+"Nigeria: Ifon",6.92973,5.77368,"city_geonames",NA
+"Nigeria: Owo",7.1962,5.58681,"city_geonames",NA
+"Guinea: Boffa",10.33333,-14.16667,"region_geonames",NA
+"Sierra Leone: KGH",7.87508,-11.18469,"location_geonames","Location corrected from 'Sierra Leone: KGH'"
+"Guinea: Bantou",10.06667,-10.58333,"city_geonames",NA
+"Guinea: Khoria",9.2,-10.45,"city_geonames","Location corrected from 'Guinea: Khoria'"
+"Guinea: Safrani",9.83333,-10.7,"city_geonames","Location corrected from 'Guinea: Safrani'"
+"Sierra Leone: Badala",9.32083,-11.5397,"city_geonames",NA
+"Sierra Leone: Falaba",9.85534,-11.32151,"city_geonames",NA
+"Sierra Leone: Makakura",9.52098,-11.58089,"city_geonames",NA
+"Sierra Leone: Yakaji",8.005,-11.42769,"city_geonames",NA
+"Nigeria: Abakaliki",6.32485,8.11368,"city_geonames",NA
+"USA",39.76,-98.5,"country_geonames",NA"
+Benin: Odoakaba,8.77429,2.6017,city_geonames,Geonames API: Benin: Odoakaba
+Sierra Leone: Segbwema,7.99471,-10.9502,city_geonames,Geonames API: Sierra Leone: Segbwema
+Liberia: Montserrado,6.5,-10.56667,region_geonames,Geonames API: Liberia: Montserrado
+Nigeria: Kogi Ibaji,6.830042,6.780195,region_geonames,"Google maps"
+missing,NA,NA,NA,NA
+Nigeria: Ondo Ose,7.05495,5.7433,region_geonames,Geonames API: Nigeria: Ondo Ose
+Nigeria: Edo Esan Central,6.70969,6.19313,region_geonames,Geonames API: Nigeria: Edo Esan Central
+Nigeria: Edo Ovia North East,6.64465,5.57989,region_geonames,Geonames API: Nigeria: Edo Ovia North East
+Nigeria: Edo Ovia North,6.64465,5.57989,region_geonames,Geonames API: Nigeria: Edo Ovia North
+Nigeria: Edo Etsako West,6.99829,6.30145,region_geonames,Geonames API: Nigeria: Edo Etsako West
+Nigeria: Edo Esan North,6.7,6.33333,city_geonames,Geonames API: Nigeria: Edo Esan North
+Nigeria: Edo Esan West,6.66166,6.12908,region_geonames,Geonames API: Nigeria: Edo Esan West
+Nigeria: Edo Esan South,6.58663,6.47585,region_geonames,Geonames API: Nigeria: Edo Esan South
+Nigeria: Edo Oredo,6.33815,5.62575,city_geonames,Geonames API: Nigeria: Edo Oredo
+Nigeria: Edo Etsako Central,6.97193,6.51235,region_geonames,Geonames API: Nigeria: Edo Etsako Central
+Nigeria: Edo Ikpoba-Okha,6.16445,5.62284,region_geonames,Geonames API: Nigeria: Edo Ikpoba-Okha
+Nigeria: Edo Egor,6.35748,5.57547,region_geonames,Geonames API: Nigeria: Edo Egor
+Nigeria: Edo Owan West,6.92934,5.89385,region_geonames,Geonames API: Nigeria: Edo Owan West
+Nigeria: Delta Oshimili South,6.19824,6.73187,city_geonames,Geonames API: Nigeria: Delta Oshimili South
+Nigeria: Edo Etsako East,7.20919,6.49613,region_geonames,Geonames API: Nigeria: Edo Etsako East
+Nigeria: Edo Akoko-Edo,7.34506,6.11489,region_geonames,Geonames API: Nigeria: Edo Akoko-Edo
+Nigeria: Edo Uhunmwonde,6.49222,5.88452,region_geonames,Geonames API: Nigeria: Edo Uhunmwonde
+Nigeria: Ebonyi Izzi,6.48453,8.29468,region_geonames,Geonames API: Nigeria: Ebonyi Izzi
+Nigeria: Otu,5.43818,5.87829,city_geonames,Geonames API: Nigeria: Otu
+Sierra Leone: Kenema,7.87687,-11.19025,city_geonames,Geonames API: Sierra Leone: Kenema
+Nigeria: Ondo Ugboka,NA,NA,NA,NA
+Nigeria: Anambra,6.14978,6.78569,city_geonames,Geonames API: Nigeria: Anambra

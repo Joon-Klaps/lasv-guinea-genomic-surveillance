@@ -1,0 +1,12 @@
+2025-08-08 10:08:44 - INFO - Starting subsequence processing
+2025-08-08 10:08:44 - INFO - Logging to file: LASV_GENBANK_20250725_curated.added_background_L.log
+2025-08-08 10:08:44 - INFO - Loading configuration for gene: pol
+2025-08-08 10:08:44 - WARNING - Gene 'pol' not found in YAML configuration
+2025-08-08 10:08:44 - INFO - Loading filter list from: LASV_GENBANK_20250725_curated.added_background_L.patterns.txt
+2025-08-08 10:08:44 - INFO - Processing sequences from: LASV_GENBANK_20250725_curated.added_background_L.pol.fas
+2025-08-08 10:08:44 - INFO - Processed 579 sequences total
+2025-08-08 10:08:44 - INFO - Filtered out 19 sequences
+2025-08-08 10:08:44 - INFO - Kept 560 sequences for output
+2025-08-08 10:08:44 - INFO - Writing output to: LASV_GENBANK_20250725_curated.added_background_L_subseq.pol.fa
+2025-08-08 10:08:44 - INFO - Successfully wrote 560 sequences to output file
+2025-08-08 10:08:44 - INFO - Subsequence processing completed successfully

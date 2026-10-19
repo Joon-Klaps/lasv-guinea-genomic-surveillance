@@ -1,0 +1,17 @@
+*.trees
+TreeExtractions*
+work/
+.DS_Store
+~*.xlsx
+target/
+Cargo.lock
+.nextflow*
+pipeline_info/
+*.tar.gz
+manuscript-1
+simon_export*
+test-*
+LASV*.docx
+~$*
+node_modules/
+__pycache__/
