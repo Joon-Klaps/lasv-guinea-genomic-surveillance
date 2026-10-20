@@ -15,3 +15,4 @@ LASV*.docx
 ~$*
 node_modules/
 __pycache__/
+.serena

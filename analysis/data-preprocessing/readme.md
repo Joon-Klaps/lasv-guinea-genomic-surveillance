@@ -4,7 +4,7 @@ This directory contains the comprehensive data preprocessing pipeline for LASV s
 
 ## Overview
 
-The preprocessing pipeline is implemented in [`filtering.ipynb`](filtering.ipynb) and follows these major steps:
+The preprocessing pipeline is implemented in [`metadata-curation.ipynb`](metadata-curation.ipynb) (an R notebook) and follows these major steps:
 
 1. **Data Loading & Integration** - Merge new GenBank data with historical curated datasets
 2. **Sequence Deduplication** - Use MMseqs2 for %ANI-based duplicate detection
@@ -18,7 +18,7 @@ The preprocessing pipeline is implemented in [`filtering.ipynb`](filtering.ipynb
 ### Primary Data Sources
 
 - `../../data/genbank/LASV_GENBANK_20250725.csv` - Recently downloaded GenBank data (July 2025)
-- `../../data/archive/metadata/LASV_all_the_metadata-allinfo_LK_v01.xlsx` - Previously curated metadata from 2021
+- `../../data/archive/metadata/LASV_all_the_metadata-allinfo_LK_v01.xlsx` - Previously curated metadata from 2021, stored with Git LFS. The notebook needs this version, and the neighbouring `LASV_all_the_metadata.xlsx` has a different layout and makes the merge step fail
 
 ### Historical Alignment Data
 
@@ -33,7 +33,7 @@ The preprocessing pipeline is implemented in [`filtering.ipynb`](filtering.ipynb
 
 ### Sequence Data for Deduplication
 
-- `../../data/genbank/LASV_GENBANK_subset4annotations.gbc.xml` - GenBank XML with full sequence data
+- `../../data/genbank/LASV_GENBANK_subset4annotations.gbc.xml` - GenBank XML (INSDSeq) with full sequence data for the accessions in the list below, stored with Git LFS. To regenerate it, upload the accession list to GenBank batch Entrez and download the complete records as INSDSeq XML
 - `../../data/genbank/LASV_GENBANK_subset4annotations.acc.csv` - Accession list for GenBank batch download
 
 ## Processing Steps
@@ -50,8 +50,8 @@ The preprocessing pipeline is implemented in [`filtering.ipynb`](filtering.ipynb
 - Extract full sequences from GenBank XML annotations using custom Rust parser
 - Create FASTA file with sequences >500bp for MMseqs2 analysis
 - Run MMseqs2 easy-search with parameters:
-  - Minimum identity: 65%
-  - Coverage threshold: 40%
+  - Minimum identity: 80%
+  - Coverage threshold: 60%
   - Global alignment mode (both strands)
 - Identify duplicates based on:
   - High sequence similarity (>99.9% coverage, <2 mismatches)
@@ -93,10 +93,12 @@ Apply filtering rules with detailed exclusion reasons:
 - `../../data/temp/sequences_for_mmseqs.fasta` - FASTA file for deduplication analysis
 - `../../data/temp/mmseqs_results.tsv` - MMseqs2 similarity search results
 
-### Planned Outputs (not yet generated)
+- `../../data/genbank/LASV_GENBANK_subset4annotations.acc.csv` - Accessions to download as GenBank XML
+- `../../data/temp/geocode_results.csv` - Cache of the GeoNames lookups
 
-- `../../data/curated-metadata/LASV_GENBANK_20250725_curated.final.csv` - Final filtered dataset for analysis
-- `../../data/curated-metadata/LASV_GENBANK_20250725_curated.manual.xlsx` - Sequences requiring manual review
+### Manual review
+
+`../../data/curated-metadata/LASV_GENBANK_20250725_curated.manual.xlsx` is `curated.raw.xlsx` after manual review and is the input of `../added-background-validation/excelToFasta.py`. The review is not scripted. The sequences to check are listed in `../../data/curated-metadata/manual/`. `LASV_GENBANK_20250725_curated.newseqsremoved.xlsx` is the reviewed table without the 56 sequences of the 28 new Guinea genomes (28 genomes with 2 segments each).
 
 ## Key Features and Innovations
 
@@ -124,6 +126,17 @@ Apply filtering rules with detailed exclusion reasons:
 - Detailed exclusion reason tracking
 - Comprehensive metadata validation and standardization
 
+## Running the notebook
+
+Run it from this directory, because all paths are relative. First build the Rust parser with `cd xml-parser && cargo build --release`. The MMseqs2 and GeoNames results are cached in `../../data/temp/`, and the notebook only calls MMseqs2 or GeoNames when a cached file is missing, so neither MMseqs2 nor a GeoNames account is needed to reproduce the curated table. Re-running the notebook on the files in this repository reproduces `curated.raw.xlsx` apart from one excluded sequence (AF181853), which gets coordinates that the committed file does not have.
+
+## Other files in this directory
+
+- [`compare-mutations.ipynb`](compare-mutations.ipynb) and [`stats.py`](stats.py) compute the pairwise differences between the four sequences of the Conakry transmission chain, written to `../../data/new-guinea-data/tchain_*`. They need `biopython`, `pandas`, `pyfamsa` and `AlignmentViewer`.
+- [`IVC-seqs.ipynb`](IVC-seqs.ipynb) plots the Côte d'Ivoire sequences of the curated table. It is exploratory and not used by other steps.
+- [`rearange.py`](rearange.py) reorders the records of a FASTA file by a list of identifiers. No other step uses it.
+- [`working-notes.md`](working-notes.md) holds earlier notes on the curation decisions.
+
 ## Dependencies
 
 - **R packages**: tidyverse, readxl, openxlsx, countrycode, xml2, geonames, RColorBrewer, data.table, processx
@@ -132,6 +145,6 @@ Apply filtering rules with detailed exclusion reasons:
 
 ## Notes
 
-- The Rust XML parser (`xml-parser/target/release/genbank_parser`) must be compiled before running the sequence extraction step
-- GeoNames API requires username configuration: `options(geonamesUsername="your_username")`
+- The Rust XML parser (`xml-parser/target/release/genbank_parser`) must be compiled before running the sequence extraction step. The `target/` directory is not committed
+- GeoNames API requires username configuration, only for locations that are not yet in `../../data/temp/geocode_results.csv`: `options(geonamesUsername="your_username")`
 - MMseqs2 should be available in a conda environment named "mmseqs2-env"
