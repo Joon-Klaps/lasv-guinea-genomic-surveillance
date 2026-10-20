@@ -44,6 +44,10 @@ MMseqs2 v14.7e284, MAFFT v7.508, IQ-TREE v2.1.4, BEAST X (see step 4 for the exa
 
 The river layer in `analysis/tree-visualisation/Environmental_files/LASV_rivers` comes from the FAO GeoNetwork and the base map from Natural Earth. The public sequences remain the property of their submitters. Cite the original GenBank records, listed in `data/curated-metadata/`, when you reuse them.
 
+## Acknowledgements
+
+We thank our collaborators at the Bernhard Nocht Institute for Tropical Medicine (BNITM), Germany, and their partners at the Irrua Specialist Teaching Hospital (ISTH), Nigeria, for their valuable support.
+
 ## Citation
 
 Camara J, Annibaldis G, Klaps J, Ifono K, Koundouno F, Sidibé Y, et al. Genomic Surveillance of Lassa Virus through In-Country Sequencing, Guinea. Emerg Infect Dis. 2026;32(5):819-824. https://doi.org/10.3201/eid3205.260386
