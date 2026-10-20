@@ -1,0 +1,6 @@
+# New Guinean genomes
+
+The 28 Lassa virus genomes from human cases in Guinea (2020-2024) that were sequenced in-country by metagenomic nanopore sequencing and consensus-called with [ViMOP](https://github.com/opr-group-bnitm/vimop). They are in GenBank under PV847661-PV847668 and PX115263-PX115312.
+
+- `GIN-LASV-final-ViMOP-seq-for-Leuven_V01.xlsx` and `..._V02.xlsx` hold one row per sample: sequencing identifier (`seq-ID`), sampling date, latitude, longitude and the precision of the location, the coverage of the S and L segments, the reference used, the consensus sequences and the GenBank accessions. `V01` is read by `../../analysis/data-preprocessing/metadata-curation.ipynb`, and `V02` by `../../analysis/data-preprocessing/compare-mutations.ipynb` and by `../../analysis/tree-visualisation/ggphylogeo.ipynb`.
+- `tchain_pairwise_LS_stats.tsv` compares the four sequences of the Conakry transmission chain (G0780, G0795, G0796 and G0797) after a pairwise alignment of each pair, for both segments. `tchain_pairwise_from_full_alignment_{L,S}.tsv` compare the same sequences using the columns of the final alignments, and `tchain_from_full_alignment_S.fasta` holds the four S sequences taken from the final alignment. All were made by `../../analysis/data-preprocessing/compare-mutations.ipynb`. The columns count the compared sites, matches, mismatches, gaps and Ns.
